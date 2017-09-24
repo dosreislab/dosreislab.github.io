@@ -8,4 +8,4 @@ You can read the review for free here: [rdcu.be/v4jM](http://rdcu.be/v4jM)
 
 A tutorial guiding through the two-species example is given here: [bit.ly/BayesianNEE](http://bit.ly/BayesianNEE)
 
-![](/assets/surf.png) 
+![](/assets/figs/surf.png) 
