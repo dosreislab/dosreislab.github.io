@@ -3,8 +3,6 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-
-Publications
 Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](http://scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl)
 
 # 2017
