@@ -93,27 +93,27 @@ Jeffares DC, Tomiczek B, Sojo V and **dos Reis M**. (2015) Parasite Genomics Pro
 **Bayesian estimation of nonsynonymous/synonymous rate ratios for pairwise sequence comparisons**  
 Angelis, K. **dos Reis M** and Yang Z. (2014) Molecular Biology and Evolution, 31: 1902–1913.  
 [DOI: 10.1093/molbev/msu142](https://dx.doi.org/10.1093/molbev/msu142)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msu142"></div></p>
 
 **The impact of the rate prior on Bayesian estimation of divergence times with multiple loci**  
 **dos Reis M**, Zhu T and Yang Z. (2014) Systematic Biology, 63: 555–565.  
 [DOI: 10.1093/sysbio/syu020](https://dx.doi.org/10.1093/sysbio/syu020)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syu020"></div></p>
 
 **A penalized-likelihood method to estimate the distribution of selection coefficients from phylogenetic data**  
 Tamuri AU, Goldman N and **dos Reis M**. (2014) Genetics, 197: 257–271. **[highlighted article]**  
 [DOI: 10.1534/genetics.114.162263](https://dx.doi.org/10.1534/genetics.114.162263)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1534/genetics.114.162263"></div></p>
 
 **Molecular evolutionary characterization of a V1R subfamily unique to strepsirrhine Primates**  
 Yoder AD, Chan LM, **dos Reis M**, Larsen PA, Campbell CR, Rasolarison R, Barrett M, Roos C, Kappeler P, Bielawski JP and Yang Z. (2014) Genome Biology and Evolution, 6: 213–227.  
 [DOI: 10.1093/gbe/evu006](https://dx.doi.org/10.1093/gbe/evu006)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/gbe/evu006"></div></p>
 
 **Neither phylogenomic nor palaeontological data support a Paleogene origin of placental mammals**  
 **dos Reis M**, Donoghue PCJ and Yang Z. (2014) Biology Letters, 10: 20131003. **[comments in Nature, The Scientist, Phys.org and Discovery News] [F1000 review]**  
 [DOI: 10.1098/rsbl.2013.1003](https://dx.doi.org/10.1098/rsbl.2013.1003)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rsbl.2013.1003"></div></p>
 
 # 2013
 
