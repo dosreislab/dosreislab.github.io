@@ -120,102 +120,103 @@ Yoder AD, Chan LM, **dos Reis M**, Larsen PA, Campbell CR, Rasolarison R, Barret
 **Why do more divergent sequences produce smaller nonsynonymous/synonymous rate ratios in pairwise sequence comparisons?**  
 **dos Reis M** and Yang Z. (2013) Genetics, 195: 195–204.  
 [DOI: 10.1534/genetics.113.152025](https://dx.doi.org/10.1534/genetics.113.152025)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="DOI: 10.1534/genetics.113.152025"></div></p>
 
 **The unbearable uncertainty of Bayesian divergence time estimation**  
 **dos Reis M** and Yang Z. (2013) Journal of Systematics and Evolution, 51: 30–43.  
 [DOI: 10.1111/j.1759-6831.2012.00236.x](https://dx.doi.org/10.1111/j.1759-6831.2012.00236.x)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1111/j.1759-6831.2012.00236.x"></div></p>
 
 # 2012
 
 **Phylogenomic datasets provide both precision and accuracy in estimating the timescale of placental mammal phylogeny**  
 **dos Reis M**, Inoue J, Hasegawa M, Asher RJ, Donoghue PCJ and Yang Z. (2012) Proceedings of the Royal Society B., 279: 3491–3500. **[timetrees (nexus)] [274 species timetree (pdf)] [data] [F1000 review]**  
 [DOI: 10.1098/rspb.2012.0683](https://dx.doi.org/10.1098/rspb.2012.0683)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rspb.2012.0683"></div></p>
 
 **Estimating the distribution of selection coefficients from phylogenetic data using sitewise mutation-selection models**  
 Tamuri AU, **dos Reis M** and Goldstein RA. (2012) Genetics, 190: 1101–1115.  
 [DOI: 10.1534/genetics.111.136432](https://dx.doi.org/10.1534/genetics.111.136432)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1534/genetics.111.136432"></div></p>
 
 # 2011
 
 **An exceptionally high nucleotide and haplotype diversity and a signature of positive selection for the eIF4E resistance gene in barley are revealed by allele mining and phylogenetic analyses of natural populations**  
 Hofinger BJ, Russell JR, Bass CG, Baldwin T, **dos Reis M**, Hedley PE, Li Y, Macaulay M, Waugh R, Hammond-Kosack KE and Kanyuka K. (2011) Molecular Ecology, 20: 3653–3668.  
 [DOI: 10.1111/j.1365-294X.2011.05201.x](https://dx.doi.org/10.1111/j.1365-294X.2011.05201.x)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1111/j.1365-294X.2011.05201.x"></div></p>
 
 **Approximate likelihood calculation on a phylogeny for Bayesian estimation of divergence times**  
 **dos Reis M** and Yang Z. (2011) Molecular Biology and Evolution, 28: 2161–2172. **[R code]**  
 [DOI: 10.1093/molbev/msr045](https://dx.doi.org/10.1093/molbev/msr045)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msr045"></div></p>
 
 **Charting the host adaptation of influenza viruses**  
 **dos Reis M**, Tamuri AU, Hay AJ and Goldstein RA. (2011) Molecular Biology and Evolution, 28: 1755–1767. **[featured in Evolutionary Analysis]**  
 [DOI: 10.1093/molbev/msq317](https://dx.doi.org/10.1093/molbev/msq317)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msq317"></div></p>
 
 **Statistical properties of the branch-site test of positive selection**  
 Yang Z and **dos Reis M**. (2011) Molecular Biology and Evolution, 28: 1217–1228.  
 [DOI: 10.1093/molbev/msq303](https://dx.doi.org/10.1093/molbev/msq303)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msq303"></div></p>
 
 # 2010
 
 **Analysis of the Albumin/alpha-Fetoprotein/Afamin/Group specific component gene family in the context of zebrafish liver differentation**  
 Noël ES, **dos Reis M**, Arain Z and Ober EA. (2010) Gene Expression Patterns, 10: 237–243.  
 [DOI: 10.1016/j.gep.2010.05.002](https://dx.doi.org/10.1016/j.gep.2010.05.002)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.gep.2010.05.002"></div></p>
 
 # 2009
 
 **Identifying changes in selective constraints: host shifts in influenza**  
 Tamuri AU, **dos Reis M**, Hay AJ and Goldstein RA. (2009) PLoS Computational Biology, 5: e1000564.  
 [DOI: 10.1371/journal.pcbi.1000564](https://dx.doi.org/10.1371/journal.pcbi.1000564)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1371/journal.pcbi.1000564"></div></p>
 
 **Using non-homogeneous models to identify host shift events: application to the origin of the 1918 ‘Spanish’ influenza virus**  
 **dos Reis M**, Hay AJ and Goldstein RA. (2009) Journal of Molecular Evolution, 69: 333–345. **[Additional data] [featured in Evolutionary Analysis]**  
 [DOI: 10.1007/s00239-009-9282-x](https://dx.doi.org/10.1007/s00239-009-9282-x)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1007/s00239-009-9282-x"></div></p>
 
 **Estimating translational selection in eukaryotic genomes**  
 **dos Reis M** and Wernisch L. (2009) Molecular Biology and Evolution, 26: 451–461. **[Supporting material]**  
 [DOI: 10.1093/molbev/msn272](https://dx.doi.org/10.1093/molbev/msn272)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msn272"></div></p>
 
 # 2006
 
 **Archaeology and evolution of transfer RNA genes in the Escherichia coli genome**  
 Withers M, Wernisch L, and **dos Reis M**. (2006) RNA, 12: 933–942. **[Supporting material]**  
 [DOI: 10.1261/rna.2272306](https://dx.doi.org/10.1261/rna.2272306)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1261/rna.2272306"></div></p>
 
 # 2004
 
 **Solving the riddle of codon usage preferences: a test for translational selection**  
 **dos Reis M**, Savva R and Wernisch L. (2004) Nucleic Acids Research, 32: 5036–5044. **[Software]**  
 [DOI: 10.1093/nar/gkh834](https://dx.doi.org/10.1093/nar/gkh834)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/nar/gkh834"></div></p>
 
 # 2003
 
 **Churchill, a zinc finger transcriptional activator, regulates the transition between gastrulation and neurulation**  
 Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supporting material] [F1000 review]**  
 [DOI: 10.1016/S0092-8674(03)00927-9](https://dx.doi.org/10.1016/S0092-8674(03)00927-9)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/S0092-8674(03)00927-9"></div></p>
 
 **Unexpected correlations between gene expression and codon usage bias from microarray data for the whole Escherichia coli K-12 genome**  
 **dos Reis M**, Wernisch L, and Savva R. (2003) Nucleic Acids Research, 31: 6976–6985.  
 [DOI: 10.1093/nar/gkg897](https://dx.doi.org/10.1093/nar/gkg897)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div></p>
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/nar/gkg897"></div></p>
 
 # Other 
 
 **Population genetics and substitution models of adaptive evolution**  
 **dos Reis M**. (2013) arXiv.  
 [arXiv: 1311.6682](https://arxiv.org/abs/1311.6682)
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-arxiv-id="1311.6682"></div></p>
 
 # Peer-review
 
