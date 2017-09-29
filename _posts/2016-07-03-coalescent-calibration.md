@@ -50,12 +50,12 @@ The files and code needed to reproduce this tutorial are available from [github.
 
 # References
 
-Angelis K, and dos Reis M. (2015) **The impact of ancestral population size and incomplete lineage sorting on Bayesian estimation of species divergence times.** Current Zoology, 61: 874–885.
+Angelis K, and dos Reis M. (2015) **[The impact of ancestral population size and incomplete lineage sorting on Bayesian estimation of species divergence times.](http://cz.oxfordjournals.org/content/61/5/874)** Current Zoology, 61: 874–885.
 
-Scally A, and Durbin R. (2012) **Revising the human mutation rate: implications for understanding human evolution.** Nature Reviews Genetics, 13: 745–753.
+Scally A, and Durbin R. (2012) **[Revising the human mutation rate: implications for understanding human evolution.](http://www.nature.com/nrg/journal/v13/n10/full/nrg3295.html)** Nature Reviews Genetics, 13: 745–753.
 
-Uchimura A, et al. (2015) **Germline mutation rates and the long-term phenotypic effects of mutation accumulation in wild-type laboratory mice and mutator mice.** Genome Research, 25: 1125–1134.
+Uchimura A, et al. (2015) **[Germline mutation rates and the long-term phenotypic effects of mutation accumulation in wild-type laboratory mice and mutator mice.](http://genome.cshlp.org/content/early/2015/06/30/gr.186148.114.abstract)** Genome Research, 25: 1125–1134.
 
-Yang Z. (2015)  **The BPP program for species tree estimation and species delimitation.** Current Zoology, 61: 854–865.
+Yang Z. (2015)  **[The BPP program for species tree estimation and species delimitation.](http://cz.oxfordjournals.org/content/61/5/854)** Current Zoology, 61: 854–865.
 
-Yoder AD, et al. (2016) **Geogenetic patterns in mouse lemurs (genus _Microcebus_) reveal the ghosts of Madagascar’s forests past.** Proceedings of the National Academy of Sciences, 113: 8049–8056.
+Yoder AD, et al. (2016) **[Geogenetic patterns in mouse lemurs (genus _Microcebus_) reveal the ghosts of Madagascar’s forests past.](http://www.pnas.org/content/early/2016/07/13/1601081113.full)** Proceedings of the National Academy of Sciences, 113: 8049–8056.
