@@ -73,8 +73,8 @@ Angelis K and **dos Reis M**. (2015) Current Zoology, 61: 874–885.
 
 **How to calculate the non-synonymous to synonymous rate ratio of protein-coding coding genes under the Fisher-Wright mutation-selection framework**  
 **dos Reis M**. (2015) Biology Letters, 11: 20141031.  
-[DOI: 10.1098/rsbl.2014.1031](https://dx.doi.org/10.1098/rsbl.2014.1031) 
-Data: [DOI: 10.5061/dryad.3r3q4](https://dx.doi.org/10.5061/dryad.3r3q4) 
+[DOI: 10.1098/rsbl.2014.1031](https://dx.doi.org/10.1098/rsbl.2014.1031)
+Data: [DOI: 10.5061/dryad.3r3q4](https://dx.doi.org/10.5061/dryad.3r3q4)
 R code and examples: [DOI: 10.6084/m9.figshare.4282835.v1](https://dx.doi.org/10.6084/m9.figshare.4282835.v1)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rsbl.2014.1031"></div></p>
 
@@ -211,7 +211,7 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 [DOI: 10.1093/nar/gkg897](https://dx.doi.org/10.1093/nar/gkg897)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/nar/gkg897"></div></p>
 
-# Other 
+# Other
 
 **Population genetics and substitution models of adaptive evolution**  
 **dos Reis M**. (2013) arXiv.  
@@ -220,6 +220,6 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Peer-review
 
-Reviewer for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, FEBS letters, Gene Expression Patterns, Geobiology, Infection Genetics and Evolution, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Ecology and Evolution, Nucleic Acids Research, PeerJ, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Systematic Biology, and Trends in Ecology and Evolution. Reviewed grants for The Austrian Science Fund (FWF), The French National Research Agency (ANR), The Ministry of Health of Singapore, and the Wellcome Trust UK.
+Reviewer for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, FEBS letters, Gene Expression Patterns, Geobiology, Infection Genetics and Evolution, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Ecology and Evolution, Nucleic Acids Research, PeerJ, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, and Trends in Ecology and Evolution. Grant reviewer for The Austrian Science Fund (FWF), The French National Research Agency (ANR), The Ministry of Health of Singapore, and the Wellcome Trust UK.
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
