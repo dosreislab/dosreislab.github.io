@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the website of **dos Reis Lab** research group @ [QMUL](http://www.qmul.ac.uk)
+This is the website of the **dos Reis Lab** research group @ [QMUL](http://www.qmul.ac.uk)
 
-Research in the dos Reis lab is focused on the development and application of statistical methods in phylogenetics. We are particularly interested in using Bayesian statistics to infer times of species divergences (that is, in placing geological times of divergence on the Tree of Life), and on methods to measure the strength of natural selection in molecular sequences. You can see examples of our research in the Key Publications below.
+Research in the dos Reis Lab is focused on the development and application of statistical methods in phylogenetics. We are particularly interested in using Bayesian statistics to infer times of species divergences (that is, in placing geological times of divergence on the Tree of Life), and on methods to measure the strength of natural selection in molecular sequences. You can see examples of our research in the Key Publications below.
 
 If you're interested in learning more about the lab or joining us, please contact us at
 
