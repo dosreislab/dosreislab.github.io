@@ -34,4 +34,12 @@ dos Reis M, Thawornwattana Y, Angelis K, Telford M, Donoghue PCJ and Yang Z. (20
 dos Reis M. (2015) Biology Letters, 11: 20141031.  
 [DOI: 10.1098/rsbl.2014.1031](https://dx.doi.org/10.1098/rsbl.2014.1031)
 
+# Our Research in the Media
+
+Our research has been highlighted in the media an in textbooks! You can see some examples below:
+
+- [Clocks Versus Rocks](http://www.the-scientist.com/?articles.view/articleNo/38858/title/Clocks-Versus-Rocks/) by Ed Young in the Scientist, discusses our analysis of the timing of placental mammal diversification after the K-Pg extinction. You can read our original paper [here](http://dx.doi.org/10.1098/rsbl.2013.1003).
+
+- [Ridiculously Cute Mouse Lemurs Hold key to Madagascar’s Past](http://voices.nationalgeographic.org/2016/07/19/ridiculously-cute-mouse-lemurs-hold-key-to-madagascars-past/) in National Geographic, discusses the work we did in collaboration with Anne Yoder's group (Duke University) on how timing divergences in mouse lemur species can be used to understand Madagascar's past. You can read the original paper [here](http://dx.doi.org/10.1073/pnas.1601081113), and our blog [post](/2016/07/03/coalescent-calibration.html).
+
 This website was built using Jekyll and GitHub pages. You can find more info at [jekyllrb.com](http://jekyllrb.com/) and [pages.github.com](https://pages.github.com/)
