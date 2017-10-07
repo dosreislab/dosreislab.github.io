@@ -1,3 +1,3 @@
 # dos Reis Lab website @ QMUL
 
-You can visit us at [mariodosreis.github.io](http://mariodosreis.github.io/)
+You can visit us at [dosreislab.github.io](http://dosreislab.github.io/)
