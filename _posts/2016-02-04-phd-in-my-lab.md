@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PhD position available in my lab!"
+author: "Mario dos Reis"
 ---
 
 I am now recruiting for a PhD student to join my group at SBCS, Queen Mary University of London in the UK.

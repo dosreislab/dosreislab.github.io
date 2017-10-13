@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to calibrate coalescent trees to geological time"
+author: "Mario dos Reis"
 ---
 
 There has been much interest recently in using the multi-species coalescent to estimate species phylogenies from molecular data. The advantage of the method is that incomplete lineage sorting (the discrepancy between gene trees and the species tree), and ancestral polymorphism are accounted for during phylogenetic inference. Bayesian implementations of the method are computationally expensive, and are best suited for inference among closely related species (or populations).

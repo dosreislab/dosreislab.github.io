@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Write your own Bayesian MCMC phylogenetic program with R"
+author: "Mario dos Reis"
 ---
+
 This is an R tutorial I wrote for a workshop on Bayesian phylogenetics at Bristol University in 2016. The tutorial first introduces a Bayesian problem where we calculate, analytically, the posterior distribution of the molecular branch length between two species. Then the tutorial moves onto calculating the posterior by MCMC sampling. Here you can learn MCMC concepts such as proposal densities, proposal window size, mixing, convergence, efficiency, autocorrelation, and effective sample size. By tweaking the parameters you can see how the efficiency of the MCMC and the parameter’s ESS are affected. At the end there is an exercise where you can modify the MCMC program to convert it to a two-parameter model where you estimate the divergence time and the molecular evolutionary rate between the two species. Send me an email if you would like to see the answers to the exercises. The workshop solves example 7.1 (p. 216) from Ziheng Yang’s book “Molecular Evolution: A Statistical Approach” by OUP (see also example 6.4, p.188, and problems 7.1 and 7.5, p.260 in the book).
 
 ```r

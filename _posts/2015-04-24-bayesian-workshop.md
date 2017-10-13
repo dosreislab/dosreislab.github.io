@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Workshop: Bayesian methods to estimate species divergence times"
+author: "Mario dos Reis"
 ---
 
 Together with Ziheng Yang and Philip Donoghue I am organising a workshop on Bayesian phylogenetic methods. The workshop will take place between the 30th and 31st of July of 2015 at the University of Bristol. To register please visit [bit.ly/1INFQxZ](http://bit.ly/1INFQxZ). This page will be updated regularly so stay tuned!

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:   "A crash introduction to R"
+author: "Mario dos Reis"
 ---
 
 I wrote this R tutorial several years ago for people working in my lab, and then completely forgot about it. Apparently, the tutorial had been doing the rounds, and was found to be quite useful, so I have decided to post it here. It is a very brief tutorial meant for people who have used R a little bit and that consider themselves R beginners. Lines that start with a # are comments and are ignored by R. Lines in black are R commands. You should cut and paste them into the R console and see their effect.
