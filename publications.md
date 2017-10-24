@@ -213,7 +213,7 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Preprints
 
-(2)  **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**
+(2)  **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
 **dos Reis M**, Gunnel GF, Barba-Montoya J, Wilkins A, Yang Z, and Yoder A. (2017) bioRxiv.  
 [DOI: 10.1101/201327](https://doi.org/10.1101/201327)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/201327"></div></p>
