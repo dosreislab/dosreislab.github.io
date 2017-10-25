@@ -266,4 +266,4 @@ Finally, the `mcmc3r` package can also be used to prepare `bpp.ctl` templates to
 
 * Xie et al. (2011) Improving marginal likelihood estimation for Bayesian phylogenetic model selection. _Systematic Biology_, 60: 150–160.
 
-* Yang Z (2014) _Molecular Evolution: A Statistical Approach_. Oxford University Press.
+* Yang (2014) _Molecular Evolution: A Statistical Approach_. Oxford University Press.
