@@ -104,7 +104,7 @@ For a detailed explanation of all the options in the file please refer to MCMCTr
 
 #### 3. Selecting the _b_ values with `mcmc3r`
 
-Change into the `clk/` directory and start R. Make sure that `clk/` is R's current working directory. We will select 8 _b_ points to estimate the marginal likelihood of CLK using the stepping stones method. In R, type:
+Open a terminal window, change into the `clk/` directory and start R. Make sure that `clk/` is R's current working directory. We will select 8 _b_ points to estimate the marginal likelihood of CLK using the stepping stones method. In R, type:
 
 ```R
 b = mcmc3r::make.beta(n=8, a=5, method="step-stones")
@@ -118,7 +118,7 @@ We now construct 8 directories each containing a modification of the `mcmctree.c
 mcmc3r::make.bfctlf(b, ctlf="mcmctree.ctl", betaf="beta.txt")
 ```
 
-`ctlf` specifies the template control file, and `betaf` is the name of a file that will contain the selected _b_ values. Exit R and look at the contents of `clk/`. You will see the 8 new directories created together with the `beta.txt` file. Each directory contains the `mcmctree.ctl` file with an additional line. For example, the last line of `8/mcmctree.ctl` is
+`ctlf` specifies the template control file, and `betaf` is the name of a file that will contain the selected _b_ values. Open a new terminal window and look at the contents of `clk/`. You will see the 8 new directories created together with the `beta.txt` file. Each directory contains the `mcmctree.ctl` file with an additional line. For example, the last line of `8/mcmctree.ctl` is
 
 ```
 BayesFactorBeta = 0.512908935546875
@@ -138,7 +138,7 @@ It takes about 40s for the 8 MCMCTree runs to finish on a 2.8 GHz Intel Core i7 
 
 #### 5. Parse MCMCTree's output with `mcmc3r`
 
-Start R again and make sure `clk/` is the working directory. Type:
+Go back to the terminal where you are running R. Type:
 
 ```R
 clk <- mcmc3r::stepping.stones()
@@ -151,11 +151,37 @@ clk$logml; clk$se
 
 The `stepping.stones()` function will read the _b_ values in `beta.txt` and will read the log-likelihood values sampled by MCMCTree within each directory. It will then compute the log-marginal likelihood and its standard error.
 
-The log-marginal likelihood estimate for CLK is –32,185.72 with a standard error (S.E.) of 0.035. Note that your values may be slightly different due to the stochastic nature of the MCMC algorithm. The S.E. can be used to construct a 95% confidence interval for the estimate: –32,185.72 ± 2×0.035. Ideally, you want the S.E. to be much smaller than the log-marginal likelihood difference between the models being tested. You may reduce the S.E. by increasing `nsample` in the `mcmctree.ctl` template file. Note that to reduce the S.E. by half, you need to increase `nsample` four times. Unfortunately, the S.E. only gives you an idea of the precision, not the accuracy, of the estimate. It is possible to obtain very precise estimates of the marginal likelihood (the S.E. is very small) that are biased (i.e. the estimate is far from the true value). This will occur especially if _n_ is small. Try _n_ = 1 (which is known to perform poorly).
+The log-marginal likelihood estimate for CLK is –32,185.72 with a standard error (S.E.) of 0.035. Note that your values may be slightly different due to the stochastic nature of the MCMC algorithm. The S.E. can be used to construct a 95% confidence interval for the estimate: –32,185.72 ± 2×0.035. Ideally, you want the S.E. to be much smaller than the log-marginal likelihood difference between the models being tested. You may reduce the S.E. by increasing `nsample` or `samplefreq` in the `mcmctree.ctl` template file. Note that to reduce the S.E. by half, you need to increase `nsample` four times. Unfortunately, the S.E. only gives you an idea of the precision, not the accuracy, of the estimate. It is possible to obtain very precise estimates of the marginal likelihood (the S.E. is very small) that are biased (i.e. the estimate is far from the true value). This will occur especially if _n_ is small. Try _n_ = 1 (which is known to perform poorly).
 
 #### 6. Repeat for the ILN and GBM models
 
-Go back to `ape4s/` and create directories called `iln/` and `gbm/`. Copy the `mcmctree.ctl` template into each directory, and modify the templates appropriately. For the ILN model, you must set `clock = 2` (independent rates) in the template, and for the GBM model, it must be set to `clock = 3` (correlated rates). Repeat steps 3 to 5 for both models. The estimated log-marginal likelihoods and S.E.'s for the three models are:
+Go back to `ape4s/` and create directories called `iln/` and `gbm/`. Copy the `mcmctree.ctl` template into each directory, and modify the templates appropriately. For the ILN model, you must set `clock = 2` (independent rates) in the template, and for the GBM model, it must be set to `clock = 3` (correlated rates). Repeat steps 3 to 5 for both models. In R:
+
+```R
+# This assumes you are currently in clk/
+setwd("../iln")  
+# prepare templates for ILN:
+mcmc3r::make.bfctlf(b, ctlf="mcmctree.ctl", betaf="beta.txt")
+setwd("../gbm")  
+# prepare templates for GBM:
+mcmc3r::make.bfctlf(b, ctlf="mcmctree.ctl", betaf="beta.txt")
+```
+In the terminal:
+
+```bash
+# This assumes you are currently in clk/
+cd ../iln; for d in `seq 1 1 8`; do cd $d; mcmctree >/dev/null & cd ..; done
+cd ../gbm; for d in `seq 1 1 8`; do cd $d; mcmctree >/dev/null & cd ..; done
+```
+
+Once the MCMCTree jobs have finished, return to your R session:
+
+```R
+setwd("../iln"); iln <- mcmc3r::stepping.stones()
+setwd("../gbm"); gbm <- mcmc3r::stepping.stones()
+```
+
+The estimated log-marginal likelihoods and S.E.'s for the three models are:
 
 CLK: | –32,185.72 | ± 0.035  
 ILN: | –32,186.69 | ± 0.045  
@@ -167,7 +193,8 @@ Now we can calculate the Bayes factors and posterior model probabilities easily 
 
 ```R
 # log-marginal likelihoods for CLK, ILN and GBM:
-mlnl <- c(-32185.72, -32186.69, -32186.20)
+mlnl <- c(clk$logml, iln$logml, gbm$logml)
+# mlnl: -32185.72, -32186.69, -32186.20
 
 # Bayes factors
 ( BF <- exp(mlnl - max(mlnl)) )
@@ -216,7 +243,7 @@ The log-marginal likelihood estimates here are very close to those obtained unde
 
 The strategy used here to select for a relaxed-clock model can also be used to select for the tree topology or the substitution model.
 
-Say you have 3 competing tree topologies, where you want to calculate the posterior probability of the topologies. You can prepare 3 Newick files with the different topologies, and create 3 directories, into which you will run the three separete marginal likelihood calculations. In this case you would prepare 3 `mcmctree.ctl` templates, with the same parameters for all analyses, except for the `treefile` variable, which you would edit to point to the appropriate tree topology. The rest of the procedure is then exactly the same as when selecting for the relaxed-clock model.
+Say you have 3 competing tree topologies, and you want to calculate the posterior probability of each. You can prepare 3 Newick files with the different topologies, and create 3 directories, into which you will run the three separete marginal likelihood calculations. In this case you would prepare 3 `mcmctree.ctl` templates, with the same parameters for all analyses, except for the `treefile` variable, which you would edit to point to the appropriate tree topology. The rest of the procedure is then exactly the same as when selecting for the relaxed-clock model.
 
 A similar approach can be used to select for a substitution model. Say you want to compare HKY85 vs. HKY85+Gamma. In this case you would have two `mcmctree.ctl` templates, differing only in the `alpha` variable in the template (`alpha=0` for no Gamma model, and, say `alpha = 0.5` to activate the gamma model). The rest follows as above.
 
