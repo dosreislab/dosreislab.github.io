@@ -203,6 +203,9 @@ mlnl <- c(clk$logml, iln$logml, gbm$logml)
 # Posterior model probabilities
 ( Pr <- BF / sum(BF) )
 # [1] 0.5005340 0.1897439 0.3097221
+
+# or alternatively:
+mcmc3r::bayes.factors(clk, iln, gbm)
 ```
 
 The posterior probabilities are calculated assuming equal prior model probabilities.  The CLK model has the highest log-marginal likelihood, and thus the highest posterior probability (Pr = 0.50), followed by GBM (Pr = 0.31), with ILN being the worst performing model (Pr = 0.19). This result should not be surprising. Human, Neanderthal, chimp and gorilla are all very closely related, and the strict clock is usually not rejected in comparisons of such closely related species. Indeed, a likelihood-ratio test fails to reject the strict clock in this data (see Box 2 in dos Reis et al. 2016 where the data are analysed).
