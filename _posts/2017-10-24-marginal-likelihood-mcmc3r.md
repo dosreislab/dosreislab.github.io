@@ -10,7 +10,7 @@ To calculate the marginal likelihood of a model, one must take samples from the 
 
 ## Tutorial
 
-This tutorial introduces the user to marginal likelihood calculation in MCMCTree to select for a relaxed-clock model. MCMCTree (v4.9f at the time of writing) implements three clock models: the geometric Brownian motion (GBM) model, the independent log-normal (ILN) model, and the strict clock (CLK) model (Rannala and Yang, 2007). I have written an R package `mcmc3r` (available in GitHub) which helps the user in selecting appropriate _b_ values, preparing the corresponding MCMCTree control files, and in parsing MCMCTree's output to calculate the marginal likelihood. This tutorial assumes the user has basic knowledge of R, basic knowledge of MCMCTree and Bayesian divergence time estimation, and a basic understanding of Bayes factors and marginal likelihood theory. The tutorial has been tested on MacOS, but it should work in other systems (e.g. Linux or Windows), although some tweaking may be necessary.
+This tutorial introduces the user to marginal likelihood calculation in MCMCTree to select for a relaxed-clock model. MCMCTree (v4.9f at the time of writing) implements three clock models: the geometric Brownian motion (GBM) model, the independent log-normal (ILN) model, and the strict clock (CLK) model (Rannala and Yang, 2007). I have written an R package `mcmc3r` (available in [GitHub](https://github.com/dosreislab/mcmc3r)) which helps the user in selecting appropriate _b_ values, preparing the corresponding MCMCTree control files, and in parsing MCMCTree's output to calculate the marginal likelihood. This tutorial assumes the user has basic knowledge of R, basic knowledge of MCMCTree and Bayesian divergence time estimation, and a basic understanding of Bayes factors and marginal likelihood theory. The tutorial has been tested on MacOS, but it should work in other systems (e.g. Linux or Windows), although some tweaking may be necessary.
 
 You can download MCMCTree, which is part of the PAML phylogenetic analysis package, from [Ziheng Yang's website](http://abacus.gene.ucl.ac.uk/software/paml.html). You should place the `mcmctree` excecutable in your system's search path as explained in the website. The `mcmc3r` package can be installed in R by typing
 
@@ -36,7 +36,7 @@ The general procedure is as follows:
 
 #### 1. Alignment and tree
 
-The data to be analysed are the 15,899 nucleotides alignment of the mitochondrial genomes of four ape species (human, Neanderthal, chimp and gorilla). The alignment `apes4s.phy` and tree `apes4s.phy`, as well as the `mcmcmtree.ctl` template, are available within the `misc/` directory in the R package. Make a directory called `apes4s/` and copy the alignment, and tree files into it.
+The data to be analysed are the 15,899 nucleotides alignment of the mitochondrial genomes of four ape species (human, Neanderthal, chimp and gorilla). The alignment `ape4s.phy` and tree `ape4s.phy`, as well as the `mcmcmtree.ctl` template, are available within the `misc/` directory in the R package. Make a directory called `ape4s/` and copy the alignment, and tree files into it.
 
 Using a text editor you can look into the alignment file. The alignment, which is compressed into site patterns, is shown below:
 
@@ -71,7 +71,7 @@ The first line indicates the number of species (4), and the number of trees in t
 
 #### 2. Preparing the MCMCTree template
 
-The first clock model that we will test is the strict clock (CLK). Create a directory `apes4s/clk/` and copy the `misc/mcmctree.ctl` file into it. The MCMCTree template file is shown below:
+The first clock model that we will test is the strict clock (CLK). Create a directory `ape4s/clk/` and copy the `misc/mcmctree.ctl` file into it. The MCMCTree template file is shown below:
 
 ```
 seed = -1
@@ -155,7 +155,7 @@ The log-marginal likelihood estimate for CLK is –32,185.72 with a standard err
 
 #### 6. Repeat for the ILN and GBM models
 
-Go back to `apes4s/` and create directories called `iln/` and `gbm/`. Copy the `mcmctree.ctl` template into each directory, and modify the templates appropriately. For the ILN model, you must set `clock = 2` (independent rates) in the template, and for the GBM model, it must be set to `clock = 3` (correlated rates). Repeat steps 3 to 5 for both models. The estimated log-marginal likelihoods and S.E.'s for the three models are:
+Go back to `ape4s/` and create directories called `iln/` and `gbm/`. Copy the `mcmctree.ctl` template into each directory, and modify the templates appropriately. For the ILN model, you must set `clock = 2` (independent rates) in the template, and for the GBM model, it must be set to `clock = 3` (correlated rates). Repeat steps 3 to 5 for both models. The estimated log-marginal likelihoods and S.E.'s for the three models are:
 
 CLK: | –32,185.72 | ± 0.035  
 ILN: | –32,186.69 | ± 0.045  
@@ -208,7 +208,7 @@ You can now repeat step 6 to calculate the marginal likelihoods for the ILN and 
 
 CLK: | -32,185.66 | ± 0.023  
 ILN: | -32,186.61 | ± 0.036
-GBM: | -32,188.17 | ± 0.055 
+GBM: | -32,188.17 | ± 0.055
 
 The log-marginal likelihood estimates here are very close to those obtained under the stepping stones method. However, note we used _n_ = 32 points to converge to the same result as with stepping stones. Thus, the stepping stones method appears more efficient.
 
