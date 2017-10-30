@@ -6,7 +6,7 @@ author: "Mario dos Reis"
 
 MCMCTree now implements MCMC sampling from power-posterior distributions. This allows estimation of the marginal likelihood of a model for Bayesian model selection –that is, by calculation of Bayes factors or posterior model probabilities.– In MCMCTree, this allows selection of the relaxed-clock model for inference of species divergence times using molecular data (dos Reis et al. 2017).
 
-To calculate the marginal likelihood of a model, one must take samples from the so-called power-posterior, which is proportional to the prior times the likelihood to the power of _b_, with 0 ≦ _b_ ≦ 1. When _b_ = 0, the power posterior reduces to the prior, and when _b_ = 1, it reduces to the normal posterior distribution. Thus, by selecting _n_ values of _b_ between 0 and 1, one can sample likelihood values from the power posterior in a path from the prior to the posterior. The sampled likelihoods are then used to estimate the marginal likelihood either by thermodynamic integration (a.k.a. path sampling) or by the stepping stones method. Applications of both methods are extensive in the phylogenetics literature (Lepage et al. 2007, Xie et al. 2011). A review of Bayesian model selection is given in Yang (2014).
+To calculate the marginal likelihood of a model, one must take samples from the so-called power-posterior, which is proportional to the prior times the likelihood to the power of _b_, with 0 ≦ _b_ ≦ 1. When _b_ = 0, the power posterior reduces to the prior, and when _b_ = 1, it reduces to the normal posterior distribution. Thus, by selecting _n_ values of _b_ between 0 and 1, one can sample likelihood values from the power posterior in a path from the prior to the posterior. The sampled likelihoods are then used to estimate the marginal likelihood either by thermodynamic integration (a.k.a. path sampling) or by the stepping stones method. Applications of both methods are extensive in the phylogenetics literature (Lartillot and Philippe 2006, Lepage et al. 2007, Xie et al. 2011). A review of Bayesian model selection is given in Yang (2014).
 
 ## Tutorial
 
@@ -151,7 +151,7 @@ clk$logml; clk$se
 
 The `stepping.stones()` function will read the _b_ values in `beta.txt` and will read the log-likelihood values sampled by MCMCTree within each directory. It will then compute the log-marginal likelihood and its standard error.
 
-The log-marginal likelihood estimate for CLK is –32,185.72 with a standard error (S.E.) of 0.035. Note that your values may be slightly different due to the stochastic nature of the MCMC algorithm. The S.E. can be used to construct a 95% confidence interval for the estimate: –32,185.72 ± 2×0.035. Ideally, you want the S.E. to be much smaller than the log-marginal likelihood difference between the models being tested. You may reduce the S.E. by increasing `nsample` or `samplefreq` in the `mcmctree.ctl` template file. Note that to reduce the S.E. by half, you need to increase `nsample` four times. Unfortunately, the S.E. only gives you an idea of the precision, not the accuracy, of the estimate. It is possible to obtain very precise estimates of the marginal likelihood (the S.E. is very small) that are biased (i.e. the estimate is far from the true value). This will occur especially if _n_ is small. Try _n_ = 1 (which is known to perform poorly).
+The log-marginal likelihood estimate for CLK is –32,185.72 with a standard error (S.E.) of 0.035. Note that your values may be slightly different due to the stochastic nature of the MCMC algorithm. The S.E. can be used to construct a 95% confidence interval for the estimate: –32,185.72 ± 2×0.035. Ideally, you want the S.E. to be much smaller than the log-marginal likelihood difference between the models being tested. You may reduce the S.E. by increasing `nsample` or `samplefreq` in the `mcmctree.ctl` template file. Note that to reduce the S.E. by half, you need to increase `nsample` four times.
 
 #### 6. Repeat for the ILN and GBM models
 
@@ -240,23 +240,25 @@ CLK: | -32,185.66 | ± 0.023
 ILN: | -32,186.61 | ± 0.036
 GBM: | -32,188.17 | ± 0.055
 
-The log-marginal likelihood estimates here are very close to those obtained under the stepping stones method. However, note we used _n_ = 32 points to converge to the same result as with stepping stones. Thus, the stepping stones method appears more efficient.
+The log-marginal likelihood estimates here are very close to those obtained under the stepping stones method. However, note we used _n_ = 32 points to converge to the same result as with stepping stones. Thus, the stepping stones method appears more efficient. Note the S.E. only gives you an idea of the precision, not the accuracy, of the estimate. It is possible to obtain very precise estimates of the marginal likelihood (the S.E. is very small) that are biased (i.e. the estimate is far from the true value). This is due to the discretisation bias in the calculation of the 'thermodynamic' integral (see Lartillot and Philippe 2006, and Xie et al. 2011). This will occur especially if _n_ is small. Try _n_ = 1 (which performs very poorly).
 
 #### Other applications of Bayes factors in MCMCTree
 
 The strategy used here to select for a relaxed-clock model can also be used to select for the tree topology or the substitution model.
 
-Say you have 3 competing tree topologies, and you want to calculate the posterior probability of each. You can prepare 3 Newick files with the different topologies, and create 3 directories, into which you will run the three separete marginal likelihood calculations. In this case you would prepare 3 `mcmctree.ctl` templates, with the same parameters for all analyses, except for the `treefile` variable, which you would edit to point to the appropriate tree topology. The rest of the procedure is then exactly the same as when selecting for the relaxed-clock model.
+Say you have 3 competing tree topologies, and you want to calculate the posterior probability of each. You can prepare 3 Newick files with the different topologies, and create 3 directories, into which you will run the three separate marginal likelihood calculations. In this case you would prepare 3 `mcmctree.ctl` templates, with the same parameters for all analyses, except for the `treefile` variable, which you would edit to point to the appropriate tree topology. The rest of the procedure is then exactly the same as when selecting for the relaxed-clock model.
 
 A similar approach can be used to select for a substitution model. Say you want to compare HKY85 vs. HKY85+Gamma. In this case you would have two `mcmctree.ctl` templates, differing only in the `alpha` variable in the template (`alpha=0` for no Gamma model, and, say `alpha = 0.5` to activate the gamma model). The rest follows as above.
 
-Finally, the `mcmc3r` package can also be used to prepare `bpp.ctl` templates to calculate Bayes factors and model probabilities for species delimitation with BPP (Rannala and Yang, 2017). The procedure for this is essentially the same as the one used here with MCMCTree.
+Finally, the `mcmc3r` package can also be used to prepare `bpp.ctl` files to calculate Bayes factors and model probabilities for species delimitation with BPP (Rannala and Yang, 2017). The procedure for this is essentially the same as the one used here with MCMCTree.
 
 ## References
 
 * dos Reis et al. (2016) Bayesian molecular clock dating of species divergences in the genomics era. _Nature Reviews Genetics_, 17: 71–80.
 
 * dos Reis et al. (2017) Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case. _bioRxiv_.
+
+* Lartillot and Philippe 2006. Computing Bayes factors using thermodynamic integration. _Systematic Biology_, 55: 195–207.
 
 * Lepage et al. (2007) A general comparison of relaxed molecular clock models. _Molecular Biology and Evolution_, 24: 2669–2680.
 
