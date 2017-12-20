@@ -7,7 +7,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2017
 
-(37) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**
+(37) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
 Barba-Montaya J, **dos Reis M**, Schneider H; Donoghue PJD; Yang Z. (2017) New Phytologist, (in press).
 
 (36) **A biologist’s guide to Bayesian phylogenetic analysis**  
