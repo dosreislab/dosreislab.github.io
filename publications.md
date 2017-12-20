@@ -7,8 +7,11 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2017
 
+(38) **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
+**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. Systematic Biology, (in press).
+
 (37) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
-Barba-Montaya J, **dos Reis M**, Schneider H; Donoghue PJD; Yang Z. (2017) New Phytologist, (in press).
+Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2017) New Phytologist, (in press).
 
 (36) **A biologist’s guide to Bayesian phylogenetic analysis**  
 Nascimento FF, **dos Reis M**, and Yang Z. (2017) Nature Ecology and Evolution, 1: 1446–1454.  
@@ -16,7 +19,7 @@ Nascimento FF, **dos Reis M**, and Yang Z. (2017) Nature Ecology and Evolution, 
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41559-017-0280-x"></div></p>
 
 (35) **Comparison of different strategies for using fossil calibrations to generate the time prior in Bayesian molecular clock dating**  
-Barba-Montaya J, **dos Reis M**, and Yang Z. (2017) Molecular Phylogenetics and Evolution, 114: 386–400.  
+Barba-Montaya J, **dos Reis M** and Yang Z. (2017) Molecular Phylogenetics and Evolution, 114: 386–400.  
 [DOI: 10.1016/j.ympev.2017.07.005](https://dx.doi.org/10.1016/j.ympev.2017.07.005)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.ympev.2017.07.005"></div></p>
 
@@ -217,7 +220,7 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 # Preprints
 
 (2)  **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
-**dos Reis M**, Gunnel GF, Barba-Montoya J, Wilkins A, Yang Z, and Yoder A. (2017) bioRxiv, 201327.
+**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z, and Yoder A. (2017) bioRxiv, 201327.
 [DOI: 10.1101/201327](https://doi.org/10.1101/201327)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/201327"></div></p>
 
