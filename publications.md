@@ -5,13 +5,17 @@ permalink: /publications/
 ---
 Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](http://scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl)
 
+# 2018
+
+(38) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
+Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2017) New Phytologist, (in press.
+
+(37) **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
+**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. Systematic Biology.
+[DOI: 10.1093/sysbio/syy001](https://doi.org/10.1093/sysbio/syy001)
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syy001"></div></p>
+
 # 2017
-
-(38) **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
-**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. Systematic Biology, (in press).
-
-(37) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
-Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2017) New Phytologist, (in press).
 
 (36) **A biologist’s guide to Bayesian phylogenetic analysis**  
 Nascimento FF, **dos Reis M**, and Yang Z. (2017) Nature Ecology and Evolution, 1: 1446–1454.  
