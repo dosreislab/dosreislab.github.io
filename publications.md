@@ -28,7 +28,7 @@ Barba-Montaya J, **dos Reis M** and Yang Z. (2017) Molecular Phylogenetics and E
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.ympev.2017.07.005"></div></p>
 
 (34) **An evaluation of different partitioning strategies for Bayesian estimation of species divergence times**  
-Konstantinos A, Álvarez-Carretero A, **dos Reis M** and Yang Z. (2017) Systematic Biology, 67: 61–77.  
+Angelis K, Álvarez-Carretero A, **dos Reis M** and Yang Z. (2017) Systematic Biology, 67: 61–77.  
 [DOI: 10.1093/sysbio/syx061](https://dx.doi.org/10.1093/sysbio/syx061)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syx061"></div></p>
 
