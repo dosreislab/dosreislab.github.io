@@ -8,7 +8,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 # 2018
 
 (38) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
-Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) New Phytologist, (in press).
+Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) New Phytologist.  
+[DOI: 10.1111/nph.15011](http://doi.org/10.1111/nph.15011)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi=""></div>10.1111/nph.15011</p>
 
 (37) **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
 **dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. (2018) Systematic Biology.  
