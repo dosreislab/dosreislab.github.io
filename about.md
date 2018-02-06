@@ -16,9 +16,9 @@ School of Biological and Chemical Sciences
 Queen Mary University of London  
 London, E1 4NS
 
-**Interested in doing a PhD?** We currently have project submitted for the BBSRC LiDO and NERC DTP PhD programmes starting in 2017.
+**Interested in doing a PhD?** We usually submitted projects for the BBSRC LiDO and NERC DTP PhD programmes.
 
-**Interested in doing a postdoc?** We're happy to discuss funding options, such as the Royal Society Newton Fellowship (opening Jan 2018), Marie Curie, Leverhulme grants, etc.
+**Interested in doing a postdoc?** We're happy to discuss funding options, such as the Royal Society Newton Fellowship, Marie Curie, Leverhulme grants, etc.
 
 # Key Publications
 
