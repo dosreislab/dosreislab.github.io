@@ -7,7 +7,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2018
 
-(39) **Bayesian molecular clock dating using genome-scale datasets**
+(39) **Bayesian molecular clock dating using genome-scale datasets**  
 **dos Reis M** and Yang Z. (2018) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and computational methods, Springer (in press, expected summer 2018)  
 
 (38) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
