@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <title>R fractals</title>
+</head>
+<body>
+<h1><a href="images/blogistic.gif"><img src="images/logistic.gif"
+ title="" alt="Logistic equation"
+ style="border: 0px solid ; width: 200px; height: 204px;"></a><a
+ href="images/blogistic.gif"><br>
+</a>&nbsp;</h1>
+<h1>R fractals page</h1>
+<p>Just for the fun of it, and to see if it could be done, I started
+playing with fractals in <a href="http://www.r-project.org">R</a>. I
+was really surpised to see R's suitability for handling these
+mathematical objects. In fact, the easiness of integrating C code with
+R
+and R's graphics capabilities makes R superbly fitted for this purpose
+(perhaps even more than some 'professional' fractal generators).</p>
+<p>This page contains some beautiful images created with R and the code
+needed to generate them. Some functions are linked to C code, but don't
+get scared! R's documentation contains plenty of material on how to
+compile and use shared objects.<br>
+</p>
+<h2>The logistic equation</h2>
+<p>There is a special case of the logistic equation of population
+growth that shows some surprisingly complex behavior. This deceptively
+simple function is</p>
+<p>X<small>i+1</small> = r * X<small>i *</small> (1 - X<small>i</small>)<br>
+</p>
+<p>where X<small>i</small> is the population size at time <span
+ style="font-style: italic;">i</span>, X<small>i+1</small>&nbsp;is the
+size at the next generation and&nbsp; <span style="font-style: italic;">r</span>
+is the&nbsp; growth rate.&nbsp;In this model X varies between 0 and 1.
+(Don't ask me why! I still find it hard to think of a real biological
+system that fits this model). The interesting point here is that for <span
+ style="font-style: italic;">r</span> values below ~3.5 the population
+will reach a stationary size after many generations or will oscillate
+between a set of fixed values; however, when <span
+ style="font-style: italic;">r</span> is higher than ~3.5 the system
+becomes chaotic and the population size will oscillate in a seemingly
+random manner. The <a href="images/blogistic.gif">picture</a> above
+shows what happens to X after 50 or more generations under different <span
+ style="font-style: italic;">r</span> values. The code to generate that
+graph is here: <a href="code/logistic.R">logistic.R</a>.<br>
+</p>
+<h2>The Mandelbrot set</h2>
+<p>Perhaps the most famous fractal set. It arises from a very simple
+mathematical relationship</p>
+<p>Z<small>i+1</small> = Z<small>i</small> * Z<small>i</small> + C<br>
+</p>
+<p>where<span style="font-style: italic;"></span> Z and C are complex
+numbers (e.g. <span style="font-style: italic;">a + bi </span>). The
+initial value of Z, Z<small>0</small> is equal to 0, and the value of C
+is chosen arbitraryly. Then succesive iterations of the above equation
+are calculated, and the evolution of Z is assesed. It can be
+mathematically proved that if after certain number of iterations the
+modulus of Z is greater than 2, then the value of Z will head off to
+infinity. The Mandelbrot set is then defined as the set of points C in
+the complex plane for which the iteration procedure is bound (i.e.
+doesn't head off to infinity!). Bellow is a small galery of pictures
+depicting different regions of the Mandelbrot set; points belonging to
+the set are shown in black, and the rest are coloured according to the
+number of iterations needed for |Z| &gt; 2.<br>
+</p>
+<a href="images/mandel1.jpg"><img src="images/smandel1.jpg"
+ title="Click to enlarge" alt="Mandelbrot1"
+ style="border: 0px solid ; width: 100px; height: 98px;" hspace="5"
+ vspace="5"></a><a href="images/mandel2.jpg"><img
+ src="images/smandel2.jpg" title="Click to enlarge" alt="Mandelbrot2"
+ style="border: 0px solid ; width: 100px; height: 98px;" hspace="5"
+ vspace="5"></a><a href="images/mandel3.jpg"><img
+ src="images/smandel3.jpg" title="Click to enlarge" alt="Mandelbrot3"
+ style="border: 0px solid ; width: 100px; height: 98px;" hspace="5"
+ vspace="5"></a><a href="images/mandel4.jpg"><img
+ src="images/smandel4.jpg" title="Click to enlarge" alt="Mandelbrot4"
+ style="border: 0px solid ; width: 100px; height: 98px;" hspace="5"
+ vspace="5"></a>
+<p>The files needed to generate images like the ones above are here: <a
+ href="code/mandelbrot.zip">mandelbrot.zip</a><br>
+</p>
+<p> </p>
+<hr style="width: 100%; height: 2px;"><small>Any question or comments
+please e-mail me at_mariodosreis@yahoo.com <br>
+I am willing to accept any kind of fractal stuff done with R!</small><br>
+</body>
+</html>
