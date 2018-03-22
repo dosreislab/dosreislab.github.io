@@ -11,7 +11,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 **dos Reis M** and Yang Z. (2018) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and computational methods, Springer (in press, expected summer 2018)  
 
 (38) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
-Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) New Phytologist.  
+Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) New Phytologist, 218: 819–834.  
 [DOI: 10.1111/nph.15011](http://doi.org/10.1111/nph.15011)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1111/nph.15011"></div></p>
 
@@ -20,22 +20,22 @@ Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) Ne
 [DOI: 10.1093/sysbio/syy001](https://doi.org/10.1093/sysbio/syy001)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syy001"></div></p>
 
+(36) **An evaluation of different partitioning strategies for Bayesian estimation of species divergence times**  
+Angelis K, Álvarez-Carretero A, **dos Reis M** and Yang Z. (2018) Systematic Biology, 67: 61–77.  
+[DOI: 10.1093/sysbio/syx061](https://dx.doi.org/10.1093/sysbio/syx061)
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syx061"></div></p>
+
 # 2017
 
-(36) **A biologist’s guide to Bayesian phylogenetic analysis**  
+(35) **A biologist’s guide to Bayesian phylogenetic analysis**  
 Nascimento FF, **dos Reis M**, and Yang Z. (2017) Nature Ecology and Evolution, 1: 1446–1454.  
 [DOI: 10.1038/s41559-017-0280-x](https://dx.doi.org/10.1038/s41559-017-0280-x)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41559-017-0280-x"></div></p>
 
-(35) **Comparison of different strategies for using fossil calibrations to generate the time prior in Bayesian molecular clock dating**  
+(34) **Comparison of different strategies for using fossil calibrations to generate the time prior in Bayesian molecular clock dating**  
 Barba-Montaya J, **dos Reis M** and Yang Z. (2017) Molecular Phylogenetics and Evolution, 114: 386–400.  
 [DOI: 10.1016/j.ympev.2017.07.005](https://dx.doi.org/10.1016/j.ympev.2017.07.005)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.ympev.2017.07.005"></div></p>
-
-(34) **An evaluation of different partitioning strategies for Bayesian estimation of species divergence times**  
-Angelis K, Álvarez-Carretero A, **dos Reis M** and Yang Z. (2017) Systematic Biology, 67: 61–77.  
-[DOI: 10.1093/sysbio/syx061](https://dx.doi.org/10.1093/sysbio/syx061)
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syx061"></div></p>
 
 (33) **RelTime rates collapse to a strict clock when estimating the timeline of animal diversification**  
 Lozano Fernandez J, **dos Reis M**, Donoghue PCJ and Pisani D. (2017) Genome Biology and Evolution, 9: 1320–1328.  
