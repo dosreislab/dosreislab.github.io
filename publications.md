@@ -11,9 +11,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 **dos Reis M** and Yang Z. (2018) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and computational methods, Springer (in press, expected summer 2018)  
 
 (39) **Phylogenetics: Fossil-free dating**
-**dos Reis M** (2018) Nature Ecology and Evolution.
-[DOI: 10.1038s/s41559-018-0532-4](https://doi.org/10.1038s/s41559-018-0532-4)  
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038s/s41559-018-0532-4"></div></p>
+**dos Reis M** (2018) Nature Ecology and Evolution.  
+[DOI: 10.1038/s41559-018-0532-4](https://doi.org/10.1038/s41559-018-0532-4)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41559-018-0532-4"></div></p>
 
 (38) **Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution**  
 Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) New Phytologist, 218: 819–834.  
