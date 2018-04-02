@@ -10,7 +10,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 (40) **Bayesian molecular clock dating using genome-scale datasets**  
 **dos Reis M** and Yang Z. (2018) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and computational methods, Springer (in press, expected summer 2018)  
 
-(39) **Phylogenetics: Fossil-free dating**
+(39) **Phylogenetics: Fossil-free dating**  
 **dos Reis M** (2018) Nature Ecology and Evolution.  
 [DOI: 10.1038/s41559-018-0532-4](https://doi.org/10.1038/s41559-018-0532-4)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41559-018-0532-4"></div></p>
