@@ -4,7 +4,7 @@ title:  "Estimating the marginal likelihood of a relaxed-clock model with MCMCTr
 author: "Mario dos Reis"
 ---
 
-MCMCTree now implements MCMC sampling from power-posterior distributions. This allows estimation of the marginal likelihood of a model for Bayesian model selection –that is, by calculation of Bayes factors or posterior model probabilities.– In MCMCTree, this allows selection of the relaxed-clock model for inference of species divergence times using molecular data (dos Reis et al. 2017).
+MCMCTree now implements MCMC sampling from power-posterior distributions. This allows estimation of the marginal likelihood of a model for Bayesian model selection –that is, by calculation of Bayes factors or posterior model probabilities. In MCMCTree, this allows selection of the relaxed-clock model for inference of species divergence times using molecular data (dos Reis et al. 2017).
 
 To calculate the marginal likelihood of a model, one must take samples from the so-called power-posterior, which is proportional to the prior times the likelihood to the power of _b_, with 0 ≦ _b_ ≦ 1. When _b_ = 0, the power posterior reduces to the prior, and when _b_ = 1, it reduces to the normal posterior distribution. Thus, by selecting _n_ values of _b_ between 0 and 1, one can sample likelihood values from the power posterior in a path from the prior to the posterior. The sampled likelihoods are then used to estimate the marginal likelihood either by thermodynamic integration (a.k.a. path sampling) or by the stepping stones method. Applications of both methods are extensive in the phylogenetics literature (Lartillot and Philippe 2006, Lepage et al. 2007, Xie et al. 2011). A review of Bayesian model selection is given in Yang (2014).
 
@@ -18,7 +18,7 @@ You can download MCMCTree, which is part of the PAML phylogenetic analysis packa
 devtools::install_github ("dosreislab/mcmc3r")
 ```
 
-The general procedure is as follows:
+The general procedure to calculate Bayes factors with MCMCTree is as follows:
 
 1. Select the sequence alignment and phylogenetic tree to be analysed.
 
