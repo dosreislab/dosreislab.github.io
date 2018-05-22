@@ -55,7 +55,7 @@ Thiltgen G, **dos Reis M** and Goldstein RA. (2017) Journal of Molecular Evoluti
 # 2016
 
 (31) **Geogenetic patterns in mouse lemurs (genus Microcebus) reveal the ghosts of Madagascar’s forests past**  
-Yoder AD, Campbell CR, Blanco MB, **dos Reis M**, Ganzhorn JU, Goodman SM, Hunnicutt KE, Larsen PA, Kappeler PM, Rasoloarison RM, Ralison JM, Swofford DL and Weisrock DW. (2016) Proceedings of the National Academy of Sciences, 113: 8049–8056. **[comments in The Washington Post and National Geographic]**  
+Yoder AD, Campbell CR, Blanco MB, **dos Reis M**, Ganzhorn JU, Goodman SM, Hunnicutt KE, Larsen PA, Kappeler PM, Rasoloarison RM, Ralison JM, Swofford DL and Weisrock DW. (2016) Proceedings of the National Academy of Sciences, 113: 8049–8056. **[Comments in The Washington Post,](https://href.li/?https://www.washingtonpost.com/news/speaking-of-science/wp/2016/07/18/this-absurdly-adorable-mouse-lemur-lets-scientists-travel-back-in-time/) [and National Geographic](https://href.li/?http://voices.nationalgeographic.com/2016/07/19/ridiculously-cute-mouse-lemurs-hold-key-to-madagascars-past/)**  
 [DOI: 10.1073/pnas.1601081113](https://dx.doi.org/10.1073/pnas.1601081113)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1073/pnas.1601081113"></div></p>
 
@@ -77,7 +77,7 @@ Tarver JE, **dos Reis M**,  Mirarab S, Moran RJ, Parker S, O’Reilly JE, King B
 # 2015
 
 (27) **Uncertainty in the timing of origin of animals and the limits of precision in molecular timescales**  
-**dos Reis M**, Thawornwattana Y, Angelis K, Telford M, Donoghue PCJ and Yang Z. (2015) Current Biology, 25: 2939–2950. **[featured article]**  
+**dos Reis M**, Thawornwattana Y, Angelis K, Telford M, Donoghue PCJ and Yang Z. (2015) Current Biology, 25: 2939–2950. **[Featured article](https://href.li/?http://dx.doi.org/10.1016/j.cub.2015.10.015)**  
 [DOI: 10.1016/j.cub.2015.09.066](https://dx.doi.org/10.1016/j.cub.2015.09.066) Data: [DOI: 10.6084/m9.figshare.1525089](https://dx.doi.org/10.6084/m9.figshare.1525089)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.cub.2015.09.066"></div></p>
 
@@ -121,7 +121,7 @@ Angelis, K. **dos Reis M** and Yang Z. (2014) Molecular Biology and Evolution, 3
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syu020"></div></p>
 
 (19) **A penalized-likelihood method to estimate the distribution of selection coefficients from phylogenetic data**  
-Tamuri AU, Goldman N and **dos Reis M**. (2014) Genetics, 197: 257–271. **[highlighted article]**  
+Tamuri AU, Goldman N and **dos Reis M**. (2014) Genetics, 197: 257–271. **[Highlighted article](https://href.li/?http://www.genetics.org/content/197/1/NP.full)**  
 [DOI: 10.1534/genetics.114.162263](https://dx.doi.org/10.1534/genetics.114.162263)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1534/genetics.114.162263"></div></p>
 
@@ -131,7 +131,7 @@ Yoder AD, Chan LM, **dos Reis M**, Larsen PA, Campbell CR, Rasolarison R, Barret
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/gbe/evu006"></div></p>
 
 (17) **Neither phylogenomic nor palaeontological data support a Paleogene origin of placental mammals**  
-**dos Reis M**, Donoghue PCJ and Yang Z. (2014) Biology Letters, 10: 20131003. **[comments in Nature, The Scientist, Phys.org and Discovery News] [F1000 review]**  
+**dos Reis M**, Donoghue PCJ and Yang Z. (2014) Biology Letters, 10: 20131003. **[Comments in Nature,](https://href.li/?http://dx.doi.org/10.1038/nature.2014.14522) [The Scientist,](https://href.li/?http://www.the-scientist.com/?articles.view/articleNo/38858/title/Clocks-Versus-Rocks/) [and Phys.org](https://href.li/?http://phys.org/news/2014-01-team-fossil-only-placental-mammalian-evolution.html) - [F1000 review](https://href.li/?http://f1000.com/prime/718241049)**  
 [DOI: 10.1098/rsbl.2013.1003](https://dx.doi.org/10.1098/rsbl.2013.1003)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rsbl.2013.1003"></div></p>
 
@@ -150,7 +150,7 @@ Yoder AD, Chan LM, **dos Reis M**, Larsen PA, Campbell CR, Rasolarison R, Barret
 # 2012
 
 (14) **Phylogenomic datasets provide both precision and accuracy in estimating the timescale of placental mammal phylogeny**  
-**dos Reis M**, Inoue J, Hasegawa M, Asher RJ, Donoghue PCJ and Yang Z. (2012) Proceedings of the Royal Society B., 279: 3491–3500. **[timetrees (nexus)] [274 species timetree (pdf)] [data] [F1000 review]**  
+**dos Reis M**, Inoue J, Hasegawa M, Asher RJ, Donoghue PCJ and Yang Z. (2012) Proceedings of the Royal Society B., 279: 3491–3500. **[Timetrees (nexus)](https://href.li/?http://people.cryst.bbk.ac.uk/%7Efdosr01/mamdiv/trees.zip) - [274 species timetree (pdf)](https://href.li/?http://abacus.gene.ucl.ac.uk/divtimes/figs/mammal-large-timetree.pdf) - [Data](https://href.li/?http://abacus.gene.ucl.ac.uk/ziheng/data.html) - [F1000 review](https://href.li/?http://f1000.com/prime/717598023)**  
 [DOI: 10.1098/rspb.2012.0683](https://dx.doi.org/10.1098/rspb.2012.0683)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rspb.2012.0683"></div></p>
 
@@ -167,12 +167,12 @@ Hofinger BJ, Russell JR, Bass CG, Baldwin T, **dos Reis M**, Hedley PE, Li Y, Ma
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1111/j.1365-294X.2011.05201.x"></div></p>
 
 (11) **Approximate likelihood calculation on a phylogeny for Bayesian estimation of divergence times**  
-**dos Reis M** and Yang Z. (2011) Molecular Biology and Evolution, 28: 2161–2172. **[R code]**  
+**dos Reis M** and Yang Z. (2011) Molecular Biology and Evolution, 28: 2161–2172. **[R code](https://href.li/?http://people.cryst.bbk.ac.uk/%7Efdosr01/R/approx.R)**  
 [DOI: 10.1093/molbev/msr045](https://dx.doi.org/10.1093/molbev/msr045)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msr045"></div></p>
 
 (10) **Charting the host adaptation of influenza viruses**  
-**dos Reis M**, Tamuri AU, Hay AJ and Goldstein RA. (2011) Molecular Biology and Evolution, 28: 1755–1767. **[featured in Evolutionary Analysis]**  
+**dos Reis M**, Tamuri AU, Hay AJ and Goldstein RA. (2011) Molecular Biology and Evolution, 28: 1755–1767. **[Featured in Evolutionary Analysis](https://href.li/?http://www.amazon.co.uk/Evolutionary-Analysis-Jon-C-Herron/dp/0321616677/ref=sr_1_1?ie=UTF8&qid=1408379766&sr=8-1&keywords=evolutionary+analysis)**  
 [DOI: 10.1093/molbev/msq317](https://dx.doi.org/10.1093/molbev/msq317)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msq317"></div></p>
 
@@ -196,33 +196,33 @@ Tamuri AU, **dos Reis M**, Hay AJ and Goldstein RA. (2009) PLoS Computational Bi
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1371/journal.pcbi.1000564"></div></p>
 
 (6) **Using non-homogeneous models to identify host shift events: application to the origin of the 1918 ‘Spanish’ influenza virus**  
-**dos Reis M**, Hay AJ and Goldstein RA. (2009) Journal of Molecular Evolution, 69: 333–345. **[Additional data] [featured in Evolutionary Analysis]**  
+**dos Reis M**, Hay AJ and Goldstein RA. (2009) Journal of Molecular Evolution, 69: 333–345. **[Additional data](https://href.li/?http://people.cryst.bbk.ac.uk/%7Efdosr01/1918flu/1918flu.zip) - [Featured in Evolutionary Analysis](https://href.li/?http://www.amazon.co.uk/Evolutionary-Analysis-Jon-C-Herron/dp/0321616677/ref=sr_1_1?ie=UTF8&qid=1408379766&sr=8-1&keywords=evolutionary+analysis)**  
 [DOI: 10.1007/s00239-009-9282-x](https://dx.doi.org/10.1007/s00239-009-9282-x)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1007/s00239-009-9282-x"></div></p>
 
 (5) **Estimating translational selection in eukaryotic genomes**  
-**dos Reis M** and Wernisch L. (2009) Molecular Biology and Evolution, 26: 451–461. **[Supporting material]**  
+**dos Reis M** and Wernisch L. (2009) Molecular Biology and Evolution, 26: 451–461. **[Supporting material](https://href.li/?http://people.cryst.bbk.ac.uk/%7Efdosr01/Nes/index.html)**  
 [DOI: 10.1093/molbev/msn272](https://dx.doi.org/10.1093/molbev/msn272)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msn272"></div></p>
 
 # 2006
 
 (4) **Archaeology and evolution of transfer RNA genes in the Escherichia coli genome**  
-Withers M, Wernisch L, and **dos Reis M**. (2006) RNA, 12: 933–942. **[Supporting material]**  
+Withers M, Wernisch L, and **dos Reis M**. (2006) RNA, 12: 933–942. **[Supporting material](https://href.li/?http://people.cryst.bbk.ac.uk/%7Efdosr01/trnas/)**  
 [DOI: 10.1261/rna.2272306](https://dx.doi.org/10.1261/rna.2272306)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1261/rna.2272306"></div></p>
 
 # 2004
 
 (3) **Solving the riddle of codon usage preferences: a test for translational selection**  
-**dos Reis M**, Savva R and Wernisch L. (2004) Nucleic Acids Research, 32: 5036–5044. **[Software]**  
+**dos Reis M**, Savva R and Wernisch L. (2004) Nucleic Acids Research, 32: 5036–5044. **[Software](https://href.li/?http://people.cryst.bbk.ac.uk/%7Efdosr01/tAI/)**  
 [DOI: 10.1093/nar/gkh834](https://dx.doi.org/10.1093/nar/gkh834)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/nar/gkh834"></div></p>
 
 # 2003
 
 (2) **Churchill, a zinc finger transcriptional activator, regulates the transition between gastrulation and neurulation**  
-Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supporting material] [F1000 review]**  
+Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supporting material](http://people.cryst.bbk.ac.uk/~fdosr01/ChCh/ChChSM.pdf) - [F1000 review](https://href.li/?http://f1000.com/prime/1016513)**  
 [DOI: 10.1016/S0092-8674(03)00927-9](https://dx.doi.org/10.1016/S0092-8674(03)00927-9)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/S0092-8674(03)00927-9"></div></p>
 
