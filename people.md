@@ -15,3 +15,11 @@ Mario’s research in evolutionary biology focuses on obtaining inferences from 
 Sandra obtained a BSc in Biochemistry and Molecular Biology at the Universidad Rovira I Virgili, in Spain, and then an MSc in Bioinformatics at Högskolan I Skövde, in Sweden. Her research has focused on integrating her two areas of interest: Biology and Informatics. She has worked developing software pipelines to characterise bacterial isolates based on whole-genome sequencing data and in the analysis of transcriptomic, proteomic, and whole-genome sequencing data. As a PhD student in the lab, Sandra will work on the application of Bayesian MCMC statistical methods to study species divergences through time.
 
 ![](/assets/figs/sandra.png)
+
+# Nayelí Escudero Castelán, PhD student
+
+Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
+
+# Hasmita Patel, MSc student
+
+Hasmita is doing her MSc Bioinformatics project at the dos Reis lab on estimation of the population size and mutation rate of human populations under the Bayesian multi-species coalescent model.
