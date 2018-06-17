@@ -12,7 +12,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 [Chapter and code: github.com/mariodosreis/divtime](https://github.com/mariodosreis/divtime)
 
 (39) **Fossil-free dating**  
-**dos Reis M** (2018) Nature Ecology and Evolution.  
+**dos Reis M** (2018) Nature Ecology and Evolution, 2: 771–772.  
 [DOI: 10.1038/s41559-018-0532-4](https://doi.org/10.1038/s41559-018-0532-4)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41559-018-0532-4"></div></p>
 
