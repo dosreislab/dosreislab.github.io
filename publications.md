@@ -22,7 +22,7 @@ Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) Ne
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1111/nph.15011"></div></p>
 
 (37) **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
-**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. (2018) Systematic Biology.  
+**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. (2018) Systematic Biology, 67: 594–615.  
 [DOI: 10.1093/sysbio/syy001](https://doi.org/10.1093/sysbio/syy001)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syy001"></div></p>
 
