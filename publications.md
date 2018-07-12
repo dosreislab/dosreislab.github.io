@@ -12,7 +12,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 [Chapter and code: github.com/mariodosreis/divtime](https://github.com/mariodosreis/divtime)
 
 (39) **Fossil-free dating**  
-**dos Reis M** (2018) Nature Ecology and Evolution.  
+**dos Reis M** (2018) Nature Ecology and Evolution, 2: 771–772.  
 [DOI: 10.1038/s41559-018-0532-4](https://doi.org/10.1038/s41559-018-0532-4)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41559-018-0532-4"></div></p>
 
@@ -22,7 +22,7 @@ Barba-Montaya J, **dos Reis M**, Schneider H, Donoghue PJD and Yang Z. (2018) Ne
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1111/nph.15011"></div></p>
 
 (37) **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
-**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. (2018) Systematic Biology.  
+**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z and Yoder AD. (2018) Systematic Biology, 67: 594–615.  
 [DOI: 10.1093/sysbio/syy001](https://doi.org/10.1093/sysbio/syy001)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syy001"></div></p>
 
