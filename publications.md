@@ -8,7 +8,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 # 2018
 
 (40) **Bayesian molecular clock dating using genome-scale datasets**  
-**dos Reis M** and Yang Z. (2018) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and computational methods, Springer (in press, expected summer 2018)  
+**dos Reis M** and Yang Z. (2018) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and computational methods, Springer (in press)  
 [Chapter and code: github.com/mariodosreis/divtime](https://github.com/mariodosreis/divtime)
 
 (39) **Fossil-free dating**  
@@ -246,6 +246,6 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Peer-review
 
-Reviewer for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, F1000Research, FEBS letters, Gene Expression Patterns, Geobiology, Infection Genetics and Evolution, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, and Virus Evolution. Grant reviewer for The Austrian Science Fund (FWF), The French National Research Agency (ANR), The Ministry of Health of Singapore, and the Wellcome Trust UK.
+Reviewer for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, and Virus Evolution. Grant reviewer for The Austrian Science Fund (FWF), The French National Research Agency (ANR), The Ministry of Health of Singapore, and the Wellcome Trust UK.
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
