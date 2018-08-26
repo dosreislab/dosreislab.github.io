@@ -1,0 +1,328 @@
+---
+layout: post
+title:   "Bayes factors using stepping stones in BPP"
+author: "Mario dos Reis"
+---
+
+The computer program BPP (Yang 2015, Flouri et al 2018) implements the multi-species coalescent model for Bayesian inference of species trees, species delimitation and demographic parameters using molecular data. For species delimitation, a reversible-jump MCMC algorithm is used to calculate the posterior probabilities of the different delimitation models for a given molecular dataset. However, when the amount of molecular data is very large, the rjMCMC algorithm is inefficient, so that it would take too long a time to complete the analysis. Rannala and Yang (2017) have implemented sampling from power posteriors in BPP, allowing calculation of marginal likelihoods (Bayes factors) for model selection. Rannala and Yang use Gaussian quadrature (thermodynamic integration) to integrate over the power posteriors and obtain the marginal likelihood. However, thermodynamic integration suffers from discretisation bias and a large number of points (read: a large number of MCMC runs) is necessary to calculate the marginal likelihoods accurately. The alternative stepping-stones method (Xie et al. 2011) appears more efficient as it requires less computation.
+
+I have written a small R package, `bppr`, that can be used to prepare the appropriate control files to obtain samples from the power posterior with BPP, and to calculate Bayes factors by the stepping-stones method. The package is also useful to calibrate BPP phylogenies to geological time using a fossil calibration on a node age, or a prior on the molecular evolutionary rate. In this tutorial I give examples of how to do both these things with `bppr`.
+
+## Calculation of Bayes factors with BPP and bppr
+
+In this tutorial we will calculate Bayes factors to compare two models: (M1) human and chimpanzee are more closely related to each other than to gorilla and orangutang, and (M2) chimpanzee and gorilla are the most closely related species. For a long time, it was thought that chimp and gorilla were the most closely related. This view was challenged when the first molecular sequences from the apes were analysed.
+
+This tutorial assumes that: (i) you have [BPP 4](https://github.com/bpp/bpp) installed and working in your system, (ii) you are familiar with the multi-species coalescent and Bayesian model selection theory, and (iii) you have basic knowledge of [R](http://www.r-project.org) and the command line in your operating system. An introductory tutorial for BPP is given in Yang (2015). Overviews of the multi-species coalescent and Bayesian model selection are given in chapters 9 and 7 of Yang (2014). Please download and install the `bbpr` package from <https://github.com/dosreislab/bppr>.
+
+The power posterior is the posterior elevated to the power of _b_. In the stepping-stones method, one chooses _n_ values of _b_ between 0 and 1, and then one runs _n_ independent MCMC chains corresponding to each _b_ value. Once the runs have completed, one collects the sampled likelihoods for each run, and the marginal likelihood of the model is then calculated by the stepping-stones  algorithm. The procedure is repeated for the _n_ models being tested, and the marginal likelihoods are then used to calculate Bayes factors and posterior model probabilities. With BPP and `bppr`, the general procedure involves 7 steps:
+
+1. Select the data to be analysed.
+2. Prepare a template `bpp.ctl` control file with the model to be tested, prior and parameters.
+3. Use `bppr` to select _n_ appropriate values for _b_.
+4. Run BPP _n_ times to sample from the _n_ power posteriors.
+5. Use `bppr` to collect the results of the runs and calculate the marginal likelihood of the model.
+6. Repeat 2-5 for other models as necessary.
+7. Calculate Bayes factors and posterior model probabilities.
+
+### 1. Select the data to be analysed
+
+We will analyse 50 loci from the 4 ape genomes (human, chimp, gorilla and orang). Directory `bppr/misc` contains the alignment `neutral.25loci.4sp.txt`, the `myImap.txt` file (which maps individuals to species), and a template `bpp.ctl` file. You can view the alignment with a text editor. The first two loci look like:
+
+```
+4 126
+human^1    CTG-CCCCCACCTCCTCCAGCCCCC-AGGGTTGGACC-AGAAAGCCTTGGCTGCCTCTGAACAGCAGGGATTGTCTGGCCA-GGGGATGCTTG-AGGGACAGAGAA-CCCAGCCTGGAGGGTGCAA
+chimp^2    CTG-CCCCCACCTCCTCCAGCCCTC-AGGGTCGGACC-AGAAAGCCTTGGCTGCCTCTGAACAGCAGGGATTGTCTGGCCA-GGGGATGCTTG-AGGGACAGAGAA-CCCAGCCTGGAGGGTGCAA
+gorilla^3  CTG-CCCCCA-CTCCTCCAGCCCCC-AGGGTCGGACC-AGAAAGCCTTGGCTGCCTCTGAACAGCAGGGACTGTCTGGCCA-GGGGATGCTTG-AGGGACAGAGAA-CCCAGCCTGGAGGGTGCAA
+orang^4    CTGCCCCCCACCTC--CCAGCCCCCTGGGGTCGGACCAAAAAAGCCCTGGCTGCCTCTGAACAGCAGTGACTGTCTGGCCAGGGGGGTGCTTGAAGGGACAGAGAA-CCCAGCCTGGAGGGTGCAA
+
+4 404
+human^1    GTTTCGCTGGTGGCCATGCCATTCTGCA-TCCCCAGGGGCAGCATTAGAATTCCAGCTGCTCCTCACCGGCACTTGCTATTGTTAAACTTGTTGTTCTTTGTTTATAATTTAGCTGTTCTTATA-GGTGTGT-AGTGGTGTCCCATTGTGGTTTTAATTTACATTTTCTTCATCTCATGTTTAATGATGTTGAGCGTCTTTTCATGT-GCGAATTTCTCATCCACGTACGTATCTTCTCTGGTGAAGCATCTGTTCA-GTCTTTTGCCC------ATTTTTTTTTTTTTT--TTGAGATGGAGTTTCATTCACTCTCATTGCCCAGGCTGGAGTGCAATGGTGCAGTCTCAGCTCACTGCAAACTCCGCCTCCCAGGTTCAAGTGATTCTCCTGCCTCAGCCTC
+chimp^2    ATTTCGCTGGTGGCCATGCCATTCTGCA-TCCCCAGGGGCAGCATTAGAATTCCAGCTGCTCCTCACCGGCACTTGCTATTGTTAAACTTGTTGTTCTTTGTTTATAATTTAGCTGTTCTTATA-GGTGTGT-AGTGTTGTCCCATTGTGGTTTTAATTTACATTTTCTTCATCTCATGTTTAATGATGTTGAGCGTCTTTTCACGT-GCGAATTTCTCATCC----ACGTATCTTCTCTGGTGAAGCATCTGTTCA-GTCTTTTGCCC------ATTTTTTTTTTTTTTTTTTGAGATGGAGTTTCATTCACTCTCATTGCCCAGGCTGGAGTGCAATGGTGCAGTCTCAGCTCACTGCAAACTCTGCCTCCCAAGTTCAAGCGATTCTCCTGCCTCAGCCTC
+gorilla^3  GTTTCGCTGGTGGCCATGCCATTCTGCA-TCCCCAGGGGCAGCATTAGAATTCCAGC-GCTCCTCACCGGCACCTGCTATTGTTAAACTTTTTGTTCTTTGTTTATAATTTAGCTGTTCTTATA-GGTGTGC-AGTGGCGTCCCATTGTGGTTTTAATTTACATTTTCTTCATCTCATGTTTAATGATGTTGAGCGTCTTTTCATGT-GCGACCTTCTCATGC----ACGTATCTTCTCTGGTGAAGCATCTGTTCG-GTCTTTTGCCC------ATTTTTTTTTTTTTTTTTTGAGATGGAGTTTCATTCACTCTCATTGCCCAGGCTGGAGTGCAATGGTGCGGTCTCAGCTCACTGCAAACTCCGCCTCCCAGGTTCAAGGGATTCTCCTGCCTCAGCCTC
+orang^4    GTTTCGCTGGTGGCCATGCCATTCTGCATTCCCCAGGGGCAGCATTAGAGTTCCAGCTGTTCCTCACCGGCACTTGCTATTGTTAAACTTTTTGTTCTGTGTTTATAATTTAGCTGTTCTTATAGGGTGTGTAAGTGGTGTCCCATTGTGGTTTTAATTTACATTTTCTTCATCTCATG-TTAATGATGTCGAGCATCTTTTCATGTGGCTAATTTCTCATCC----ACATATCTTCTCTGGTGAAGCATCTCCTCATGTCTTTTGCCC------ATTTTTTTTTTTTTT-----AGATGCAGTTTCATTCACTCTCATTGCCCAGGCTAGAGTGCAATGGTGCGGTCTCGGCTCACTGCAAA------CTCCCGGGTTCAAGCGATTCTCCTGCCTCAGCCTC
+```
+
+The alignment file contains the first 25 neutral loci analysed by Burgess and Yang (2008). Please refer to BPP's manual for alignment and Imap files formats. The `myImap.txt` file, although necessary, is not important for this tutorial and we will not delve into it.
+
+### 2. Prepare the BBP control file template
+
+The template control file `bpp.ctl` looks like this:
+
+```
+* This is a BPP 4.0 control file !!!
+
+          seed = -1
+
+       seqfile = ../../neutral.25loci.4sp.txt
+      Imapfile = ../../myImap.txt
+       outfile = out.txt
+      mcmcfile = mcmc.txt
+
+  speciesdelimitation = 0     * fixed species tree
+
+speciesmodelprior = 1         * 0: uniform labeled histories; 1:uniform rooted trees; 2:user probs
+
+  species&tree = 4  human  chimp  gorilla  orang
+                 1          1            1      1
+                 (((human, chimp), gorilla), orang);
+
+       usedata = 1    * 0: no data (prior); 1:seq like
+         nloci = 25   * number of data sets in seqfile
+
+     cleandata = 0      * remove sites with ambiguity data (1:yes, 0:no)?
+
+    thetaprior = 3 0.008   * 2 500    # invgamma(a, b) for theta
+      tauprior = 3 0.036   * 4 219 1  # invgamma(a, b) for root tau & Dirichlet(a) for other tau's
+
+      locusrate = 0       # (0: No variation, 1: estimate, 2: from file) & a_Dirichlet (if 1)
+       heredity = 0       # (0: No variation, 1: estimate, 2: from file) & a_gamma b_gamma (if 1)
+
+      finetune = 1: .012 .003 .0001 .00005 .004 .01 .01  # auto (0 or 1): finetune for GBtj, GBspr, theta, tau, mix, locusrate, seqerr
+
+         print = 1 0 0 0   * MCMC samples, locusrate, heredityscalars Genetrees
+        burnin = 2000
+      sampfreq = 10
+       nsample = 10000
+```
+
+For the full details of control file specification, please refer to BPP's manual. The first four variables, `seqfile`, `Imapfile`, `outfile`, and `mcmcfile` give the names of the various input and output files for the analysis. Note that `speciesdelimitation = 0`, which means we will be performing our analysis on a fixed species tree. Here, BPP will only estimate the branch lengths (the tau's) for the ape phylogeny. Now note the specification of `species&tree`. In the template we have the species tree as
+
+```
+(((human, chimp), gorilla), orang);
+```
+
+which correspond to model M1 (human and chimp as the most closely related species). We will calculate the marginal likelihood of this model first. Note that this is a BPP 4 control file. BPP 3.4 and 4.0 now use the inverse gamma distribution to specify the prior for the tau's and theta's (the nucloetide diversity parameters, theta = 4Nu). Here we use `thetaprior = 3 0.008` which corresponds to an inverse gamma with parameters 3 and 0.008. In the old gamma prior specification, to achieve the same prior mean, we would have used `thetaprior = 2 500`. Note that the gamma and inverse gamma distribution although related, are actually quite different. If you accidentally use the old parameters values for the gamma as the input parameters for the inverse gamma you will most likely get nonsensical results.
+
+### 3. Select _b_ values
+
+Create a directory called `ape4s/` and copy the alignment, Imap, and control files into it. Create directory `ape4s/M1` and copy the `bpp.ctl` file into it. Change into the `ape4s/M1` directory and start R. In R type:
+
+```R
+b = bppr::make.beta(n=8, a=4, method="step-stones")
+```
+
+This will select 8 _b_ values for the stepping stones algorithm. Constant `a` controls the distribution of _b_ between 0 and 1. Large values of `a` lead to _b_ points clustered closer to zero (i.e. close to the prior), which is good for large alignments.
+
+In R type:
+
+```R
+bppr::make.bfctlf(b, ctlf="bpp.ctl", betaf="beta.txt")
+```
+
+The side effect of this function is the creation of _n_ directories, each containing a modified `bpp.ctl` file, which will tell BPP to sample from the appropriate power posterior. For example, `M1/8/bpp.ctl` contains the following last line:
+
+```
+BayesFactorBeta = 0.586181640625
+```
+
+which corresponds to _b_ = 0.586 ... .
+
+### 4. Run BPP
+
+Use a separate terminal window to run BPP _n_ = 8 times, inside each directory. In the Mac terminal I use:
+
+```bash
+for d in `seq 1 1 8`; do cd $d; bpp -cfile bpp.ctl &>/dev/null & cd ..; done
+```
+
+This should run in less than a minute in a modern computer. For large datasets, a BPP analysis can take many hours, days, or even weeks. In such cases it is best to submit each BPP run as a job in a high-performance computer cluster.
+
+### 5. Collect BPP results and calculate marginal likelihood
+
+From R (and making sure you are in the `ape4s/M1` directory) type:
+
+```R
+M1 <- bppr::stepping.stones()
+M1
+# $logml
+# [1] -23362.79
+
+# $se
+# [1] 0.1660856
+
+# $mean.logl
+# [1] -23597.38 -23600.81 -23521.69 -23448.81 -23409.58 -23390.04 -23374.12
+# [8] -23348.48
+
+# $b
+# [1] 1.000000e-300  2.441406e-04  3.906250e-03  1.977539e-02  6.250000e-02
+# [6]  1.525879e-01  3.164062e-01  5.861816e-01
+```
+
+This calculates the log-marginal likelihood, `M1$logml`, by the stepping stones algorithm. The other parameters are the standard error of the log-marginal likelihood estimate, `M1$se`, the mean of the log-likelihoods sampled at each _b_ point, `M1$mean.logl`, and the _b_ points, `M1$b`. It is useful to do a diagnostic plot of the mean log-likelihoods vs. the _b_ points.
+
+```R
+plot(M1$mean.logl ~ M1$b, pch=19, ty="b", xlab="b", ylab="mean log-likelihood")
+```
+
+![](/assets/figs/b-logL.png)
+
+You should obtain a smooth curve increasing from _b_ = 0 towards the right. Any wiggliness in the plot means there may have been convergence problems in the MCMC, or simply that the MCMCs did not run long enough. If you see anything strange with the plot, or if the standard error is too large, you can increase `nsample` and/or `samplefreq` to improve the estimates.
+
+The 95% confidence interval of the log-marginal likelihood is
+
+```R
+M1$logml + 2 * c(-M1$se, M1$se)
+# [1] -23363.13 -23362.46
+```
+
+### 6. Repeat 2-5 for the M2 model
+
+Create directory `ape4s/M2` and copy the `bpp.ctl` file into it. Edit the file so that the tree looks like
+
+```
+(((gorilla, chimp), human), orang);
+```
+
+That is, we have swapped the positions of gorilla and human so that gorilla is now more closely related to the chimp.
+
+Now repeat steps 3-5:
+
+(3) Select _b_ values. In R:
+
+```R
+setwd("../M2") # This assumes you are in ape4s/M1
+b = bppr::make.beta(n=8, a=4, method="step-stones")
+bppr::make.bfctlf(b, ctlf="bpp.ctl", betaf="beta.txt")
+```
+
+(4) Now run BPP 8 times. In my Mac BASH terminal I do:
+
+```bash
+cd ../M2 # This assumes you are in ape4s/M1
+for d in `seq 1 1 8`; do cd $d; bpp -cfile bpp.ctl &>/dev/null & cd ..; done
+```
+
+(5) Collect BPP results and calculate marginal likelihood for M2. In R:
+
+```R
+M2 <- bppr::stepping.stones()
+M2
+# $logml
+# [1] -23365.93
+
+# $se
+# [1] 0.2044337
+
+# $mean.logl
+# [1] -23662.16 -23656.17 -23555.31 -23465.32 -23418.52 -23396.46 -23376.87
+# [8] -23348.82
+
+# $b
+# [1] 1.000000e-300  2.441406e-04  3.906250e-03  1.977539e-02  6.250000e-02
+# [6]  1.525879e-01  3.164062e-01  5.861816e-01
+```
+
+You can see that M1 has a larger marginal likelihood (-23,362.79) than M2 (-23,365.93).
+
+### 7. Calculate Bayes Factors and posterior model probabilities
+
+We can now convert the marginal likelihoods for M1 and M2 into Bayes factors and the posterior model probabilities. In R:
+
+```R
+bppr::bayes.factors(M1, M2)
+# $bf
+# [1] 1.00000000 0.04335463
+
+# $pr
+# [1] 0.95844689 0.04155311
+```
+The Bayes factor of M2 over M1 is 0.043 (the first 1.0, is the Bayes factors of the reference model with itself, i.e. M1 over M1). The posterior probability for model M1 is 0.958, while for M2 it is 0.042. Thus, we have statistically significant evidence that human and chimp are indeed more closely related than chimp and gorilla.
+
+**Excercise:** The standard errors for the estimated log-marginal likelihoods are 0.17 and 0.20 for models M1 and M2 respectively. These values are rather high. Modify the `bpp.ctl` file and increase `samplefreq = 40` and `nsample = 20000`. Run the analysis again and re-calculate the log-marginal likelihoods and standard errors. Ideally, you want twice the standard error to be much smaller than the difference between the log-likelihoods for the two models. How much smaller are the standard errors for the new analysis? Are the calculated posterior probabilities different?
+
+**Excercise:** In the example above we compared two _speciation_ models. You can test for a third model, M3, in which human and chimp are assummed to be the _same_ species. Create a directory called `ape4s/M2` and copy the `bpp.ctl` file. Edit the file, and any other input BPP files as appropriate so that BPP considers human and chimp to be two individuals from the same species. You may want to do the tutorial in Yang (2015) if you are not familiar with species delimitation in BPP.
+
+
+## Calibrating the BPP phylogeny to geological time
+
+Now that we are satisfied that human and chimp are indeed the most closely related species, we can move onto calibrating the ape phylogeny to geological time. BPP estimates relative node ages (called tau's) in substitutions per site assuming the molecular clock. If we have information on the age of a node (for example, from the fossil record), or information about the molecular rate (for example, measurements of per-generation rate from parent-offspring sequencing), then it is possible to use a random sampling procedure to calibrate the phylogeny (see Angelis and dos Reis, 2015 and Yoder et al. 2016).
+
+Before we can calibrate the phylogeny, we need to sample from the full posterior distribution. Create directory `ape4s/M1/a00.1` and copy the `bpp.ctl` into it. Make sure the species tree has human-chimp as sister species, and make sure there is no `BayesFactorBeta` line in the file. Add an `E` to the `thetaprior` line in the control file, so that it looks like this:
+
+```
+thetaprior = 3 0.008 E
+```
+
+By deafult, the theta's (=4Nu) are integrated out in the analysis. By using `E` in the control file, we ask BPP to sample the theta's during MCMC. Our re-scaling procedure can then be used to convert the sampled theta's into population sizes by dividing by the per-generation mutation rate (u).
+
+Go into the `ape4s/M1/a00.1` directory and run BPP:
+
+```bash
+bpp -cfile bpp.ctl
+```
+
+Now start R in the `ape4s/M1/a00.1` directory. In R:
+
+```R
+ape.mcmc = read.table("mcmc.txt", header=TRUE)[,-1]
+
+# Calculate posterior means
+apply(ape.mcmc, 2, mean)
+
+# Calculate 95% CIs:
+t(apply(ape.mcmc, 2, quantile, probs=c(.025,.975)))
+
+# If you have the coda package, you can get 95% HPD CIs:
+coda::HPDinterval(coda::as.mcmc(ape.mcmc))
+```
+
+For example, I got the estimated branch length from human to the human-chimp ancestor (`tau_7humanchimp`) to be 5.78e-3 (95% CI: 2.84e-3, 7.53e-3; 95% HPD: 3.32e-3, 7.83e-3), and the nucleotide diversity for the human-chimp ancestral population (`theta_7humanchimp`) to be 7.86e-3 (95% CI: 1.55e-03  2.84e-02; 95% HPD: 9.26e-04  2.20e-02). Note your results should be slightly different due to the random nature of the MCMC algorithm.
+
+**Excercise:** Create directory `ape4s/M1/a00.2` and copy over the `bpp.ctl` from `ape4s/M1/a00.1`. Run the analysis again in the new directory. Confirm convergence of the MCMC by comparing the posterior means and 95% CIs between runs 1 and 2.
+
+### 1. Calibrating using a prior on the rate
+
+Sequencing studies place estimates of the per-generation mutation rate in human at around 1.2e-8 to 1.4e-8 (see Scally and Durbin, 2012, for a review). Estimates of the generation time in apes range around 20 to 30 years (Langergraber et al. 2012). We can use these values to construct prior densities on the per-generation mutation rate, u, and the generation time, g. From these we can then estimate the per-year rate (r = u / g), and use this estimate to convert the relative node ages (tau's) into geological divergence times. For the per-generation rate we will assume a gamma prior with mean 1.3e-8 and standard deviation 0.1e-8, which gives a 95% prior CI of roughly 1.1e-8 to 1.5e-8, to accommodate uncertainty in estimates of the rate. For the generation time, we will use a gamma density with mean 25, and standard deviation 2.5, which gives a 95% prior CI of roughly 20 to 30 years. Then function `bppr::msc2time.r` will carry out the random sampling procedure of Angelis and dos Reis (2015) to generate the times. In R:
+
+```R
+ape.time <- bppr::msc2time.r(ape.mcmc, u.m = 1.3e-8, u.sd = .1e-8, g.m = 25, g.sd = 2.5)
+
+# posterior means:
+apply(ape.time, 2, mean)
+
+# posterior HPDs:
+coda::HPDinterval(coda::as.mcmc(ape.time))
+```
+
+For example, I get an estimate for the human-chimp divergence time (`t_7humanchip`) of 1.11e7 (95% HPD: 5.88e6, 1.66e7) which corresponds to 11.1 Ma (5.88 - 16.6 Ma). These estimates appear reasonable. Benton et al. (2015) give an estimate based on careful consideration of the fossil record of 6.5 to 10 Ma. Because we have a prior on the per-generation rate, the function will convert the theta's (=4Nu) into effective population sizes. For example, for the human-chimp ancestral population (`Ne_7humanchimp`) we get an estimate of 152 thousand individuals (95% HPD: 16.4, 424 K individuals). Note that our estimates are based on a sample of only 25 loci, and thus our estimates of the tau's and theta's have large uncertainties. Analysis of thousands of loci will lead to more precise estimates of tau's and theta's, and thus more precise estimates of divergence times and population sizes.
+
+## 2. Calibrating using a prior on a node age
+
+We can use Benton et al. (2015) calibration of 6.5 to 10 Ma for the human-chimp divergence to recalibrate the ape phylogeny. This is done with the `bppr::msc2time.t` function, which uses a unform prior on a node age to recalibrate the phylogeny. In R:
+
+```R
+ape.time2 <- bppr::msc2time.t(ape.mcmc, node.name="7humanchimp", bounds=c(6.5, 10))
+
+# posterior means:
+apply(ape.time2, 2, mean)
+
+# posterior HPDs:
+coda::HPDinterval(coda::as.mcmc(ape.time2))
+```
+
+Our estimates here of the human-chimp divergence time are simply 6.5-10 as this is the prior age. However, we obtain more precise estimates for the other node ages. For example, for the root of the phylogeny (node 5, crown apes), the estimated age is 25.9 Ma (HPD: 13.41, 40.9 Ma). In the previous rate-calibrated analysis the estimate was 32.4 Ma (HPD: 22.5, 43.1 Ma). Note that the upper bounds in the age estimates are perhaps too old. Analysis of more data should reduce this uncertainty.
+
+## References
+
+* Angelis, K. and dos Reis, M. 2015. _The impact of ancestral population size and incomplete lineage sorting on Bayesian estimation of species divergence times_. Current Zoology, 61: 874–885.
+
+* Benton et al. 2015. _Constraints on the timescale of animal evolutionary history_ Palaeontologica Electronica, 18.1.1FC.
+
+* Burgess, R. and Z. Yang. 2008 _Estimation of hominoid ancestral population sizes under Bayesian coalescent models incorporating mutation rate variation and sequencing errors_. Molecular Biology and Evolution, 25: 1979-1994.
+
+* Flouri T, Xiyun J, Rannala B, Yang Z. 2018. _Species tree inference with BPP using genomic sequences and the multispecies coalescent_. Mol Biol Evol.
+
+* Langergraber et al. 2012. _Generation times in wild chimpanzees and gorillas suggest earlier divergence times in great ape and human evolution_. Proceedings of the National Academy of Sciences, 109: 15716-15721.
+
+* Rannala, B., and Z. Yang. 2017. _Efficient Bayesian species tree inference under the multispecies coalescent_. Systematic Biology, 66: 823-842.
+
+* Scally and Durbin. 2012. _Revising the human mutation rate: implications for understanding human evolution_. Nature Reviews Genetics volume 13, pages 745–753.
+
+* Xie et al. (2011) _Improving marginal likelihood estimation for Bayesian phylogenetic model selection_. Systematic Biology, 60: 150–160.
+
+* Yang (2014) _Molecular Evolution: A Statistical Approach_. Oxford University Press.
+
+* Yang, Z. 2015. _The BPP program for species tree estimation and species delimitation_. Current Zoology, 61: 854-865.
+
+* Yoder, A. et al. 2016. _Geogenetic patterns in mouse lemurs (genus Microcebus) reveal the ghosts of Madagascar’s forests past_. Proceedings of the National Academy of Sciences, 113: 8049–8056.
