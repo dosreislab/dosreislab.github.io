@@ -25,14 +25,15 @@ ape::plot.phylo(bppr::hominids$tree)
 ```
 **Exercise:** Repeat the calculations for the `microcebus` dataset.
 
-For example, the estimated branch length from human to the human-chimp ancestor (`tau_7humanchimp`) is 4.06e-3 (95% CI: 3.96e-03  4.16e-03; 95% HPD: 3.96e-03  4.16e-03), and the nucleotide diversity for the human-chimp ancestral population (`theta_7humanchimp`) to be 6.09e-03 (95% CI: 5.66e-03  6.53e-03; 95% HPD: 5.65e-03  6.52e-03).
+For example, the estimated branch length from human to the human-chimp ancestor (`tau_7humanchimp`) is 4.06e-3 (95% CI: 3.96e-3  4.16e-3; 95% HPD: 3.96e-3  4.16e-3), and the nucleotide diversity for the human-chimp ancestral population (`theta_7humanchimp`) is 6.09e-3 (95% CI: 5.66e-3  6.53e-3; 95% HPD: 5.65e-3  6.52e-3).
 
 ### 1. Calibrating using a prior on the rate
 
 Sequencing studies place estimates of the per-generation mutation rate in human at around 1.2e-8 to 1.4e-8 (see Scally and Durbin, 2012, for a review). Estimates of the generation time in apes range around 20 to 30 years (Langergraber et al. 2012). We can use these values to construct prior densities on the per-generation mutation rate, u, and the generation time, g. From these we can then estimate the per-year rate (r = u / g), and use this estimate to convert the relative node ages (tau's) into geological divergence times. For the per-generation rate we will assume a gamma prior with mean 1.3e-8 and standard deviation 0.1e-8, which gives a 95% prior CI of roughly 1.1e-8 to 1.5e-8, to accommodate uncertainty in estimates of the rate. For the generation time, we will use a gamma density with mean 25, and standard deviation 2.5, which gives a 95% prior CI of roughly 20 to 30 years. Then function `bppr::msc2time.r` will carry out the random sampling procedure of Angelis and dos Reis (2015) to generate the times. In R:
 
 ```R
-ape.time <- bppr::msc2time.r(bppr::hominids$mcmc, u.m = 1.3e-8, u.sd = .1e-8, g.m = 25, g.sd = 2.5)
+ape.time <- bppr::msc2time.r(bppr::hominids$mcmc, u.m = 1.3e-8,
+  u.sd = .1e-8, g.m = 25, g.sd = 2.5)
 
 # posterior means:
 apply(ape.time, 2, mean)
@@ -50,7 +51,8 @@ We can use Benton et al. (2015) calibration of 6.5 to 10 Ma for the human-chimp 
 First, we calibrate using an uniform distribution between 6.5 and 10 Ma. In R:
 
 ```R
-ape.time2 <- bppr::msc2time.t(bppr::hominids$mcmc, node.name="7humanchimp", calf=runif, min=6.5, max=10)
+ape.time2 <- bppr::msc2time.t(bppr::hominids$mcmc, node.name="7humanchimp",
+  calf=runif, min=6.5, max=10)
 
 # posterior means:
 apply(ape.time2, 2, mean)
@@ -75,7 +77,8 @@ curve(bppr::dslnorm(x, shift=6.5, meanlog=0, sdlog=1), from=0, to=15, n=1e3)
 bppr::qslnorm(c(.025,.9), shift=6.5, meanlog=0, sdlog=1)
 # [1]  6.640863 10.102224
 
-ape.time3 <- bppr::msc2time.t(bppr::hominids$mcmc, node.name="7humanchimp", calf=bppr::rslnorm, shift=6.5, meanlog=0, sdlog=1)
+ape.time3 <- bppr::msc2time.t(bppr::hominids$mcmc, node.name="7humanchimp",  
+  calf=bppr::rslnorm, shift=6.5, meanlog=0, sdlog=1)
 
 # posterior means:
 apply(ape.time3, 2, mean)
