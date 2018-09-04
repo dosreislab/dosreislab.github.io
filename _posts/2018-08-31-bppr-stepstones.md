@@ -146,7 +146,9 @@ M1
 # [6]  1.525879e-01  3.164062e-01  5.861816e-01
 ```
 
-This calculates the log-marginal likelihood, `M1$logml`, by the stepping stones algorithm. The other parameters are the standard error of the log-marginal likelihood estimate, `M1$se`, the mean of the log-likelihoods sampled at each _b_ point, `M1$mean.logl`, and the _b_ points, `M1$b`. Your values may look slightly different given the random nature of MCMC. It is useful to do a diagnostic plot of the mean log-likelihoods vs. the _b_ points.
+This calculates the log-marginal likelihood, `M1$logml`, by the stepping stones algorithm. The other parameters are the standard error of the log-marginal likelihood estimate, `M1$se`, the mean of the log-likelihoods sampled at each _b_ point, `M1$mean.logl`, and the _b_ points, `M1$b`. Your values may look slightly different given the random nature of MCMC. Don't worry if you see warning messages about the standard error. These warnings simply mean you may need to run the MCMC longer to obtain more precise estimates of the errors.
+
+It is useful to do a diagnostic plot of the mean log-likelihoods vs. the _b_ points.
 
 ```R
 plot(M1$mean.logl ~ M1$b, pch=19, ty="b", xlab="b", ylab="mean log-likelihood")
