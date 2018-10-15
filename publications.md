@@ -234,13 +234,13 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Preprints
 
-(3) **Bayesian estimation of species divergence times using correlated quantitative characters**
-Álvarez-Carretero S, Goswami A, Yang Z, and **dos Reis M.** (2018) bioRxiv, 441105.
+(3) **Bayesian estimation of species divergence times using correlated quantitative characters**  
+Álvarez-Carretero S, Goswami A, Yang Z, and **dos Reis M.** (2018) bioRxiv, 441105.  
 [DOI: 10.1101/441105](https://doi.org/10.1101/441105)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/441105"></div></p>
 
 (2)  **Using phylogenomic data to explore the effects of relaxed clocks and calibration strategies on divergence time estimation: Primates as a test case**  
-**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z, and Yoder A. (2017) bioRxiv, 201327.
+**dos Reis M**, Gunnell GF, Barba-Montoya J, Wilkins A, Yang Z, and Yoder A. (2017) bioRxiv, 201327.  
 [DOI: 10.1101/201327](https://doi.org/10.1101/201327)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/201327"></div></p>
 
