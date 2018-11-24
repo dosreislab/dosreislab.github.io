@@ -20,6 +20,14 @@ Sandra obtained a BSc in Biochemistry and Molecular Biology at the Universidad R
 
 Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
 
+# Iván Ezquerra Romano
+
+Iván is currently doing his PhD rotation (BBSRC LIDo) in the lab, using the multi-species coalescent to date divergences among human populations.
+
+# Past Members
+
 # Hasmita Patel, MSc student
 
-Hasmita is doing her MSc Bioinformatics project at the dos Reis lab on estimation of the population size and mutation rate of human populations under the Bayesian multi-species coalescent model.
+Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
+
+_Updated 24th November 2019._
