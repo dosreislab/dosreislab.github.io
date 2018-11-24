@@ -5,11 +5,13 @@ permalink: /publications/
 ---
 Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](http://scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl)
 
-# 2018
+# 2019
 
 (40) **Bayesian molecular clock dating using genome-scale datasets**  
 **dos Reis M** and Yang Z. (2018) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and computational methods, Springer (in press)  
 [Chapter and code: github.com/mariodosreis/divtime](https://github.com/mariodosreis/divtime)
+
+# 2018
 
 (39) **Fossil-free dating**  
 **dos Reis M** (2018) Nature Ecology and Evolution, 2: 771–772.  
