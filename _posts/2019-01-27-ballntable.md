@@ -1,19 +1,66 @@
 ---
 layout: post
-title:   "Reverend Bayes Modified Ball and Table Experiment"
+title:  "Reverend Bayes Modified Ball and Table Experiment"
 author: "Mario dos Reis"
 ---
 
-The R code below can be used to recreate Reverend Bayes (modified) ball and
+Bayes (1763) analyses the following thought experiment: A ball is thrown onto a
+table, and the position of the ball is marked. A second ball is thrown,
+repeatedly, on the table. We record, after each throw, whether the second ball
+fell on the left or right of the first ball. Bayes (1763) worked out the
+conditional probability of the position of the first ball given the sequence of
+throws of the second ball. This probability, which would now call a posterior
+distribution, is given by the beta distribution.
+
+I was invited to give an introduction to Bayesian phylogenetics at the [2019
+Phylogenomics Workshop](http://evomics.org/workshops/2019-workshop-on-phylogenomics-cesky-krumlov/) in Cesky Krumlov, and I thought it would be fun to run a
+simulation of Bayes original thought experiment. I modified the experiment a
+bit: Assume an even and perfectly smooth 1m × 1m table. The first ball is thrown
+and a coin is used to mark the position of the ball. The coordinates of the coin
+are _x_ (the perpendicular distance from the left edge of the table) and _y_ (the
+perpendicular distance from the front edge of the table). The ball is repeatedly
+thrown on the table, and we are told whether it fell on the left or right and on
+the front or back of the coin. We are never allowed to see the ball being thrown
+or its position on the table. We must guess where the coin is from our record of
+lefts/rights and fronts/backs after _n_ throws. The figure below shows a diagram
+of the table and the coin.
+
+![](/assets/figs/table.png)
+
+We assume the position of the coin is the joint uniform distribution, _f_(_x_,
+_y_) = 1. Let _T<sub>n</sub>_ be the sequence of outcomes after _n_ throws. For
+example, _T<sub>3</sub>_ = ({L,F}, {L,F}, {R,B}) means the ball landed on the
+left and front of the coin on the first two throws and on the right and back in
+the last throw. The posterior distribution of _x_ and _y_ given _T<sub>n</sub>_
+is the joint beta distribution:
+
+Pr(_x_, _y_ \| _T<sub>n</sub>_) = _x<sup>a</sup>_ (1 – _x_)_<sup>n – a</sup>_
+_y<sup>a</sup>_ (1 – _y_)_<sup>n – y</sup>_ / Pr(_T<sub>n</sub>_),  
+
+where  
+
+Pr(_T<sub>n</sub>_) = _a_! (_n_ – _a_)! _b_! (_n_ – _b_)! / (_n_ –
+1)!<sup>2</sup>  
+
+and _a_, _b_, are the number of times the ball fell on the left and front of the
+coin, respectively, and _n_ is the total number of throws.
+
+The R code below can be used to recreate the modified Reverend Bayes ball and
 table experiment. The first lines of code define the posterior distribution and
-the normalisation constant. The simulation for n=30 throws of the ball then
-takes place. The first `for` loop plots the contour of the posterior as the number
-of throws goes from n=0 to n=30. The second `for` loop plots a perspective
-representation of the posterior as the number of throws goes from n=0 to n=30.
-The perspective plot for n=30 may look like this (different runs of the code
-will produce different simulation outcomes):
+the normalisation constant, 1 / Pr(_T<sub>n</sub>_). The simulation for _n_ = 30
+throws of the ball then takes place. The first `for` loop plots the contour of
+the posterior as the number of throws goes from _n_ = 0 to _n_ = 30. The second
+`for` loop gives the perspective plots of the posterior as the number of throws
+goes from _n_ = 0 to _n_ = 30. The posterior surface for _n_ = 30 may look
+like this (different runs of the code will produce different simulation
+outcomes):
 
 ![](/assets/figs/ballntable.jpg)
+
+If you run the R code you can see the perspective plot evolving from the prior,
+_f_(_x_,_y_) = 1, for _n_ = 0, into the bell-shaped posterior for _n_ = 30. This
+bell-shaped posterior is our best guess about the position of the coin. It turns
+out to be a very good guess run R code).
 
 ```R
 # Bayes modified ball and table experiment
@@ -109,3 +156,6 @@ for (i in 1:n) {
   #dev2bitmap(paste("cesky-", i, ".png", sep=""), res=300, ty="pngmono")
 }
 ```
+
+# References
+Bayes, T (1763) **An essay towards solving a problem in the doctrine of chances**. _Phil. Transc. R. Soc._ 53: 370. [DOI: 10.1098/rstl.1763.0053](https://doi.org/10.1098/rstl.1763.0053)
