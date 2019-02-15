@@ -7,6 +7,10 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2019
 
+(41) **Bayesian estimation of species divergence times using correlated quantitative characters**  
+Álvarez-Carretero S, Goswami A, Yang Z, and **dos Reis M.** (2018) Systematic Biology (in press)
+Preprint of revised version, [DOI: 10.1101/441105](https://doi.org/10.1101/441105)
+
 (40) **Bayesian molecular clock dating using genome-scale datasets**  
 **dos Reis M** and Yang Z. (2019) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and Computational Methods, Springer (in press)  
 [Chapter and code: github.com/mariodosreis/divtime](https://github.com/mariodosreis/divtime)
