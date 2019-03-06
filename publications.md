@@ -13,7 +13,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz015"></div></p>  
 
 (41) **Rapid morphological evolution in placental mammals post-dates the origin of the crown group**  
-Halliday T, **dos Reis M**, Tamuri A, Ferguson-Grow H Yang Z, and Goswami A. Proceedings of the Royal Society B (in press)
+Halliday T, **dos Reis M**, Tamuri A, Ferguson-Grow H Yang Z, and Goswami A. Proceedings of the Royal Society B (in press)  
+[DOI: 10.1098/rspb.2018.2418](https://doi.org/10.1098/rspb.2018.2418)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rspb.2018.2418"></div></p>
 
 (40) **Bayesian molecular clock dating using genome-scale datasets**  
 **dos Reis M** and Yang Z. (2019) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and Computational Methods, Springer (in press)  
