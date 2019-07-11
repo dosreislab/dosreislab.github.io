@@ -18,8 +18,10 @@ Halliday T, **dos Reis M**, Tamuri A, Ferguson-Grow H Yang Z, and Goswami A. (20
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rspb.2018.2418"></div></p>
 
 (40) **Bayesian molecular clock dating using genome-scale datasets**  
-**dos Reis M** and Yang Z. (2019) In: Anisimova M (ed.) Evolutionary Genomics: Statistical and Computational Methods, Springer (in press)  
+**dos Reis M** and Yang Z. (2019) In: Anisimova M (eds.) Evolutionary Genomics. Methods in Molecular Biology, vol 1910. Humana, New York, NY.   
+[DOI: 10.1007/978-1-4939-9074-0_10](https://doi.org/10.1007/978-1-4939-9074-0_10)   
 [Chapter and code: github.com/mariodosreis/divtime](https://github.com/mariodosreis/divtime)
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1007/978-1-4939-9074-0_10"></div></p>
 
 # 2018
 
