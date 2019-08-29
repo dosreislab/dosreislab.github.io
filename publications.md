@@ -248,6 +248,11 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Preprints
 
+(4) **Pedigree-based measurement of the de novo mutation rate in the gray mouse lemur reveals a high mutation rate, few mutations in CpG sites, and a weak sex bias**  
+Campbell CR, Tiley GP, Poelstra JW, Hunnicutt KE, Larsen PA, **dos Reis M**, and Yoder AD. (2019) bioRxiv, 724880.  
+[DOI: 10.1101/724880](https://doi.org/10.1101/724880)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/724880"></div></p>  
+
 (3) **Bayesian estimation of species divergence times using correlated quantitative characters**  
 Álvarez-Carretero S, Goswami A, Yang Z, and **dos Reis M.** (2018) bioRxiv, 441105.  
 [DOI: 10.1101/441105](https://doi.org/10.1101/441105)
