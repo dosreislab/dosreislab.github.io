@@ -7,8 +7,18 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2019
 
+(44) **Phylogenomics reveals the evolutionary timing and pattern of butterflies and moths**  
+Akito Y. Kawahara, David Plotkin, Marianne Espeland, Karen Meusemann, Emmanuel F. A. Toussaint, Alexander Donath, France Gimnich, Paul B. Frandsen, Andreas Zwick, **Mario dos Reis**, Jesse R. Barber, Ralph S. Peters, Shanlin Liu, Xin Zhou, Christoph Mayer, Lars Podsiadlowski, Caroline Storer, Jayne E. Yack, Bernhard Misof, and Jesse W. Breinholt. (2019) PNAS, (in press)  
+[DOI: 10.1073/pnas.1907847116](https://doi.org/10.1073/pnas.1907847116)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1073/pnas.1907847116"></div></p>
+
+(43) **Phylogenomic Resolution of the Cetacean Tree of Life Using Target Sequence Capture**  
+McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, Deaville R, Jepson PD, Jarman S, Polanowski A, Morin PA, Rossiter SJ. (2019) Systematic Biology (in press)  
+[DOI: 10.1093/sysbio/syz068](https://doi.org/10.1093/sysbio/syz068)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz068"></div></p>
+
 (42) **Bayesian estimation of species divergence times using correlated quantitative characters**  
-Álvarez-Carretero S, Goswami A, Yang Z, and **dos Reis M.** (2019) Systematic Biology (in press)  
+Álvarez-Carretero S, Goswami A, Yang Z, and **dos Reis M.** (2019) Systematic Biology,68: 967–986. 
 [DOI: 10.1093/sysbio/syz015](https://doi.org/10.1093/sysbio/syz015)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz015"></div></p>  
 
