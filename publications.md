@@ -8,7 +8,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 # 2019
 
 (44) **Phylogenomics reveals the evolutionary timing and pattern of butterflies and moths**  
-Akito Y. Kawahara, David Plotkin, Marianne Espeland, Karen Meusemann, Emmanuel F. A. Toussaint, Alexander Donath, France Gimnich, Paul B. Frandsen, Andreas Zwick, **Mario dos Reis**, Jesse R. Barber, Ralph S. Peters, Shanlin Liu, Xin Zhou, Christoph Mayer, Lars Podsiadlowski, Caroline Storer, Jayne E. Yack, Bernhard Misof, and Jesse W. Breinholt. (2019) PNAS, (in press)  
+Kawahara AY, Plotkin D, Espeland M, Meusemann K, Toussaint EFA, Donath A, Gimnich F, Frandsen PB, Zwick A, **dos Reis M**, Barber JR, Peters RS, Liu S, Zhou X, Mayer C, Podsiadlowski L, Storer C, Yack JE, Misof B, and Breinholt JW. (2019) Proceedings of the National Academy of Sciences, (in press)  
 [DOI: 10.1073/pnas.1907847116](https://doi.org/10.1073/pnas.1907847116)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1073/pnas.1907847116"></div></p>
 
