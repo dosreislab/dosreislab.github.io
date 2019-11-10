@@ -256,6 +256,12 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 [DOI: 10.1093/nar/gkg897](https://dx.doi.org/10.1093/nar/gkg897)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/nar/gkg897"></div></p>
 
+# PhD Dissertation
+
+**Understanding the patterns of codon usage bias in prokaryotic and eukaryotic genomes**  
+**dos Reis M.** (2010) Birkbeck College, London. 152 pp.  
+[Dissertation](/assets/pdfs/dissertation-20100712.pdf)
+
 # Preprints
 
 (4) **Pedigree-based measurement of the de novo mutation rate in the gray mouse lemur reveals a high mutation rate, few mutations in CpG sites, and a weak sex bias**  
