@@ -9,11 +9,12 @@ table, and the position of the ball is marked. A second ball is thrown,
 repeatedly, on the table. We record, after each throw, whether the second ball
 fell on the left or right of the first ball. Bayes (1763) worked out the
 conditional probability of the position of the first ball given the sequence of
-throws of the second ball. This probability, which would now call a posterior
+throws of the second ball. This probability, which we would now call a posterior
 distribution, is given by the beta distribution.
 
 I was invited to give an introduction to Bayesian phylogenetics at the [2019
-Phylogenomics Workshop](http://evomics.org/workshops/2019-workshop-on-phylogenomics-cesky-krumlov/) in Cesky Krumlov, and I thought it would be fun to run a
+Phylogenomics Workshop](http://evomics.org/workshops/2019-workshop-on-phylogenomics-cesky-krumlov/)
+in Cesky Krumlov, and I thought it would be fun to run a
 simulation of Bayes original thought experiment. I modified the experiment a
 bit: Assume an even and perfectly smooth 1m × 1m table. The first ball is thrown
 and a coin is used to mark the position of the ball. The coordinates of the coin
@@ -27,7 +28,7 @@ of the table and the coin.
 
 ![](/assets/figs/table.png)
 
-We assume the position of the coin is the joint uniform distribution, _f_(_x_,
+We assume the position of the coin has the joint uniform distribution, _f_(_x_,
 _y_) = 1. Let _T<sub>n</sub>_ be the sequence of outcomes after _n_ throws. For
 example, _T<sub>3</sub>_ = ({L,F}, {L,F}, {R,B}) means the ball landed on the
 left and front of the coin on the first two throws and on the right and back in
@@ -60,7 +61,7 @@ outcomes):
 If you run the R code you can see the perspective plot evolving from the prior,
 _f_(_x_,_y_) = 1, for _n_ = 0, into the bell-shaped posterior for _n_ = 30. This
 bell-shaped posterior is our best guess about the position of the coin. It turns
-out to be a very good guess run R code).
+out to be a very good guess!
 
 ```R
 # Bayes modified ball and table experiment
