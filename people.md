@@ -20,18 +20,18 @@ Sandra obtained a BSc in Biochemistry and Molecular Biology at the Universidad R
 
 Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
 
-# Lucas Freitas, Postdoc
-
-Lucas is a postdoctoral researcher visiting the lab between January 2019 and January 2020. He is currently working on methods to detect positive selection and convergent evolution in molecular sequences.
-
-# Gabriela Calegario, Postdoc
-
-Gabriela is a postdoctoral researcher visiting the lab between January 2019 and January 2020. She is currently working on phylogenetic identification of prokaryotes from core samples of the ocean floor under the Amazon River discharge plume.
-
 ---
 ---
 
 # Past Members
+
+# Lucas Freitas (2019), Postdoc
+
+Lucas visited the lab between January 2019 and January 2020, to work on methods of clock dating, and to detect positive selection and convergent evolution in molecular sequences.
+
+# Gabriela Calegario (2019), Postdoc
+
+Gabriela visited the lab between January 2019 and January 2020, to work on phylogenetic identification of prokaryotes from core samples of the ocean floor under the Amazon River discharge plume.
 
 # Iván Ezquerra Romano (2018), PhD student
 
@@ -41,4 +41,4 @@ Iván did his PhD rotation (BBSRC LIDo) in the lab, using the multi-species coal
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 19th July 2019._
+_Updated 9th January 2020._
