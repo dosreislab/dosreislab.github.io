@@ -16,6 +16,10 @@ Sandra obtained a BSc in Biochemistry and Molecular Biology at the Universidad R
 
 ![](/assets/figs/sandra.png)
 
+# Muthukumaran Panchaksaram, PhD student
+
+Muthukumuran will work on statistical methods to detect adaptation in molecular sequences.
+
 # Nayelí Escudero Castelán, PhD student
 
 Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
@@ -41,4 +45,4 @@ Iván did his PhD rotation (BBSRC LIDo) in the lab, using the multi-species coal
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 9th January 2020._
+_Updated 31st January 2020._
