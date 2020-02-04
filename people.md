@@ -6,19 +6,21 @@ permalink: /people/
 
 # Mario dos Reis, PI
 
-Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario is a lecturer in genomics at Queen Mary University of London.
-
 ![](/assets/figs/mario.png)
+
+Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario is a lecturer in genomics at Queen Mary University of London.
 
 # Sandra Álvarez-Carretero, PhD student
 
-Sandra obtained a BSc in Biochemistry and Molecular Biology at the Universidad Rovira I Virgili, in Spain, and then an MSc in Bioinformatics at Högskolan I Skövde, in Sweden. Her research has focused on integrating her two areas of interest: Biology and Informatics. She has worked developing software pipelines to characterise bacterial isolates based on whole-genome sequencing data and in the analysis of transcriptomic, proteomic, and whole-genome sequencing data. As a PhD student in the lab, Sandra will work on the application of Bayesian MCMC statistical methods to study species divergences through time.
-
 ![](/assets/figs/sandra.png)
+
+Sandra obtained a BSc in Biochemistry and Molecular Biology at the Universidad Rovira I Virgili, in Spain, and then an MSc in Bioinformatics at Högskolan I Skövde, in Sweden. Her research has focused on integrating her two areas of interest: Biology and Informatics. She has worked developing software pipelines to characterise bacterial isolates based on whole-genome sequencing data and in the analysis of transcriptomic, proteomic, and whole-genome sequencing data. As a PhD student in the lab, Sandra is working on the application of Bayesian MCMC statistical methods to study species divergences through time.
 
 # Muthukumaran Panchaksaram, PhD student
 
-Muthukumuran will work on statistical methods to detect adaptation in molecular sequences.
+![](/assets/figs/muthu.png)
+
+Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sathyabama University, Chennai, India. He then pursued further studies in the same branch as a M.Tech student at Vellore Institute of Technology. His research focussed on designing a statistical QSAR (quantitative structure-activity relationship) model using multivariate image analysis for the prediction of biological activities of flavonoid derivatives, pharmaceutically active against acetylcholinesterase and HIV-1 inhibitors. As a PhD student in the lab, he is working on statistical methods to detect adaptation in molecular sequences.
 
 # Nayelí Escudero Castelán, PhD student
 
@@ -45,4 +47,4 @@ Iván did his PhD rotation (BBSRC LIDo) in the lab, using the multi-species coal
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 31st January 2020._
+_Updated 4th February 2020._
