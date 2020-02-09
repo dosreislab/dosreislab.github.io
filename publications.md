@@ -23,7 +23,7 @@ McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, De
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz015"></div></p>  
 
 (41) **Rapid morphological evolution in placental mammals post-dates the origin of the crown group**  
-Halliday T, **dos Reis M**, Tamuri A, Ferguson-Grow H Yang Z, and Goswami A. (2019) Proceedings of the Royal Society B, 286: 20182418.  
+Halliday T, **dos Reis M**, Tamuri AU, Ferguson-Grow H Yang Z, and Goswami A. (2019) Proceedings of the Royal Society B, 286: 20182418.  
 [DOI: 10.1098/rspb.2018.2418](https://doi.org/10.1098/rspb.2018.2418)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rspb.2018.2418"></div></p>
 
