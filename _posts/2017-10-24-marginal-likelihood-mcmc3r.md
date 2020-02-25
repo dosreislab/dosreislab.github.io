@@ -210,6 +210,8 @@ mcmc3r::bayes.factors(clk, iln, gbm)
 
 The posterior probabilities are calculated assuming equal prior model probabilities.  The CLK model has the highest log-marginal likelihood, and thus the highest posterior probability (Pr = 0.50), followed by GBM (Pr = 0.31), with ILN being the worst performing model (Pr = 0.19). This result should not be surprising. Human, Neanderthal, chimp and gorilla are all very closely related, and the strict clock is usually not rejected in comparisons of such closely related species. Indeed, a likelihood-ratio test fails to reject the strict clock in this data (see Box 2 in dos Reis et al. 2016 where the data are analysed).
 
+[ **Update – Feb 2020:** Function `bayes.factors` now performs parametric bootstrap of posterior probabilities, so you should see an element called `$pr.ci` with the confidence intervals for the posterior probabilities. ]
+
 #### Thermodynamic integration with Gaussian quadrature
 
 You can repeat steps 3 to 7 using the thermodynamic integration method. Make sure you create a new set of `clk/`, `iln/` and `gbm/` directories to run the analyses. In step 3, generate the _b_ values and directories using R with:
