@@ -23,7 +23,7 @@ McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, De
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz015"></div></p>  
 
 (41) **Rapid morphological evolution in placental mammals post-dates the origin of the crown group**  
-Halliday T, **dos Reis M**, Tamuri AU, Ferguson-Grow H Yang Z, and Goswami A. (2019) Proceedings of the Royal Society B, 286: 20182418.  
+Halliday T, **dos Reis M**, Tamuri AU, Ferguson-Grow H, Yang Z, and Goswami A. (2019) Proceedings of the Royal Society B, 286: 20182418.  
 [DOI: 10.1098/rspb.2018.2418](https://doi.org/10.1098/rspb.2018.2418)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rspb.2018.2418"></div></p>
 
@@ -286,7 +286,7 @@ Campbell CR, Tiley GP, Poelstra JW, Hunnicutt KE, Larsen PA, **dos Reis M**, and
 
 # Peer-review
 
-Reviewer for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Molecular Evolution, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, and Virus Evolution.
+Reviewer for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Molecular Evolution, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, and Virus Evolution.
 
 Grant reviewer for The Austrian Science Fund (FWF), The Biotechnology and Biological Sciences Research Council (BBSRC, UK), The French National Research Agency (ANR), The Ministry of Health of Singapore, The Science and Technology Facilities Research Council (STFC, UK), The UK Research and Innovation Fellowships, and the Wellcome Trust UK.
 
