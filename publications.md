@@ -5,17 +5,19 @@ permalink: /publications/
 ---
 Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](http://scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl)
 
+# 2020
+
+(44) **Phylogenomic resolution of the cetacean tree of life using target sequence capture**  
+McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, Deaville R, Jepson PD, Jarman S, Polanowski A, Morin PA, Rossiter SJ. (2019) Systematic Biology, 69: 479–501.  
+[DOI: 10.1093/sysbio/syz068](https://doi.org/10.1093/sysbio/syz068)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz068"></div></p>
+
 # 2019
 
-(44) **Phylogenomics reveals the evolutionary timing and pattern of butterflies and moths**  
+(43) **Phylogenomics reveals the evolutionary timing and pattern of butterflies and moths**  
 Kawahara AY, Plotkin D, Espeland M, Meusemann K, Toussaint EFA, Donath A, Gimnich F, Frandsen PB, Zwick A, **dos Reis M**, Barber JR, Peters RS, Liu S, Zhou X, Mayer C, Podsiadlowski L, Storer C, Yack JE, Misof B, and Breinholt JW. (2019) Proceedings of the National Academy of Sciences, 116: 22657–22663.  
 [DOI: 10.1073/pnas.1907847116](https://doi.org/10.1073/pnas.1907847116)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1073/pnas.1907847116"></div></p>
-
-(43) **Phylogenomic resolution of the cetacean tree of life using target sequence capture**  
-McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, Deaville R, Jepson PD, Jarman S, Polanowski A, Morin PA, Rossiter SJ. (2019) Systematic Biology (in press)  
-[DOI: 10.1093/sysbio/syz068](https://doi.org/10.1093/sysbio/syz068)  
-<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz068"></div></p>
 
 (42) **Bayesian estimation of species divergence times using correlated quantitative characters**  
 Álvarez-Carretero S, Goswami A, Yang Z, and **dos Reis M.** (2019) Systematic Biology, 68: 967–986.
@@ -286,8 +288,10 @@ Campbell CR, Tiley GP, Poelstra JW, Hunnicutt KE, Larsen PA, **dos Reis M**, and
 
 # Peer-review
 
-Reviewer for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Molecular Evolution, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, and Virus Evolution.
+Associate editor of Genome Biology and Evolution (2020--).
 
-Grant reviewer for The Austrian Science Fund (FWF), The Biotechnology and Biological Sciences Research Council (BBSRC, UK), The French National Research Agency (ANR), The Ministry of Health of Singapore, The Science and Technology Facilities Research Council (STFC, UK), The UK Research and Innovation Fellowships, and the Wellcome Trust UK.
+Have reviewed papers for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Molecular Evolution, Journal of Biogeography, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, Virus Evolution and Wellcome Open Research.
+
+Have reviewed for The Austrian Science Fund (FWF), The Biotechnology and Biological Sciences Research Council (BBSRC, UK), The Czech Academy of Sciences, The French National Research Agency (ANR), The Ministry of Health of Singapore, The Science and Technology Facilities Research Council (STFC, UK), The UK Research and Innovation Fellowships, and the Wellcome Trust UK.
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
