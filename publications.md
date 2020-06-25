@@ -7,8 +7,13 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2020
 
+(45) **Molecular clocks without rocks: New solutions for old problems**  
+Tiley GP, Poelstra JW, **dos Reis M**, Yang Z, and Yoder, AD. (2020) Trends in Genetics (_in press_).  
+[DOI: 10.1016/j.tig.2020.06.002](https://doi.org/10.1016/j.tig.2020.06.002)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.tig.2020.06.002"></div></p>  
+
 (44) **Phylogenomic resolution of the cetacean tree of life using target sequence capture**  
-McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, Deaville R, Jepson PD, Jarman S, Polanowski A, Morin PA, Rossiter SJ. (2019) Systematic Biology, 69: 479–501.  
+McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, Deaville R, Jepson PD, Jarman S, Polanowski A, Morin PA, and Rossiter SJ. (2019) Systematic Biology, 69: 479–501.  
 [DOI: 10.1093/sysbio/syz068](https://doi.org/10.1093/sysbio/syz068)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz068"></div></p>
 
