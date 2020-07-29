@@ -7,13 +7,17 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2020
 
+(46) **Baysian phylogenomic dating**  
+Álvarez-Carretero S, and **dos Reis M**. (2020) In: Ho S (ed.) The Molecular Evolutionary Clock: Theory
+and Practice (_in press_).  
+
 (45) **Molecular clocks without rocks: New solutions for old problems**  
 Tiley GP, Poelstra JW, **dos Reis M**, Yang Z, and Yoder, AD. (2020) Trends in Genetics (_in press_).  
 [DOI: 10.1016/j.tig.2020.06.002](https://doi.org/10.1016/j.tig.2020.06.002)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.tig.2020.06.002"></div></p>  
 
 (44) **Phylogenomic resolution of the cetacean tree of life using target sequence capture**  
-McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, Deaville R, Jepson PD, Jarman S, Polanowski A, Morin PA, and Rossiter SJ. (2019) Systematic Biology, 69: 479–501.  
+McGowen MR, Tsagkogeorga G, Álvarez-Carretero S, **dos Reis M**, Struebig M, Deaville R, Jepson PD, Jarman S, Polanowski A, Morin PA, and Rossiter SJ. (2020) Systematic Biology, 69: 479–501.  
 [DOI: 10.1093/sysbio/syz068](https://doi.org/10.1093/sysbio/syz068)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syz068"></div></p>
 
@@ -35,7 +39,7 @@ Halliday T, **dos Reis M**, Tamuri AU, Ferguson-Grow H, Yang Z, and Goswami A. (
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rspb.2018.2418"></div></p>
 
 (40) **Bayesian molecular clock dating using genome-scale datasets**  
-**dos Reis M** and Yang Z. (2019) In: Anisimova M (eds.) Evolutionary Genomics. Methods in Molecular Biology, vol 1910. Humana, New York, NY.   
+**dos Reis M** and Yang Z. (2019) In: Anisimova M (ed.) Evolutionary Genomics. Methods in Molecular Biology, vol 1910. Humana, New York, NY.   
 [DOI: 10.1007/978-1-4939-9074-0_10](https://doi.org/10.1007/978-1-4939-9074-0_10)   
 [Chapter and code: github.com/mariodosreis/divtime](https://github.com/mariodosreis/divtime)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1007/978-1-4939-9074-0_10"></div></p>
