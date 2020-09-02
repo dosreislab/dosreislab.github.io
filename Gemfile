@@ -14,6 +14,10 @@ gem "jekyll", "~>3.6"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
+# Kramdown parser, added Sep 2020 to fix jekyll serve error
+# see https://stackoverflow.com/questions/63335953/jekyll-error-building-page-related-to-kramdown-parser
+gem "kramdown-parser-gfm"
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
