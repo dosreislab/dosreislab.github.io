@@ -210,7 +210,42 @@ mcmc3r::bayes.factors(clk, iln, gbm)
 
 The posterior probabilities are calculated assuming equal prior model probabilities.  The CLK model has the highest log-marginal likelihood, and thus the highest posterior probability (Pr = 0.50), followed by GBM (Pr = 0.31), with ILN being the worst performing model (Pr = 0.19). This result should not be surprising. Human, Neanderthal, chimp and gorilla are all very closely related, and the strict clock is usually not rejected in comparisons of such closely related species. Indeed, a likelihood-ratio test fails to reject the strict clock in this data (see Box 2 in dos Reis et al. 2016 where the data are analysed).
 
-[ **Update – Feb 2020:** Function `bayes.factors` now performs parametric bootstrap of posterior probabilities, so you should see an element called `$pr.ci` with the confidence intervals for the posterior probabilities. ]
+**Update – Feb 2020:** Function `bayes.factors` now performs parametric bootstrap of posterior probabilities, so you should see an element called `$pr.ci` with the confidence intervals for the posterior probabilities.
+
+**Update - Dec 2020:** For large datasets, MCMC sampling of power posteriors can be quite time consuming. In such cases, a good strategy may be to run shorter MCMC chains and more frequent sampling, for example using `nsample = 10000` and `samplefreq = 2` in the control file. To compensate for the shorter chains, one may then use many more beta points (for example 32 or 64). However, in such cases, the delta approximation used to calculate the S.E. (see Xie et al. 2011) may not work well due to the smaller sample size. Instead, we can use the stationary block bootstrap method of Politis and Romano (1994) to calculate the S.E. New functions are now provided in the package to do this. In R:
+
+```R
+r <- 100 # we will use 100 bootstrap replicates
+setwd("../clk")
+mcmc3r::block.boot(r) # generate bootstrap replicates
+# (for each beta value, replicates are stored in files lnL1.txt to lnL100.txt,
+# with lnL0.txt containing the original log-likelihood values)
+clk.boot <- mcmc3r::stepping.stones.boot(r) # calculate logml on the replicates
+
+# repeat for the iln and gbm models
+setwd("../iln")
+mcmc3r::block.boot(r); iln.boot <- mcmc3r::stepping.stones.boot(r)
+setwd("../gbm")
+mcmc3r::block.boot(r); gbm.boot <- mcmc3r::stepping.stones.boot(r)
+
+# You can now look at the S.E.'s calculated using the bootstrap samples
+clk.boot$se; iln.boot$se; gbm.boot$se
+
+# calculate bayes factors and posterior model probabilities
+mcmc3r::bayes.factors(clk.boot, iln.boot, gbm.boot)
+```
+
+Function `block.boot` uses the MCMC sample of power likelihoods to generate new pseudo-MCMC samples of likelihoods. This is done by extracting, with replacement, blocks of consecutive likelihood values within each power posterior MCMC. The block sizes are random and have a geometrical distribution. The sampled blocks are then stitched together to form the pseudo-MCMC sample. This is necessary because the MCMC is a stationary autocorrelated time series and the standard bootstrap method cannot be used. Politis and Romano (1994) show the method works well to approximate the distribution of statistics of stationary time series. The `stepping.stones.boot` function goes through the `r=100` bootstrap replicates and calculates a marginal likelihood on each replicate. These in turn are used to obtain the S.E. and a 95% C.I. for the original log-marginal likelihood estimate.
+
+In our example here, the S.E.'s from the block boot method are quite close to those from the delta method, and the 95% CI's on the posterior model probabilities, Pr(M\|D), are virtually identical:
+
+M| –log L | S.E. (delta) | S.E. (boot) | Pr(M\|D) | 95% CI (delta) | 95% CI (boot)
+----|-----------|---------|---------|-------|--------------|--------------|
+CLK | 32,185.72 | ± 0.035 | ± 0.034 | 0.500 | (0.47, 0.53) | (0.47, 0.53) |
+ILN | 32,186.69 | ± 0.045 | ± 0.043 | 0.190 | (0.17, 0.21) | (0.17, 0.21) |
+GBM | 32,186.20 | ± 0.060 | ± 0.068 | 0.310 | (0.28, 0.34) | (0.28, 0.34) |
+
+For short MCMC chains the delta method's S.E. estimates will deteriorate rapidly, but those from the boot method will be more reliable.
 
 #### Thermodynamic integration with Gaussian quadrature
 
@@ -263,6 +298,8 @@ Finally, the `mcmc3r` package can also be used to prepare `bpp.ctl` files to cal
 * Lartillot and Philippe 2006. Computing Bayes factors using thermodynamic integration. _Systematic Biology_, 55: 195–207.
 
 * Lepage et al. (2007) A general comparison of relaxed molecular clock models. _Molecular Biology and Evolution_, 24: 2669–2680.
+
+* Politis and Romano (1994) The stationary boostrap. _Journal of the American Statistical Association_, 89: 1303-1313.
 
 * Rannala and Yang (2007) Inferring speciation times under an episodic molecular clock. _Systematic Biology_, 56: 453–466.
 
