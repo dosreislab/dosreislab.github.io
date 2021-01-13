@@ -5,11 +5,18 @@ permalink: /publications/
 ---
 Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](http://scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl)
 
-# 2020
+# 2021
 
-(46) **Baysian phylogenomic dating**  
-Álvarez-Carretero S, and **dos Reis M**. (2020) In: Ho S (ed.) The Molecular Evolutionary Clock: Theory
+(47) **Baysian phylogenomic dating**  
+Álvarez-Carretero S, and **dos Reis M**. (2021) In: Ho S (ed.) The Molecular Evolutionary Clock: Theory
 and Practice (_in press_).  
+
+(46) **Dire wolves were the last of an ancient New World canid lineage**  
+Perri et al. (2021) Nature (_in press_).  
+[DOI: 10.1038/s41586-020-03082-x](https://doi.org/10.1038/s41586-020-03082-x)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41586-020-03082-x"></div></p>  
+
+# 2020
 
 (45) **Molecular clocks without rocks: New solutions for old problems**  
 Tiley GP, Poelstra JW, **dos Reis M**, Yang Z, and Yoder, AD. (2020) Trends in Genetics (_in press_).  
