@@ -7,19 +7,21 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2021
 
-(47) **Baysian phylogenomic dating**  
+(47) **Bayesian phylogenomic dating**  
 Álvarez-Carretero S, and **dos Reis M**. (2021) In: Ho S (ed.) The Molecular Evolutionary Clock: Theory
-and Practice (_in press_).  
+and Practice. Springer.  
+[DOI: 10.1007/978-3-030-60181-2_13](https://doi.org/10.1007/978-3-030-60181-2_13)
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1007/978-3-030-60181-2_13"></div></p>  
 
 (46) **Dire wolves were the last of an ancient New World canid lineage**  
-Perri et al. (2021) Nature (_in press_).  
+Angela R. Perri, Kieren J. Mitchell, Alice Mouton, Sandra Álvarez-Carretero, Ardern Hulme-Beaman, James Haile, Alexandra Jamieson, Julie Meachen, Audrey T. Lin, Blaine W. Schubert, Carly Ameen, Ekaterina E. Antipina, Pere Bover, Selina Brace, Alberto Carmagnini, Christian Carøe, Jose A. Samaniego Castruita, James C. Chatters, Keith Dobney, **Mario dos Reis**, Allowen Evin, Philippe Gaubert, Shyam Gopalakrishnan, Graham Gower, Holly Heiniger, Kristofer M. Helgen, Josh Kapp, Pavel A. Kosintsev, Anna Linderholm, Andrew T. Ozga, Samantha Presslee, Alexander T. Salis, Nedda F. Saremi, Colin Shew, Katherine Skerry, Dmitry E. Taranenko, Mary Thompson, Mikhail V. Sablin, Yaroslav V. Kuzmin, Matthew J. Collins, Mikkel-Holger S. Sinding, M. Thomas P. Gilbert, Anne C. Stone, Beth Shapiro, Blaire Van Valkenburgh, Robert K. Wayne, Greger Larson, Alan Cooper and Laurent A. F. Frantz (2021) Nature (_in press_).  
 [DOI: 10.1038/s41586-020-03082-x](https://doi.org/10.1038/s41586-020-03082-x)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41586-020-03082-x"></div></p>  
 
 # 2020
 
 (45) **Molecular clocks without rocks: New solutions for old problems**  
-Tiley GP, Poelstra JW, **dos Reis M**, Yang Z, and Yoder, AD. (2020) Trends in Genetics (_in press_).  
+Tiley GP, Poelstra JW, **dos Reis M**, Yang Z, and Yoder, AD. (2020) Trends in Genetics, 36: 845–856.  
 [DOI: 10.1016/j.tig.2020.06.002](https://doi.org/10.1016/j.tig.2020.06.002)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.tig.2020.06.002"></div></p>  
 
