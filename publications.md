@@ -7,7 +7,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2021
 
-(47) **Baysian phylogenomic dating**  
+(47) **Bayesian phylogenomic dating**  
 Álvarez-Carretero S, and **dos Reis M**. (2021) In: Ho S (ed.) The Molecular Evolutionary Clock: Theory
 and Practice. Springer.  
 [DOI: 10.1007/978-3-030-60181-2_13](https://doi.org/10.1007/978-3-030-60181-2_13)
