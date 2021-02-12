@@ -20,6 +20,10 @@ Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sa
 
 Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
 
+# Joseph Deane, MSc student
+
+Joseph is working on assessing the effect of rate correlation among loci (i.e. the lineage effect) on Bayesian estimation of divergence times.
+
 ---
 ---
 
