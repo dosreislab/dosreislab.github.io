@@ -7,6 +7,11 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2021
 
+(48) **Dietary diversification and specialisation in New World bats facilitated by early molecular evolution**  
+Joshua H T Potter, Kalina T J Davies, Laurel R Yohe, Miluska K R Sanchez, Edgardo M Rengifo, Monika Struebig, Kim Warren, Georgia Tsagkogeorga, Burton K Lim, **Mario dos Reis**, Liliana M Dávalos, Stephen J Rossiter. (2001) Molecular Biology and Evolution, (_in press_).   
+[DOI: 10.1093/molbev/msab028](https://doi.org/10.1093/molbev/msab028)
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msab028"></div></p>  
+
 (47) **Bayesian phylogenomic dating**  
 Álvarez-Carretero S, and **dos Reis M**. (2021) In: Ho S (ed.) The Molecular Evolutionary Clock: Theory
 and Practice. Springer.  
