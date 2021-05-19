@@ -289,7 +289,7 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Preprints
 
-(5) **A mutation-selection model of protein evolution under persistent positive selection**
+(5) **A mutation-selection model of protein evolution under persistent positive selection**  
 Tamuri AU, and **dos Reis M.** (2021) bioRxiv, 444611.  
 [DOI: 10.1101/2021.05.18.444611](https://doi.org/10.1101/2021.05.18.444611)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/2021.05.18.444611"></div></p>  
