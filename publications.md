@@ -7,6 +7,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2021
 
+(49) **Pedigree-based and phylogenetic methods support surprising patterns of mutation rate and spectrum in the gray mouse lemur**  
+C. Ryan Campbell, George P. Tiley, Jelmer W. Poelstra, Kelsie E. Hunnicutt, Peter A. Larsen, Hui-Jie Lee, Jeffrey L. Thorne, **Mario dos Reis**, and Anne D. Yoder. (2021) Heredity, (_in press_).  
+
 (48) **Dietary diversification and specialisation in New World bats facilitated by early molecular evolution**  
 Joshua H T Potter, Kalina T J Davies, Laurel R Yohe, Miluska K R Sanchez, Edgardo M Rengifo, Monika Struebig, Kim Warren, Georgia Tsagkogeorga, Burton K Lim, **Mario dos Reis**, Liliana M Dávalos, Stephen J Rossiter. (2021) Molecular Biology and Evolution, (_in press_).   
 [DOI: 10.1093/molbev/msab028](https://doi.org/10.1093/molbev/msab028)
