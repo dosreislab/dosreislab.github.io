@@ -8,7 +8,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 # 2021
 
 (49) **Pedigree-based and phylogenetic methods support surprising patterns of mutation rate and spectrum in the gray mouse lemur**  
-C. Ryan Campbell, George P. Tiley, Jelmer W. Poelstra, Kelsie E. Hunnicutt, Peter A. Larsen, Hui-Jie Lee, Jeffrey L. Thorne, **Mario dos Reis**, and Anne D. Yoder. (2021) Heredity.  
+C. Ryan Campbell, George P. Tiley, Jelmer W. Poelstra, Kelsie E. Hunnicutt, Peter A. Larsen, Hui-Jie Lee, Jeffrey L. Thorne, **Mario dos Reis**, and Anne D. Yoder. (2021) Heredity, 127: 233–244.  
 [DOI: 10.1038/s41437-021-00446-5](https://doi.org/10.1038/s41437-021-00446-5)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41437-021-00446-5"></div></p>
 
