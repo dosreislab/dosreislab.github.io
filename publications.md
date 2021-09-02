@@ -7,6 +7,11 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2021
 
+(50) **Nectar-feeding bats and birds show parallel molecular adaptations in sugar metabolism enzymes**  
+Joshua H.T. Potter, Rosie Drinkwater, Kalina T.J. Davies, Nicolas Nesi, Marisa C.W. Lim, Laurel R. Yohe, Hai Chi, Xiaoqing Zhang, Ilya Levantis, Burton K. Lim, Christopher C. Witt, Georgia Tsagkogeorga, **Mario dos Reis**, Yang Liu, William Furey, Matthew J. Whitley, Dunja Aksentijevic, Liliana M. Dávalos, and Stephen J. Rossiter. (2021) Current Biology.  
+[DOI: 10.1016/j.cub.2021.08.018](DOI:https://doi.org/10.1016/j.cub.2021.08.018)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.cub.2021.08.018"></div></p>
+
 (49) **Pedigree-based and phylogenetic methods support surprising patterns of mutation rate and spectrum in the gray mouse lemur**  
 C. Ryan Campbell, George P. Tiley, Jelmer W. Poelstra, Kelsie E. Hunnicutt, Peter A. Larsen, Hui-Jie Lee, Jeffrey L. Thorne, **Mario dos Reis**, and Anne D. Yoder. (2021) Heredity, 127: 233–244.  
 [DOI: 10.1038/s41437-021-00446-5](https://doi.org/10.1038/s41437-021-00446-5)  
