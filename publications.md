@@ -7,6 +7,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2021
 
+(51) **A mutation-selection model of protein evolution under persistent positive selection**  
+Tamuri, AU, and **dos Reis, M**. (2021) Molecular Biology and Evolution (_just accepted_).  
+
 (50) **Nectar-feeding bats and birds show parallel molecular adaptations in sugar metabolism enzymes**  
 Joshua H.T. Potter, Rosie Drinkwater, Kalina T.J. Davies, Nicolas Nesi, Marisa C.W. Lim, Laurel R. Yohe, Hai Chi, Xiaoqing Zhang, Ilya Levantis, Burton K. Lim, Christopher C. Witt, Georgia Tsagkogeorga, **Mario dos Reis**, Yang Liu, William Furey, Matthew J. Whitley, Dunja Aksentijevic, Liliana M. Dávalos, and Stephen J. Rossiter. (2021) Current Biology.  
 [DOI: 10.1016/j.cub.2021.08.018](https://doi.org/10.1016/j.cub.2021.08.018)  
@@ -328,7 +331,7 @@ Campbell CR, Tiley GP, Poelstra JW, Hunnicutt KE, Larsen PA, **dos Reis M**, and
 
 Associate editor of Genome Biology and Evolution (2020--).
 
-Have reviewed papers for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, eLife, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Evolutionary Biology, Journal of Molecular Evolution, Journal of Biogeography, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, Virus Evolution and Wellcome Open Research.
+Have reviewed papers for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, Cladistics, Current Biology, eLife, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Evolutionary Biology, Journal of Molecular Evolution, Journal of Biogeography, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, Virus Evolution and Wellcome Open Research.
 
 Have reviewed for The Austrian Science Fund (FWF), The Biotechnology and Biological Sciences Research Council (BBSRC, UK), The Czech Academy of Sciences, The French National Research Agency (ANR), The Ministry of Health of Singapore, The Science and Technology Facilities Research Council (STFC, UK), The UK Research and Innovation Fellowships, and the Wellcome Trust UK.
 
