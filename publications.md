@@ -8,7 +8,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 # 2021
 
 (51) **A mutation-selection model of protein evolution under persistent positive selection**  
-Tamuri, AU, and **dos Reis, M**. (2021) Molecular Biology and Evolution (_just accepted_).  
+Tamuri, AU, and **dos Reis, M**. (2021) Molecular Biology and Evolution.   
+[DOI: 10.1093/molbev/msab309](https://doi.org/10.1093/molbev/msab309)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msab309"></div></p>
 
 (50) **Nectar-feeding bats and birds show parallel molecular adaptations in sugar metabolism enzymes**  
 Joshua H.T. Potter, Rosie Drinkwater, Kalina T.J. Davies, Nicolas Nesi, Marisa C.W. Lim, Laurel R. Yohe, Hai Chi, Xiaoqing Zhang, Ilya Levantis, Burton K. Lim, Christopher C. Witt, Georgia Tsagkogeorga, **Mario dos Reis**, Yang Liu, William Furey, Matthew J. Whitley, Dunja Aksentijevic, Liliana M. Dávalos, and Stephen J. Rossiter. (2021) Current Biology.  
