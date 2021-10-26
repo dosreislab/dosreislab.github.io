@@ -10,6 +10,12 @@ permalink: /people/
 
 Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario is a lecturer in genomics at Queen Mary University of London.
 
+# Gustavo Ballen, Postdoc
+
+![](/assets/figs/ballen.png)
+
+Gustavo finished his PhD in São Paulo, Brazil, and has joined the lab to work on the development and application of morphological models in Bayesian models of divergence time estimation. You can checkout Gustavo's research in [his homepage](https://gaballench.wordpress.com).  
+
 # Muthukumaran Panchaksaram, PhD student
 
 ![](/assets/figs/muthu.png)
@@ -20,16 +26,12 @@ Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sa
 
 Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
 
-# Joseph Deane, MSc student
-
-Joseph is working on assessing the effect of rate correlation among loci (i.e. the lineage effect) on Bayesian estimation of divergence times.
-
 ---
 ---
 
 # Past Members
 
-# Sandra Álvarez-Carretero, PhD student
+# Sandra Álvarez-Carretero (2016-2020), PhD student
 
 ![](/assets/figs/sandra.png)
 
@@ -47,8 +49,12 @@ Gabriela visited the lab between January 2019 and January 2020, to work on phylo
 
 Iván did his PhD rotation (BBSRC LIDo) in the lab, using the multi-species coalescent to date divergences among human populations.
 
+# Joseph Deane (2021), MSc student
+
+Joseph worked on assessing the effect of rate correlation among loci (i.e. the lineage effect) on Bayesian estimation of divergence times.
+
 # Hasmita Patel (2018), MSc student
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 6th December 2020._
+_Updated 26th October 2021._
