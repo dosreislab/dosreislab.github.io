@@ -13,7 +13,7 @@ Tamuri, AU, and **dos Reis, M**. (2021) Molecular Biology and Evolution.
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msab309"></div></p>
 
 (50) **Nectar-feeding bats and birds show parallel molecular adaptations in sugar metabolism enzymes**  
-Joshua H.T. Potter, Rosie Drinkwater, Kalina T.J. Davies, Nicolas Nesi, Marisa C.W. Lim, Laurel R. Yohe, Hai Chi, Xiaoqing Zhang, Ilya Levantis, Burton K. Lim, Christopher C. Witt, Georgia Tsagkogeorga, **Mario dos Reis**, Yang Liu, William Furey, Matthew J. Whitley, Dunja Aksentijevic, Liliana M. Dávalos, and Stephen J. Rossiter. (2021) Current Biology.  
+Joshua H.T. Potter, Rosie Drinkwater, Kalina T.J. Davies, Nicolas Nesi, Marisa C.W. Lim, Laurel R. Yohe, Hai Chi, Xiaoqing Zhang, Ilya Levantis, Burton K. Lim, Christopher C. Witt, Georgia Tsagkogeorga, **Mario dos Reis**, Yang Liu, William Furey, Matthew J. Whitley, Dunja Aksentijevic, Liliana M. Dávalos, and Stephen J. Rossiter. (2021) Current Biology, 31: 4667–4674.  
 [DOI: 10.1016/j.cub.2021.08.018](https://doi.org/10.1016/j.cub.2021.08.018)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.cub.2021.08.018"></div></p>
 
