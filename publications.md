@@ -9,7 +9,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 (52) **A species-level timeline of mammal evolution integrating phylogenomic data**  
 Sandra Álvarez-Carretero, Asif U. Tamuri, Matteo Battini, Fabrícia F. Nascimento, Emily Carlisle, Robert J. Asher, Ziheng Yang, Philip C. J. Donoghue, and **Mario dos Reis**. (2021) Nature.  
-[DOI: 10.1038/s41586-021-04341-1](https://doi.org/10.1038/s41586-021-04341-1)  
+[DOI: 10.1038/s41586-021-04341-1](https://doi.org/10.1038/s41586-021-04341-1) RedCube (no paywall): [rdcu.be/cDHW7](https://rdcu.be/cDHW7) Data: [10.6084/m9.figshare.14885691](https://doi.org/10.6084/m9.figshare.14885691) GitHub: [github.com/sabifo4/mammals_dating](http://github.com/sabifo4/mammals_dating)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41586-021-04341-1"></div></p>
 
 (51) **A mutation-selection model of protein evolution under persistent positive selection**  
