@@ -5,17 +5,19 @@ permalink: /publications/
 ---
 Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](http://scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl)
 
-# 2021
+# 2022
 
 (52) **A species-level timeline of mammal evolution integrating phylogenomic data**  
-Sandra Álvarez-Carretero, Asif U. Tamuri, Matteo Battini, Fabrícia F. Nascimento, Emily Carlisle, Robert J. Asher, Ziheng Yang, Philip C. J. Donoghue, and **Mario dos Reis**. (2021) Nature.  
+Sandra Álvarez-Carretero, Asif U. Tamuri, Matteo Battini, Fabrícia F. Nascimento, Emily Carlisle, Robert J. Asher, Ziheng Yang, Philip C. J. Donoghue, and **Mario dos Reis**. (2022) Nature, 602: 263–267.  
 [DOI: 10.1038/s41586-021-04341-1](https://doi.org/10.1038/s41586-021-04341-1) RedCube (no paywall): [rdcu.be/cDHW7](https://rdcu.be/cDHW7) Data: [10.6084/m9.figshare.14885691](https://doi.org/10.6084/m9.figshare.14885691) GitHub: [github.com/sabifo4/mammals_dating](http://github.com/sabifo4/mammals_dating)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41586-021-04341-1"></div></p>
 
 (51) **A mutation-selection model of protein evolution under persistent positive selection**  
-Tamuri, AU, and **dos Reis, M**. (2021) Molecular Biology and Evolution.   
+Tamuri, AU, and **dos Reis, M**. (2022) Molecular Biology and Evolution, 39: msab309.  
 [DOI: 10.1093/molbev/msab309](https://doi.org/10.1093/molbev/msab309)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msab309"></div></p>
+
+# 2021
 
 (50) **Nectar-feeding bats and birds show parallel molecular adaptations in sugar metabolism enzymes**  
 Joshua H.T. Potter, Rosie Drinkwater, Kalina T.J. Davies, Nicolas Nesi, Marisa C.W. Lim, Laurel R. Yohe, Hai Chi, Xiaoqing Zhang, Ilya Levantis, Burton K. Lim, Christopher C. Witt, Georgia Tsagkogeorga, **Mario dos Reis**, Yang Liu, William Furey, Matthew J. Whitley, Dunja Aksentijevic, Liliana M. Dávalos, and Stephen J. Rossiter. (2021) Current Biology, 31: 4667–4674.  
