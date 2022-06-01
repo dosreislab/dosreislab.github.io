@@ -22,6 +22,10 @@ Gustavo finished his PhD in São Paulo, Brazil, and has joined the lab to work o
 
 Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sathyabama University, Chennai, India. He then pursued further studies in the same branch as a M.Tech student at Vellore Institute of Technology. His research focussed on designing a statistical QSAR (quantitative structure-activity relationship) model using multivariate image analysis for the prediction of biological activities of flavonoid derivatives, pharmaceutically active against acetylcholinesterase and HIV-1 inhibitors. As a PhD student in the lab, he is working on statistical methods to detect adaptation in molecular sequences.
 
+# Joseph Minus, PhD student
+
+Joseph is working on mammalian morphometrics and clock dating in close collaboration with Anjali Goswami (NHM).
+
 # Nayelí Escudero Castelán, PhD student
 
 Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
