@@ -22,6 +22,14 @@ Our research has been highlighted in the media an in textbooks! You can see some
 
 # Key Publications
 
+- **A species-level timeline of mammal evolution integrating phylogenomic data**  
+Sandra Álvarez-Carretero, Asif U. Tamuri, Matteo Battini, Fabrícia F. Nascimento, Emily Carlisle, Robert J. Asher, Ziheng Yang, Philip C. J. Donoghue, and Mario dos Reis. (2022) Nature, 602: 263–267.  
+[DOI: 10.1038/s41586-021-04341-1](https://doi.org/10.1038/s41586-021-04341-1) RedCube (no paywall): [rdcu.be/cDHW7](https://rdcu.be/cDHW7)
+
+- **A mutation-selection model of protein evolution under persistent positive selection**  
+Tamuri, AU, and dos Reis, M. (2022) Molecular Biology and Evolution, 39: msab309.  
+[DOI: 10.1093/molbev/msab309](https://doi.org/10.1093/molbev/msab309)
+
 - **Bayesian molecular clock dating of species divergences in the genomics era**  
 dos Reis M, Donoghue PCJ and Yang Z. (2016) Nature Reviews Genetics, 17: 71–80.  
 [DOI: 10.1038/nrg.2015.8](https://dx.doi.org/10.1038/nrg.2015.8)
@@ -30,8 +38,6 @@ dos Reis M, Donoghue PCJ and Yang Z. (2016) Nature Reviews Genetics, 17: 71–80
 dos Reis M, Thawornwattana Y, Angelis K, Telford M, Donoghue PCJ and Yang Z. (2015) Current Biology, 25: 2939–2950.  
 [DOI: 10.1016/j.cub.2015.09.066](https://dx.doi.org/10.1016/j.cub.2015.09.066)
 
-- **How to calculate the non-synonymous to synonymous rate ratio of protein-coding coding genes under the Fisher-Wright mutation-selection framework**  
-dos Reis M. (2015) Biology Letters, 11: 20141031.  
-[DOI: 10.1098/rsbl.2014.1031](https://dx.doi.org/10.1098/rsbl.2014.1031)
-
 This website was built using Jekyll and GitHub pages. You can find more info at [jekyllrb.com](http://jekyllrb.com/) and [pages.github.com](https://pages.github.com/)
+
+_Updated July 2022_ 
