@@ -3,6 +3,7 @@ layout: page
 title: People
 permalink: /people/
 ---
+![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
 
 # Mario dos Reis, PI
 
