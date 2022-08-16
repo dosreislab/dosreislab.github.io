@@ -7,6 +7,10 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2022
 
+(53) **Dating microbial evolution with MCMCtree**  
+**Mario dos Reis**. (2022) In: Haiwei Luo (ed.) Environmental Microbial Evolution: Methods and Protocols. Methods in Molecular Biology, vol 2569. Humana, New York, NY. (_in press_)  
+GitHub: [github.com/dosreislab/microdiv](https://github.com/dosreislab/microdiv)  
+
 (52) **A species-level timeline of mammal evolution integrating phylogenomic data**  
 Sandra Álvarez-Carretero, Asif U. Tamuri, Matteo Battini, Fabrícia F. Nascimento, Emily Carlisle, Robert J. Asher, Ziheng Yang, Philip C. J. Donoghue, and **Mario dos Reis**. (2022) Nature, 602: 263–267.  
 [DOI: 10.1038/s41586-021-04341-1](https://doi.org/10.1038/s41586-021-04341-1) RedCube (no paywall): [rdcu.be/cDHW7](https://rdcu.be/cDHW7) Data: [10.6084/m9.figshare.14885691](https://doi.org/10.6084/m9.figshare.14885691) GitHub: [github.com/sabifo4/mammals_dating](http://github.com/sabifo4/mammals_dating)  
