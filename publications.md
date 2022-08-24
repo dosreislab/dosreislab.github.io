@@ -7,9 +7,14 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2022
 
-(53) **Dating microbial evolution with MCMCtree**  
+(54) **Dating microbial evolution with MCMCtree**  
 **Mario dos Reis**. (2022) In: Haiwei Luo (ed.) Environmental Microbial Evolution: Methods and Protocols. Methods in Molecular Biology, vol 2569. Humana, New York, NY. (_in press_)  
 GitHub: [github.com/dosreislab/microdiv](https://github.com/dosreislab/microdiv)  
+
+(53) **Receptor deorphanization in an echinoderm reveals kisspeptin evolution and relationship with SALMFamide neuropeptides**  
+Nayeli Escudero Castelán, Dean C. Semmens, Luis Alfonso Yañez Guerra, Meet Zandawala, **Mario dos Reis**, Susan E. Slade, James H. Scrivens, Cleidiane G. Zampronio, Alexandra M. Jones, Olivier Mirabeau, and Maurice R. Elphick. (2022) BMC Biology, 20: 187.  
+[DOI: 10.1186/s12915-022-01387-z](https://doi.org/10.1186/s12915-022-01387-z)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1186/s12915-022-01387-z"></div></p>
 
 (52) **A species-level timeline of mammal evolution integrating phylogenomic data**  
 Sandra Álvarez-Carretero, Asif U. Tamuri, Matteo Battini, Fabrícia F. Nascimento, Emily Carlisle, Robert J. Asher, Ziheng Yang, Philip C. J. Donoghue, and **Mario dos Reis**. (2022) Nature, 602: 263–267.  
