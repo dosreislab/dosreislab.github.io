@@ -5,11 +5,13 @@ permalink: /people/
 ---
 ![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
 
-# Mario dos Reis, PI
+The dos Reis Lab is located in the [School of Biological and Behavioural Sciences](https://qmul.ac.uk/sbbs) at [Queen Mary University of London](https:/qmul.ac.uk).
+
+# Mario dos Reis, Reader in Statistical Phylogenetics
 
 ![](/assets/figs/mario.png)
 
-Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario is a lecturer in genomics at Queen Mary University of London.
+Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario has a degree in Biology from Universidad Simón Bolívar, Caracas, Venezuela (2000), and MSc (2003) and PhD (2010) in Bioinformatics from Birkbeck College, London.  
 
 # Gustavo Ballen, Postdoc
 
@@ -23,18 +25,22 @@ Gustavo finished his PhD in São Paulo, Brazil, and has joined the lab to work o
 
 Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sathyabama University, Chennai, India. He then pursued further studies in the same branch as a M.Tech student at Vellore Institute of Technology. His research focussed on designing a statistical QSAR (quantitative structure-activity relationship) model using multivariate image analysis for the prediction of biological activities of flavonoid derivatives, pharmaceutically active against acetylcholinesterase and HIV-1 inhibitors. As a PhD student in the lab, he is working on statistical methods to detect adaptation in molecular sequences.
 
+# Yuqing Peng, PhD student
+
+Yuqing will be working on phylogenetic models of selection and the molecular clock.
+
 # Joseph Minus, PhD student
 
 Joseph is working on mammalian morphometrics and clock dating in close collaboration with Anjali Goswami (NHM).
-
-# Nayelí Escudero Castelán, PhD student
-
-Nayelí is working with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
 
 ---
 ---
 
 # Past Members
+
+# Nayelí Escudero Castelán, PhD student
+
+Nayelí worked with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
 
 # Sandra Álvarez-Carretero (2016-2020), PhD student
 
@@ -62,4 +68,4 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 26th October 2021._
+_Updated 24th October 2022._
