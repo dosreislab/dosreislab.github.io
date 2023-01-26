@@ -5,7 +5,7 @@ permalink: /people/
 ---
 ![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
 
-The dos Reis Lab is located in the [School of Biological and Behavioural Sciences](https://qmul.ac.uk/sbbs) at [Queen Mary University of London](https:/qmul.ac.uk).
+The dos Reis Lab is located in the [School of Biological and Behavioural Sciences](https://qmul.ac.uk/sbbs) at [Queen Mary University of London](https://qmul.ac.uk).
 
 # Mario dos Reis, Reader in Statistical Phylogenetics
 
