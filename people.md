@@ -25,13 +25,15 @@ Gustavo finished his PhD in São Paulo, Brazil, and has joined the lab to work o
 
 Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sathyabama University, Chennai, India. He then pursued further studies in the same branch as a M.Tech student at Vellore Institute of Technology. His research focussed on designing a statistical QSAR (quantitative structure-activity relationship) model using multivariate image analysis for the prediction of biological activities of flavonoid derivatives, pharmaceutically active against acetylcholinesterase and HIV-1 inhibitors. As a PhD student in the lab, he is working on statistical methods to detect adaptation in molecular sequences.
 
+# Joseph Minus, PhD student
+
+![](/assets/figs/minus.png)
+
+Joseph is a PhD student on the London NERC DTP working with Mario dos Reis at Queen Mary University of London and Anjali Goswami at the Natural History Museum. His research is focused on integrating phylogenomic and continuous morphological data, in the form of 3D cranial landmarks and curves, to estimate species divergence times in mammals. To achieve this aim, Joseph is assembling a morphological database of 3D cranial scans four thousands of mammals at the genus level. Joseph studied Zoology at the University of Exeter and completed a masters in Ecology, Evolution and Conservation at Imperial College London.
+
 # Yuqing Peng, PhD student
 
 Yuqing will be working on phylogenetic models of selection and the molecular clock.
-
-# Joseph Minus, PhD student
-
-Joseph is working on mammalian morphometrics and clock dating in close collaboration with Anjali Goswami (NHM).
 
 ---
 ---
@@ -68,4 +70,4 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 24th October 2022._
+_Updated 30th January 2023._
