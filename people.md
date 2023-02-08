@@ -31,9 +31,11 @@ Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sa
 
 Joseph is a PhD student on the London NERC DTP working with Mario dos Reis at Queen Mary University of London and Anjali Goswami at the Natural History Museum. His research is focused on integrating phylogenomic and continuous morphological data, in the form of 3D cranial landmarks and curves, to estimate species divergence times in mammals. To achieve this aim, Joseph is assembling a morphological database of 3D cranial scans four thousands of mammals at the genus level. Joseph studied Zoology at the University of Exeter and completed a masters in Ecology, Evolution and Conservation at Imperial College London.
 
-# Yuqing Peng, PhD student
+# Yuqing Peng, PhD student  
 
-Yuqing will be working on phylogenetic models of selection and the molecular clock.
+![](/assets/figs/yuqing.png)  
+
+Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Information Technology, China, and then an MSc in Environmental Engineering at Cranfield University, UK. During the MSc period, Yuqing was trained in R, C and HPC for modelling and statistical analysis of sample data. As a PhD student in the dos Reis lab, Yuqing will focus on phylogenetic models of natural selection and the molecular clock to analyse phylogenomic data from more than 300 mammal species.  
 
 ---
 ---
