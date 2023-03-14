@@ -8,7 +8,7 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 # 2022
 
 (54) **Dating microbial evolution with MCMCtree**  
-**Mario dos Reis**. (2022) In: Haiwei Luo (ed.) Environmental Microbial Evolution: Methods and Protocols. Methods in Molecular Biology, vol 2569. Humana, New York, NY. (_in press_)  
+**Mario dos Reis**. (2022) In: Haiwei Luo (ed.) Environmental Microbial Evolution: Methods and Protocols. Methods in Molecular Biology, vol 2569. Humana, New York, NY.    
 [DOI: 10.1007/978-1-0716-2691-7_1](https://doi.org/10.1007/978-1-0716-2691-7_1) GitHub: [github.com/dosreislab/microdiv](https://github.com/dosreislab/microdiv)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1007/978-1-0716-2691-7_1"></div></p>
 
