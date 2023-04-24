@@ -4,13 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the website of the **dos Reis Lab** research group @ [QMUL](https://www.qmul.ac.uk/sbcs/people/academicstaff/). You can contact us at [m.dosreisbarros@qmul.ac.uk](mailto:m.dosreisbarros@qmul.ac.uk).
+This is the website of the **dos Reis Lab** research group @ [QMUL](https://www.qmul.ac.uk/sbbs/). You can contact us at [m.dosreisbarros@qmul.ac.uk](mailto:m.dosreisbarros@qmul.ac.uk).
 
 Research in the dos Reis Lab is focused on the development and application of statistical methods in phylogenetics. We are particularly interested in using Bayesian statistics to infer times of species divergences (that is, in placing geological times of divergence on the Tree of Life), and on methods to measure the strength of natural selection in molecular sequences. You can see examples of our research in the Key Publications below.
 
 # Our Research in the Media
 
 Our research has been highlighted in the media an in textbooks! You can see some examples below:
+
+- [Sandra's YouTube interview](https://youtu.be/shsOpkkcq_A) where she discusses her work reconstructing the timeline of mammal evolution. You can red the original paper [here](https://doi.org/10.1038/s41586-021-04341-1).
 
 - [Ed Young for the Scientist](http://www.the-scientist.com/?articles.view/articleNo/38858/title/Clocks-Versus-Rocks/), and  [Ewen Callaway for Nature](https://www.nature.com/articles/nature.2014.14522), discuss our analysis of the timing of mammal evolution after the K-Pg extinction. You can read our original paper [here](http://dx.doi.org/10.1098/rsbl.2013.1003).
 
@@ -40,4 +42,4 @@ dos Reis M, Thawornwattana Y, Angelis K, Telford M, Donoghue PCJ and Yang Z. (20
 
 This website was built using Jekyll and GitHub pages. You can find more info at [jekyllrb.com](http://jekyllrb.com/) and [pages.github.com](https://pages.github.com/)
 
-_Updated July 2022_ 
+_Updated April 2023_ 
