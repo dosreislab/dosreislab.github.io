@@ -13,11 +13,6 @@ The dos Reis Lab is located in the [School of Biological and Behavioural Science
 
 Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario has a degree in Biology from Universidad Simón Bolívar, Caracas, Venezuela (2000), and MSc (2003) and PhD (2010) in Bioinformatics from Birkbeck College, London.  
 
-# Gustavo Ballen, Postdoc
-
-![](/assets/figs/ballen.png)
-
-Gustavo finished his PhD in São Paulo, Brazil, and has joined the lab to work on the development and application of morphological models in Bayesian models of divergence time estimation. You can checkout Gustavo's research in [his homepage](https://gaballench.wordpress.com).  
 
 # Muthukumaran Panchaksaram, PhD student
 
@@ -41,8 +36,13 @@ Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Inf
 ---
 
 # Past Members
+# Gustavo Ballen (2021-2023), Postdoc
 
-# Nayelí Escudero Castelán, PhD student
+![](/assets/figs/ballen.png)
+
+Gustavo finished his PhD in São Paulo, Brazil, and joined the lab to work on the development and application of morphological models in Bayesian models of divergence time estimation. You can checkout Gustavo's research in [his homepage](https://gaballench.wordpress.com).  
+
+# Nayelí Escudero Castelán (2017-2021), PhD student
 
 Nayelí worked with Prof. Maurice Elphick and Dr. dos Reis on the evolution of neuropeptides in echinoderms.
 
@@ -72,4 +72,4 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 30th January 2023._
+_Updated 14th November 2023._
