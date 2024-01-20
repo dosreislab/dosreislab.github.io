@@ -26,11 +26,19 @@ Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sa
 
 Joseph is a PhD student on the London NERC DTP working with Mario dos Reis at Queen Mary University of London and Anjali Goswami at the Natural History Museum. His research is focused on integrating phylogenomic and continuous morphological data, in the form of 3D cranial landmarks and curves, to estimate species divergence times in mammals. To achieve this aim, Joseph is assembling a morphological database of 3D cranial scans four thousands of mammals at the genus level. Joseph studied Zoology at the University of Exeter and completed a masters in Ecology, Evolution and Conservation at Imperial College London.
 
+# Siri Olsen, PhD student
+
+Siri is a PhD student on the London NERC DTP working with Mario dos Reis (QMUL) and with Aida Gómez-Robles (Anthropology, UCL). Siri will be working on integrating genetic and morphometric data to understand early homo evolution.
+
+# Andaman Kaosung, MSc student,
+
+Andaman will be exploring Bayesian modelling of trait evolution in birds, as part of his final-year project for his MSc in Biodiversity and Conservation.
+
 # Yuqing Peng, PhD student  
 
 ![](/assets/figs/yuqing.png)  
 
-Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Information Technology, China, and then an MSc in Environmental Engineering at Cranfield University, UK. During the MSc period, Yuqing was trained in R, C and HPC for modelling and statistical analysis of sample data. As a PhD student in the dos Reis lab, Yuqing will focus on phylogenetic models of natural selection and the molecular clock to analyse phylogenomic data from more than 300 mammal species.  
+Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Information Technology, China, and then an MSc in Environmental Engineering at Cranfield University, UK. During the MSc period, Yuqing was trained in R, C and HPC for modelling and statistical analysis of sample data. As a PhD student in the dos Reis lab, Yuqing will focus on phylogenetic models of natural selection and the molecular clock to analyse phylogenomic data from more than 300 mammal species.  Yuqing is currently on a one-year break from her studies.
 
 ---
 ---
@@ -72,4 +80,4 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 14th November 2023._
+_Updated 20th January 2024._
