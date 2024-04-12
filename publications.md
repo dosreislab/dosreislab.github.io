@@ -322,7 +322,7 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 # Preprints
 
 (6) **Bayesian selection of relaxed-clock models: Distinguishing between independent and autocorrelated rates**
-Panchaksaram M, Freitas L, **dos Reis M.** (2024) bioRxiv, 
+Panchaksaram M, Freitas L, **dos Reis M.** (2024) bioRxiv, 588547.   
 [DOI: 10.1101/2024.04.10.588547 ](https://doi.org/10.1101/2024.04.10.588547)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/2024.04.10.588547"></div></p>  
 
