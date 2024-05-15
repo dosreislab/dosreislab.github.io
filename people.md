@@ -28,7 +28,9 @@ Joseph is a PhD student on the London NERC DTP working with Mario dos Reis at Qu
 
 # Siri Olsen, PhD student
 
-Siri is a PhD student on the London NERC DTP working with Mario dos Reis (QMUL) and with Aida Gómez-Robles (Anthropology, UCL). Siri will be working on integrating genetic and morphometric data to understand early homo evolution.
+![](/assets/figs/siri.png)
+
+Siri is a PhD student with the London NERC DTP, working with Mario dos Reis and Aida Gómez-Robles from Anthroplogy at University College London. Her research will focus on integrating genomic and morphometric data to reconstruct the phylogeny of the hominins and study temporal trends in hominin cranial morphology. Siri holds a BA in Prehistoric Archaeology from the University of Copenhagen, Denmark, and an MSc in Human Evolution and Behaviour from University College London.
 
 # Andaman Kaosung, MSc student,
 
