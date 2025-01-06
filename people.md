@@ -32,10 +32,6 @@ Joseph is a PhD student on the London NERC DTP working with Mario dos Reis at Qu
 
 Siri is a PhD student with the London NERC DTP, working with Mario dos Reis and Aida Gómez-Robles from Anthroplogy at University College London. Her research will focus on integrating genomic and morphometric data to reconstruct the phylogeny of the hominins and study temporal trends in hominin cranial morphology. Siri holds a BA in Prehistoric Archaeology from the University of Copenhagen, Denmark, and an MSc in Human Evolution and Behaviour from University College London.
 
-# Andaman Kaosung, MSc student,
-
-Andaman will be exploring Bayesian modelling of trait evolution in birds, as part of his final-year project for his MSc in Biodiversity and Conservation.
-
 # Yuqing Peng, PhD student  
 
 ![](/assets/figs/yuqing.png)  
@@ -51,6 +47,10 @@ Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Inf
 ![](/assets/figs/muthu.png)
 
 Muthukumaran graduated as B.Tech (Bachelor of technology) in biotechnology at Sathyabama University, Chennai, India. He then pursued further studies in the same branch as a M.Tech student at Vellore Institute of Technology. His research focussed on designing a statistical QSAR (quantitative structure-activity relationship) model using multivariate image analysis for the prediction of biological activities of flavonoid derivatives, pharmaceutically active against acetylcholinesterase and HIV-1 inhibitors. As a PhD student in the lab, he worked on statistical methods to detect adaptation in molecular sequences and tests of the molecular clock.
+
+# Andaman Kaosung (2024), MSc
+
+Andaman carried out his MSc in Biodiversity and Conservation project on the evolution of shrikes (Laniidae, Aves).
 
 # Gustavo Ballen (2021-2023), Postdoc
 
