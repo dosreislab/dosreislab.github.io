@@ -13,6 +13,12 @@ The dos Reis Lab is located in the [School of Biological and Behavioural Science
 
 Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario has a degree in Biology from Universidad Simón Bolívar, Caracas, Venezuela (2000), and MSc (2003) and PhD (2010) in Bioinformatics from Birkbeck College, London.  
 
+# Laura Mulvey, Postdoc
+
+![](/assets/figs/mulvey.png)
+
+Laura finished her PhD in 2024 at Friedrich Alexander University Erlangen-Nuremberg. Her work centred around the incorporation of fossil data into phylogenetic inference. Specifically, the use of model adequacy for understanding the suitability of discrete morphological models, as well as the application of Fossilised birth-death models. Her current research in the lab focuses on large scale divergence time studies with MCMCtree, and the implementation of Hamiltonian Monte Carlo sampling for phylogenetic inference.   
+
 
 # Joseph Minus, PhD student
 
