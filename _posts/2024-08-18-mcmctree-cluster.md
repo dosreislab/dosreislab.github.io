@@ -23,7 +23,7 @@ First, let's login onto the cluster. Please replace `xyz123` below with your QMU
 ssh xyz123@login.hpc.qmul.ac.uk
 ```
 
-Downloading and compiling software are resource intesive tasks. Thus, we will first log onto the queue, so that a suitable node is allocated to us. In that way, we will not interfere with the work of other users of Apocrita. In the command line type:
+Downloading and compiling software are resource intensive tasks. Thus, we will first log onto the queue, so that a suitable node is allocated to us. In that way, we will not interfere with the work of other users of Apocrita. In the command line type:
 
 ```
 qlogin
@@ -247,7 +247,7 @@ The job will eventually be split into the array, and you will see four jobs with
 
 # 4. Check the MCMC results once the job has finished
 
-Congratulations You have submitted your firt job to the cluster! Once the jobs have finished, you can check the results. You will see four files have been created:
+Congratulations, you have submitted your firt job to the cluster! Once the jobs have finished, you can check the results. You will see four files have been created:
 
 ```
 mcmctree-job.sh.o3803592.1 mcmctree-job.sh.o3803592.2 mcmctree-job.sh.o3803592.3 mcmctree-job.sh.o3803592.4
