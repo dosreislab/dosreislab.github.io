@@ -359,10 +359,10 @@ Campbell CR, Tiley GP, Poelstra JW, Hunnicutt KE, Larsen PA, **dos Reis M**, and
 
 # Peer-review
 
-Associate editor of Genome Biology and Evolution (2020--).
+Associate editor of Genome Biology and Evolution (2020-2024).
 
 Have reviewed papers for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, BMC Genomics, Cell, Cladistics, Current Biology, eLife, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Evolutionary Biology, Journal of the Geological Society, Journal of Molecular Evolution, Journal of Biogeography, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, Virus Evolution, and Wellcome Open Research.
 
-Have reviewed for The Austrian Science Fund (FWF), The Biotechnology and Biological Sciences Research Council (BBSRC, UK), The Czech Academy of Sciences, The European Research Council (ERC), The French National Research Agency (ANR), The Human Science Frontier Program (HSFP), The Ministry of Health of Singapore, The Science and Technology Facilities Research Council (STFC, UK), The Swiss National Science Foundation, The UK Research and Innovation Fellowships, and the Wellcome Trust UK.
+Have reviewed for The Austrian Science Fund (FWF), The Biotechnology and Biological Sciences Research Council (BBSRC, UK), The Czech Academy of Sciences, The European Research Council (ERC), The French National Research Agency (ANR), The Human Science Frontier Program (HSFP), The Ministry of Health of Singapore, The Science and Technology Facilities Research Council (STFC, UK), The Swiss National Science Foundation, The UK Research and Innovation Fellowships, The Royal Society, and the Wellcome Trust UK.
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
