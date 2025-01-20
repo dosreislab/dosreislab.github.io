@@ -16,8 +16,6 @@ Our research has been highlighted in the media an in textbooks! You can see some
 
 - [Ed Young for the Scientist](http://www.the-scientist.com/?articles.view/articleNo/38858/title/Clocks-Versus-Rocks/), and  [Ewen Callaway for Nature](https://www.nature.com/articles/nature.2014.14522), discuss our analysis of the timing of mammal evolution after the K-Pg extinction. You can read our original paper [here](http://dx.doi.org/10.1098/rsbl.2013.1003).
 
-- [Ridiculously Cute Mouse Lemurs Hold key to Madagascar’s Past](http://voices.nationalgeographic.org/2016/07/19/ridiculously-cute-mouse-lemurs-hold-key-to-madagascars-past/) in National Geographic, discusses the work we did in collaboration with Anne Yoder's group (Duke University) on how timing divergences in mouse lemur species can be used to understand Madagascar's past. You can read the original paper [here](http://dx.doi.org/10.1073/pnas.1601081113), and our blog [post](/2016/07/03/coalescent-calibration.html).
-
 - Our work on influenza is featured in [Herron and Freeman's Evolutionary Analysis](https://href.li/?http://www.amazon.co.uk/Evolutionary-Analysis-Jon-C-Herron/dp/0321616677/ref=sr_1_1?ie=UTF8&qid=1408379766&sr=8-1&keywords=evolutionary+analysis), on the molecular clock in [Yang's Molecular Evolution: A Statistical Approach](https://www.amazon.co.uk/gp/product/0199602611/ref=dbs_a_def_rwt_bibl_vppi_i0) and on codon bias in [Lynch's The Origins of Genome Architecture](https://www.amazon.co.uk/Origins-Genome-Architecture-Michael-Lynch/dp/0878934847/ref=sr_1_1?keywords=the+origins+of+genome+architecture&qid=1575393048&s=books&sr=1-1).
 
 - We have provided comment for [The Guardian](https://www.theguardian.com/science/grrlscientist/2015/aug/12/taking-flight-cape-parrot-identified-as-new-species) on the molecular clock of parrots.
@@ -40,6 +38,10 @@ dos Reis M, Donoghue PCJ and Yang Z. (2016) Nature Reviews Genetics, 17: 71–80
 dos Reis M, Thawornwattana Y, Angelis K, Telford M, Donoghue PCJ and Yang Z. (2015) Current Biology, 25: 2939–2950.  
 [DOI: 10.1016/j.cub.2015.09.066](https://dx.doi.org/10.1016/j.cub.2015.09.066)
 
+- **Solving the riddle of codon usage preferences: A test for translational selection**  
+dos Reis M, Savva R and Wernisch L. (2004) Nucleic Acids Research, 32: 5036–5044.  
+[DOI: 10.1093/nar/gkh834](https://dx.doi.org/10.1093/nar/gkh834)
+
 This website was built using Jekyll and GitHub pages. You can find more info at [jekyllrb.com](http://jekyllrb.com/) and [pages.github.com](https://pages.github.com/)
 
-_Updated April 2023_ 
+_Updated January 2025_ 
