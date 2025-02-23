@@ -4,6 +4,8 @@ title:   "Help, my MCMCtree analysis doesn't work!"
 author: "Mario dos Reis"
 ---
 
+_Updated: 23th Feb 2025._
+
 I regularly receive emails from people who are struggling with their
 molecular-clock dating analyses in MCMCtree and who do not understand what may
 be going wrong. Here, I comment on some common issues you may encounter when
@@ -76,6 +78,33 @@ file). Then run your analysis and make sure you get sensible results.
 approximate likelihood increases with the square of the number of species, and
 calculation of the time and rate priors increase linearly with number of species.
 This will give you a rough idea of how long your full data set should take to run.
+
+# My analysis is running but my mcmc.txt file is empty!
+
+Large datasets (with hundreds or thousands of species) may take a very long time
+to run. It may be several hours before the MCMC sample starts getting printed to
+the `mcmc.txt` file. Analysis under exact likelihood can be up to 1,000 times
+slower than approximate likelihood, that is, an approximate analysis that
+requires one hour may require 1,000 hours (42 days) using exact likelihood under
+the same MCMC sampling settings.
+
+**Recommendations:**
+* Carry out sanity tests on a small dataset before running the large dataset, as
+explained above.
+* For the large dataset, do a test run with `burnin=0`, `sampfreq=1` and `nsamp=1`,
+in the control file, then run the analysis (which will run for one generation
+with no burn-in) and time it. Say it took t = 3 seconds for MCMCtree to  
+generate this one sample. You can now calculate the total time as
+T = t * (`burnin` + `sampfreq` * `nsamp`). For example, if you are aiming for
+`burnin = 5000`, `sampfreq = 1000`, and `nsamp = 10000`, then your total running
+time will be 3 * (5000 +  1000 * 10000) = 30,015,000 seconds, which is 8,338
+hours or about a year. Running very large analyses may require running many
+independent, simultaneous MCMC chains in an HPC cluster. For example, if you run
+12 independent chains for 1 month in parallel, you will achieve the require
+equivalent of one year of running time. Note MCMCtree now implements checkpointing,
+which means you can restart an MCMC chain after it has ended. This is useful for
+running the software in HPC clusters with limited time queues. Please refer to
+MCMCtree's manual for information.
 
 # How do I choose the best clock model?
 
