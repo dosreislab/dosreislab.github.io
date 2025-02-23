@@ -93,7 +93,7 @@ the same MCMC sampling settings.
 explained above.
 * For the large dataset, do a test run with `burnin=0`, `sampfreq=1` and `nsamp=1`,
 in the control file, then run the analysis (which will run for one generation
-with no burn-in) and time it. Say it took t = 3 seconds for MCMCtree to  
+with no burn-in) and time it. Say it took t = 3 seconds for MCMCtree to
 generate this one sample. You can now calculate the total time as
 T = t * (`burnin` + `sampfreq` * `nsamp`). For example, if you are aiming for
 `burnin = 5000`, `sampfreq = 1000`, and `nsamp = 10000`, then your total running
@@ -110,9 +110,12 @@ MCMCtree's manual for information.
 
 MCMCtree now implements sampling from power posteriors, which allows you to
 perform Bayesian selection of clock model, tree topology and substitution model.
-Unfortunately, the power posteriors must be calculated using exact likelihood and
-the approximate method can not be used. See my [blog post](https://dosreislab.github.io/2017/10/24/marginal-likelihood-mcmc3r.html)
-on Bayesian model selection with MCMCtree.
+In a recent paper, we have shown that the power posteriors can be calculated using
+the approximate method (Panchaksaram et al. 2024).
+
+**Recommendations:**
+* You can use the `mcmc3r` R package to prepare MCMCtree control files for power
+posterior calculations. See my [blog post](https://dosreislab.github.io/2017/10/24/marginal-likelihood-mcmc3r.html) on Bayesian model selection with MCMCtree.
 
 # Are there any tutorials to learn how to use MCMCtree?
 
@@ -138,12 +141,15 @@ If you use the approximate likelihood method please cite
 estimation of divergence times. Molecular Biology and Evolution,
 28:2161-2172.
 
-If you use the `mcmc3r` package for Bayesian selection of clock model please
-cite
+Bayesian selection of clock model with the `mcmc3r` package is described in
 
 * dos Reis et al. (2018) Using phylogenomic data to explore the effects of
 relaxed clocks and calibration strategies on divergence time estimation: Primates
 as a test case. Systematic Biology, 67: 594–615.
+
+* Panchaksaram et al. (2024) Bayesian Selection of Relaxed-clock Models:
+Distinguishing Between Independent and Autocorrelated Rates. Systematic Biology,
+syae066.
 
 -----
 [^1]: [https://github.com/dosreislab/mcmc3r](https://github.com/dosreislab/mcmc3r)
