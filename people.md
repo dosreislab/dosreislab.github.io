@@ -38,6 +38,10 @@ Siri is a PhD student with the London NERC DTP, working with Mario dos Reis and 
 
 Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Information Technology, China, and then an MSc in Environmental Engineering at Cranfield University, UK. During the MSc period, Yuqing was trained in R, C and HPC for modelling and statistical analysis of sample data. As a PhD student in the dos Reis lab, Yuqing will focus on phylogenetic models of natural selection and the molecular clock to analyse phylogenomic data from more than 300 mammal species.  Yuqing is currently on a one-year break from her studies.
 
+# Ishika Kaur Johar and Zahedul Islam, MSc students
+
+Ishika and Zahedul are developing an R package for SNP analysis as part of their MSc Bioinformatics project.
+
 ---
 ---
 
@@ -88,4 +92,4 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 6th Jan 2025._
+_Updated 25th March 2025._
