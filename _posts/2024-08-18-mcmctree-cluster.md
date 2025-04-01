@@ -61,7 +61,7 @@ The `src` directory contains the _source_ files with the code that makes up MCMC
 
 ```
 PRGS =  mcmctree
-CC = icc # cc, gcc, cl # if running on an intel cluster, check if you can compile with the intel compiler, icc
+CC = icx # cc, gcc, cl # if running on an intel cluster, check if you can compile with the intel compiler, icc
 
 #CFLAGS = -O3
 CFLAGS = -fast # this flag is for the intel compiler
@@ -75,23 +75,26 @@ mcmctree : mcmctree.c  tools.c treesub.c treespace.c paml.h
         $(CC) $(CFLAGS) -o infinitesites -D INFINITESITES mcmctree.c tools.c $(LIBS)
 ```
 
-Three lines have changed. The second line is changed to `CC = icc`, which tells the system to use the Intel compiler. Line five has a comment character `#` added at the beginning. Line six is changed to `CFLAGS = -fast`, which tells the Intel compiler to generate fast code. Go back to the command line and ask the system to list the Intel compilers available:
+Three lines have changed. The second line is changed to `CC = icx`, which tells the system to use the Intel compiler. Line five has a comment character `#` added at the beginning. Line six is changed to `CFLAGS = -fast`, which tells the Intel compiler to generate fast code. 
+
+[**Note:** `icx` is the new name for the intel compiler executable, with the old `icc` now deprecated.]
+
+Go back to the command line and ask the system to list the Intel compilers available:
 
 ```
 module avail intel
 ```
 
-As of Aug 2024, the command above lists the following compilers:
+As of April 2025, the command above lists the following compilers:
 
 ```
-intel/2017.1  intel/2018.1  intel/2020.4  intelmpi/2017.1  intelmpi/2018.1  intelmpi/2020.4  
-intel/2017.3  intel/2018.3  intel/2022.2  intelmpi/2017.3  intelmpi/2018.3  intelmpi/2022.2  
+intel-classic/2021.10.0  intel-mkl/2024.1.0  intel-mpi/2021.12.1  intel-tbb/2021.9.0-gcc-12.2.0  intel/2023.2.4  intel/2024.1.0  
 ```
 
-The mpi compilers are used to generate MPI parallelisable code. MCMCtree does not use MPI so we don't need to use these. The latest compiler available in my list is `intel/2022.2`. Load the compiler with:
+The mpi compilers are used to generate MPI parallelisable code. MCMCtree does not use MPI so we don't need to use these. The latest compiler available in my list is `intel/2024.1.0`. Load the compiler with:
 
 ```
-module load intel/2022.2
+module load intel/2024.1.0
 ```
 
 You can use a later version of the compiler if available. Now we can compile MCMCtree:
@@ -100,7 +103,7 @@ You can use a later version of the compiler if available. Now we can compile MCM
 make
 ```
 
-The `make` program reads the instructions in `Makefile`, and calls the `icc` compiler as appropriate. Let's print the contents of the `src` directory to our screen, which now contains the `mcmctree` executable:
+The `make` program reads the instructions in `Makefile`, and calls the `icx` compiler as appropriate. Let's print the contents of the `src` directory to our screen, which now contains the `mcmctree` executable:
 
 ```
 ls
