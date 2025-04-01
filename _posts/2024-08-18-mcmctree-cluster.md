@@ -88,7 +88,8 @@ module avail intel
 As of April 2025, the command above lists the following compilers:
 
 ```
-intel-classic/2021.10.0  intel-mkl/2024.1.0  intel-mpi/2021.12.1  intel-tbb/2021.9.0-gcc-12.2.0  intel/2023.2.4  intel/2024.1.0  
+intel-classic/2021.10.0  intel-mkl/2024.1.0  intel-mpi/2021.12.1  
+intel-tbb/2021.9.0-gcc-12.2.0  intel/2023.2.4  intel/2024.1.0  
 ```
 
 The mpi compilers are used to generate MPI parallelisable code. MCMCtree does not use MPI so we don't need to use these. The latest compiler available in my list is `intel/2024.1.0`. Load the compiler with:
