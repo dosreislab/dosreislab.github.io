@@ -63,8 +63,8 @@ The `src` directory contains the _source_ files with the code that makes up MCMC
 PRGS =  mcmctree
 CC = icx # cc, gcc, cl # if running on an intel cluster, check if you can compile with the intel compiler, icc
 
-#CFLAGS = -O3
-CFLAGS = -fast # this flag is for the intel compiler
+CFLAGS = -O3
+#CFLAGS = -fast # this flag is for the intel compiler
 
 LIBS = -lm # -lM
 
@@ -75,9 +75,9 @@ mcmctree : mcmctree.c  tools.c treesub.c treespace.c paml.h
         $(CC) $(CFLAGS) -o infinitesites -D INFINITESITES mcmctree.c tools.c $(LIBS)
 ```
 
-Three lines have changed. The second line is changed to `CC = icx`, which tells the system to use the Intel compiler. Line five has a comment character `#` added at the beginning. Line six is changed to `CFLAGS = -fast`, which tells the Intel compiler to generate fast code. 
+One line has changed: The second line is changed to `CC = icx`, which tells the system to use the Intel compiler.
 
-[**Note:** `icx` is the new name for the intel compiler executable, with the old `icc` now deprecated.]
+[⚠️ **Note:** `icx` is the new Intel compiler executable, which is based on the `llvm` compiler (the same one used by Apple's `clang`). The previous Intel Compiler Collection, `icc`, is now deprecated. The `-fast` flag is not recommended. Use `-O3` instead.]
 
 Go back to the command line and ask the system to list the Intel compilers available:
 
@@ -272,5 +272,5 @@ will let you examine the `out` file. The `less` command is very useful to examin
 
 Now that you have finished your HPC tutorial, take the time to go through [Apocrita's documentation on the web](https://docs.hpc.qmul.ac.uk/), where many job example scripts are available. Also, learning BASH (shell scripting) as well as the commands `awk`, `sed` and `grep` will improve your skills in preparing scripts and processing text output. The `vim` text editor is also extremely powerful. There are many tutorials on the web available for all these commands. It is worth spending a day learning each one of them. Other simple, yet useful, commands include `rev`, `head`, `tail`, `cat` and `paste`. You can learn more about them with their manual pages (e.g., `man cat`). Enjoy!
 
-_Last Updated 19th Aug 2024._
+_Last Updated 7th April 2025._
 
