@@ -213,7 +213,7 @@ cd $SGE_TASK_ID
 if [ -f "$FMCMC" ]; then
     echo "ERROR: $FMCMC exists, nothing done."
 else
-    # This is MCMCtree 4.9j compiled with icc -fast and with NS = 1500
+    # This is MCMCtree compiled with the Intel compiler
     date >START 
     ~/software/mcmctree/src/mcmctree mcmctree.ctl   
     date >DONE
