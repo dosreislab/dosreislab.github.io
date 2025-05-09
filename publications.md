@@ -328,9 +328,14 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Preprints
 
+(7) **IQ2MC:A new framework to infer phylogenetic time trees using IQ-TREE3 and MCMCTree with mixture models**  
+Piyumal Demotte, Muthukumaran Panchaksaram, Hashara Kumarasinghe, Nhan Ly-Trong, **Mario dos Reis**, Bui Quang Minh1. (2024) EcoEvoRxiv, 9125.  
+[DOI: 10.32942/X2CD2X](https://doi.org/10.32942/X2CD2X)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.32942/X2CD2X"></div></p>
+
 (6) **Bayesian selection of relaxed-clock models: Distinguishing between independent and autocorrelated rates**   
 Panchaksaram M, Freitas L, **dos Reis M.** (2024) bioRxiv, 588547.   
-[DOI: 10.1101/2024.04.10.588547 ](https://doi.org/10.1101/2024.04.10.588547)
+[DOI: 10.1101/2024.04.10.588547](https://doi.org/10.1101/2024.04.10.588547)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/2024.04.10.588547"></div></p>  
 
 (5) **A mutation-selection model of protein evolution under persistent positive selection**  
@@ -364,5 +369,7 @@ Associate editor of Genome Biology and Evolution (2020-2024).
 Have reviewed papers for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, BMC Genomics, Cell, Cladistics, Current Biology, eLife, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Evolutionary Biology, Journal of the Geological Society, Journal of Molecular Evolution, Journal of Biogeography, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, Virus Evolution, and Wellcome Open Research.
 
 Have reviewed for The Austrian Science Fund (FWF), The Biotechnology and Biological Sciences Research Council (BBSRC, UK), The Czech Academy of Sciences, The European Research Council (ERC), The French National Research Agency (ANR), The Human Science Frontier Program (HSFP), The Ministry of Health of Singapore, The Science and Technology Facilities Research Council (STFC, UK), The Swiss National Science Foundation, The UK Research and Innovation Fellowships, The Royal Society, and the Wellcome Trust UK.
+
+[//]: # (The bottom line is required for the Altmetric badges)
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
