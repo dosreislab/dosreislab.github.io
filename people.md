@@ -3,7 +3,8 @@ layout: page
 title: People
 permalink: /people/
 ---
-![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
+![dos Reis and Yang labs at the Grant Museum, UCL, November 2025. Left to right: Jiayi Ji, Chi Zhang, Yuttapong Thawornwattana, Lucas Freitas, Zihui Yang, Ziheng Yang, Yuqing Peng (bottom), Siri Olsen (top), Laura Mulvey, Mario dos Reis (bottom), Asif Tamuri (top), Sandra Álvarez-Carretero.](/assets/figs/dosReis-Yang-labs-xmas2025.jpg)
+_Photo: dos Reis and Yang research groups, and visitors, at the Grant Museum, University College London. Left to right: Jiayi Ji, Chi Zhang, Yuttapong Thawornwattana, Lucas Freitas, Zihui Yang, Ziheng Yang, Yuqing Peng (bottom), Siri Olsen (top), Laura Mulvey, Mario dos Reis (bottom), Asif Tamuri (top), Sandra Álvarez-Carretero._
 
 The dos Reis Lab is located in the [School of Biological and Behavioural Sciences](https://qmul.ac.uk/sbbs) at [Queen Mary University of London](https://qmul.ac.uk).
 
@@ -36,16 +37,16 @@ Siri is a PhD student with the London NERC DTP, working with Mario dos Reis and 
 
 ![](/assets/figs/yuqing.png)  
 
-Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Information Technology, China, and then an MSc in Environmental Engineering at Cranfield University, UK. During the MSc period, Yuqing was trained in R, C and HPC for modelling and statistical analysis of sample data. As a PhD student in the dos Reis lab, Yuqing will focus on phylogenetic models of natural selection and the molecular clock to analyse phylogenomic data from more than 300 mammal species.  Yuqing is currently on a one-year break from her studies.
-
-# Ishika Kaur Johar and Zahedul Islam, MSc students
-
-Ishika and Zahedul are developing an R package for SNP analysis as part of their MSc Bioinformatics project.
+Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Information Technology, China, and then an MSc in Environmental Engineering at Cranfield University, UK. During the MSc period, Yuqing was trained in R, C and HPC for modelling and statistical analysis of sample data. As a PhD student in the dos Reis lab, Yuqing will focus on phylogenetic models of natural selection and the molecular clock to analyse phylogenomic data from more than 300 mammal species.
 
 ---
 ---
 
 # Past Members
+# Ishika Kaur Johar and Zahedul Islam (2025), MSc students
+
+Ishika and Zahedul are developed an R package for SNP analysis as part of their MSc Bioinformatics project.
+
 # Muthukumaran Panchaksaram (2020-2024), PhD student
 
 ![](/assets/figs/muthu.png)
@@ -92,4 +93,6 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-_Updated 25th March 2025._
+![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
+
+_Updated 24th Nov 2025._
