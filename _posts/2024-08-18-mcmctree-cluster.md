@@ -53,6 +53,8 @@ git clone https://github.com/dosreislab/mcmctree.git
 
 You now have downloaded dos Reis' lab modified version of MCMCtree. The modifications have been made to simplify certain HPC tasks (such as running unlimited checkpoint cycles, for computational heavy analyses, such as trees with too many species). Let's go into the `src` directory of mcmctree and compile the executable.
 
+> ⚠️WARNING: As of Dec 2025, the `mcmctree` version in the dos Reis Lab repository is now outdated. All necessary functionality is now available from the official repository, so please clone `mcmctree` from `https://github.com/abacus-gene/paml` instead. Note you still need to use the `ape*` files in the dos Reis Lab repository to do the tutorial below.
+
 ```
 cd mcmctree/src
 ```
@@ -77,7 +79,7 @@ mcmctree : mcmctree.c  tools.c treesub.c treespace.c paml.h
 
 One line has changed: The second line is changed to `CC = icx`, which tells the system to use the Intel compiler.
 
-[⚠️ **Note:** `icx` is the new Intel compiler executable, which is based on the `llvm` compiler (the same one used by Apple's `clang`). The previous Intel Compiler Collection, `icc`, is now deprecated. The `-fast` flag is not recommended. Use `-O3` instead.]
+> ⚠️NOTE: `icx` is the new Intel compiler executable, which is based on the `llvm` compiler (the same one used by Apple's `clang`). The previous Intel Compiler Collection, `icc`, is now deprecated. The `-fast` flag is not recommended. Use `-O3` instead.]
 
 Go back to the command line and ask the system to list the Intel compilers available:
 
@@ -184,6 +186,8 @@ lrwxrwxrwx 1 xyz123 qmul 15 Aug 18 19:31 mcmctree.ctl -> ../mcmctree.ctl
 ```
 
 Note the arrows indicating the files are soft links.
+
+> ⚠️WARNING: If you are using the version from the official repository, you will need to fix the birth-death prior line in the `mcmctree.ctl` control file. You should add a `C` flag at the end of the line, so that it looks something like `BDparas = 1 1 0 C`.
 
 # 3. Submit the MCMCtree job to Apocrita's job queueing system
 
