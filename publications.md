@@ -5,10 +5,10 @@ permalink: /publications/
 ---
 Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](http://scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl)
 
-# 2024
+# 2025
 
 (55) **Bayesian Selection of Relaxed-clock Models: Distinguishing Between Independent and Autocorrelated Rates**  
-Muthukumaran Panchaksaram, Lucas Freitas and **Mario dos Reis**. (2024) Systematic Biology.  
+Muthukumaran Panchaksaram, Lucas Freitas and **Mario dos Reis**. (2024) Systematic Biology, 74: 323–334.  
 [DOI: 10.1093/sysbio/syae066](https://doi.org/10.1093/sysbio/syae066)   
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/sysbio/syae066"></div></p>
 
