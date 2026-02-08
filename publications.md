@@ -329,7 +329,7 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 # Preprints
 
 (7) **IQ2MC:A new framework to infer phylogenetic time trees using IQ-TREE3 and MCMCTree with mixture models**  
-Piyumal Demotte, Muthukumaran Panchaksaram, Hashara Kumarasinghe, Nhan Ly-Trong, **Mario dos Reis**, Bui Quang Minh1. (2024) EcoEvoRxiv, 9125.  
+Piyumal Demotte, Muthukumaran Panchaksaram, Hashara Kumarasinghe, Nhan Ly-Trong, **Mario dos Reis**, Bui Quang Minh1. (2025) EcoEvoRxiv, 9125.  
 [DOI: 10.32942/X2CD2X](https://doi.org/10.32942/X2CD2X)  
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.32942/X2CD2X"></div></p>
 
