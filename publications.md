@@ -328,6 +328,11 @@ Sheng G, **dos Reis M**, and Stern CD. (2003) Cell, 115: 603–613. **[Supportin
 
 # Preprints
 
+(8) **The limits of Bayesian estimates of divergence times in measurably evolving populations**
+Simona Ivanov, Samuel Fosse, **Mario dos Reis**, and Sebastian Duchene. (2026) bioRxiv, 708707.
+[DOI: 10.64898/2026.02.28.708707](https://doi.org/10.64898/2026.02.28.708707)
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.64898/2026.02.28.708707"></div></p>
+
 (7) **IQ2MC:A new framework to infer phylogenetic time trees using IQ-TREE3 and MCMCTree with mixture models**  
 Piyumal Demotte, Muthukumaran Panchaksaram, Hashara Kumarasinghe, Nhan Ly-Trong, **Mario dos Reis**, Bui Quang Minh1. (2025) EcoEvoRxiv, 9125.  
 [DOI: 10.32942/X2CD2X](https://doi.org/10.32942/X2CD2X)  
@@ -342,6 +347,7 @@ Panchaksaram M, Freitas L, **dos Reis M.** (2024) bioRxiv, 588547.
 Tamuri AU, and **dos Reis M.** (2021) bioRxiv, 444611.  
 [DOI: 10.1101/2021.05.18.444611](https://doi.org/10.1101/2021.05.18.444611)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/2021.05.18.444611"></div></p>  
+
 (4) **Pedigree-based measurement of the de novo mutation rate in the gray mouse lemur reveals a high mutation rate, few mutations in CpG sites, and a weak sex bias**  
 Campbell CR, Tiley GP, Poelstra JW, Hunnicutt KE, Larsen PA, **dos Reis M**, and Yoder AD. (2019) bioRxiv, 724880.  
 [DOI: 10.1101/724880](https://doi.org/10.1101/724880)  
