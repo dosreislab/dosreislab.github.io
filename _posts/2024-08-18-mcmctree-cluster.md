@@ -4,6 +4,13 @@ title:   "Using MCMCtree in QMUL's Apocrita"
 author: "Mario dos Reis"
 ---
 
+> ⚠️WARNING: As of March 2026, QMUL's Apocrita system has moved to
+> the SLURM queueing system, and the scripts in this tutorial will 
+> need modification to run correctly. Furthermore, the dos Reis lab 
+> fork of mcmctree is now very outdated. Please use the latest 
+> version from the PAML's official release repository. THIS TUTORIAL 
+> IS NOW DEPRECATED.
+
 In this tutorial we will run a simple MCMCtree analysis at [QMUL's Apocrita high-performance computer cluster](https://docs.hpc.qmul.ac.uk/). QMUL students and staff can request an Apocrita account [here](https://docs.hpc.qmul.ac.uk/intro/hpc-account/). Apocrita uses job scheduling software for fair allocation of computational resources to users of the cluster. To submit a computational analysis to Apocrita, you must first write a script with instructions for you analyses. This script (known as a job) is submitted to the scheduler's job queue. When a computing node with enough resources becomes available, your job is released from the queue and allocated to the node, where it is allowed to run. There is extensive documentation at Apocrita's home site on how to use the cluster and the scheduler.
 
 This tutorial assumes you are familiar with the command line, SSH, MCMCtree (i.e, you have already done the MCMCtree tutorials), and basic shell scripting with BASH.
@@ -276,5 +283,5 @@ will let you examine the `out` file. The `less` command is very useful to examin
 
 Now that you have finished your HPC tutorial, take the time to go through [Apocrita's documentation on the web](https://docs.hpc.qmul.ac.uk/), where many job example scripts are available. Also, learning BASH (shell scripting) as well as the commands `awk`, `sed` and `grep` will improve your skills in preparing scripts and processing text output. The `vim` text editor is also extremely powerful. There are many tutorials on the web available for all these commands. It is worth spending a day learning each one of them. Other simple, yet useful, commands include `rev`, `head`, `tail`, `cat` and `paste`. You can learn more about them with their manual pages (e.g., `man cat`). Enjoy!
 
-_Last Updated 7th April 2025._
+_Last Updated 9th May 2026._
 
