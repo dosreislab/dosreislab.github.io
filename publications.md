@@ -10,7 +10,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 (56) **IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models**  
 Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector
 Baños, Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick
-Goldman, Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh. (2026) Molecular Biology and Evolution (_accepted_)
+Goldman, Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh. (2026) Molecular Biology and Evolution, msag117.    
+[DOI: 10.1093/molbev/msag117](https://doi.org/10.1093/molbev/msag117)  
+<p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/molbev/msag117"></div></p>
 
 # 2025
 
@@ -151,7 +153,7 @@ Thiltgen G, dos Reis M and Goldstein RA. (2017) Journal of Molecular Evolution, 
 # 2016
 
 (31) **Geogenetic patterns in mouse lemurs (genus Microcebus) reveal the ghosts of Madagascar’s forests past**  
-Yoder AD, Campbell CR, Blanco MB, dos Reis M, Ganzhorn JU, Goodman SM, Hunnicutt KE, Larsen PA, Kappeler PM, Rasoloarison RM, Ralison JM, Swofford DL and Weisrock DW. (2016) Proceedings of the National Academy of Sciences, 113: 8049–8056. **[Comments in The Washington Post,](https://href.li/?https://www.washingtonpost.com/news/speaking-of-science/wp/2016/07/18/this-absurdly-adorable-mouse-lemur-lets-scientists-travel-back-in-time/) [and National Geographic](https://href.li/?http://voices.nationalgeographic.com/2016/07/19/ridiculously-cute-mouse-lemurs-hold-key-to-madagascars-past/)**  
+Yoder AD, Campbell CR, Blanco MB, dos Reis M, Ganzhorn JU, Goodman SM, Hunnicutt KE, Larsen PA, Kappeler PM, Rasoloarison RM, Ralison JM, Swofford DL and Weisrock DW. (2016) Proceedings of the National Academy of Sciences, 113: 8049–8056. **[Comments in The Washington Post.](https://href.li/?https://www.washingtonpost.com/news/speaking-of-science/wp/2016/07/18/this-absurdly-adorable-mouse-lemur-lets-scientists-travel-back-in-time/)**  
 [DOI: 10.1073/pnas.1601081113](https://dx.doi.org/10.1073/pnas.1601081113)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1073/pnas.1601081113"></div></p>
 
@@ -227,7 +229,7 @@ Yoder AD, Chan LM, dos Reis M, Larsen PA, Campbell CR, Rasolarison R, Barrett M,
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/gbe/evu006"></div></p>
 
 (17) **Neither phylogenomic nor palaeontological data support a Paleogene origin of placental mammals**  
-dos Reis M, Donoghue PCJ and Yang Z. (2014) Biology Letters, 10: 20131003. **[Comments in Nature,](https://href.li/?http://dx.doi.org/10.1038/nature.2014.14522) [The Scientist,](https://href.li/?http://www.the-scientist.com/?articles.view/articleNo/38858/title/Clocks-Versus-Rocks/) [and Phys.org](https://href.li/?http://phys.org/news/2014-01-team-fossil-only-placental-mammalian-evolution.html) - [F1000 review](https://href.li/?http://f1000.com/prime/718241049)**  
+dos Reis M, Donoghue PCJ and Yang Z. (2014) Biology Letters, 10: 20131003. **[Comments in Nature](https://href.li/?http://dx.doi.org/10.1038/nature.2014.14522) [and Phys.org](https://href.li/?http://phys.org/news/2014-01-team-fossil-only-placental-mammalian-evolution.html) - [F1000 review](https://href.li/?http://f1000.com/prime/718241049)**  
 [DOI: 10.1098/rsbl.2013.1003](https://dx.doi.org/10.1098/rsbl.2013.1003)
 <p><div data-badge-popover="right" class='altmetric-embed' data-badge-type='donut' data-doi="10.1098/rsbl.2013.1003"></div></p>
 
