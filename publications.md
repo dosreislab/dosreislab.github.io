@@ -379,6 +379,7 @@ dos Reis M. (2013) arXiv, 1311.6682.
 
 # Peer-review
 
+Member of the BBSRC UK grant panels (2023-).
 Associate editor of Genome Biology and Evolution (2020-2024).
 
 Have reviewed papers for Algorithms for Molecular Biology, Animal Genetics, Bioinformatics, Biology Letters, BioSystems, BMC Evolutionary Biology, BMC Genomics, Cell, Cladistics, Current Biology, eLife, F1000Research, FEBS letters, Gene Expression Patterns, Genome Biology and Evolution, Geobiology, Infection Genetics and Evolution, Interface Focus, Journal of Evolutionary Biology, Journal of the Geological Society, Journal of Molecular Evolution, Journal of Biogeography, Journal of Theoretical Biology, Mechanisms of Development, Molecular Biology and Evolution, Molecular Ecology Resources, Molecular Genetics and Genomics, Molecular Phylogenetics and Evolution, Nature, Nature Communications, Nature Ecology and Evolution, Nature Methods, Nucleic Acids Research, PeerJ, Palaeontology, Plant Cell Reports, Philosophical Transactions of the Royal Society B, PLoS Biology, PLoS Computational Biology, PLoS Genetics, PLoS One, Proceedings of the National Academy of Sciences, Proceedings of the Royal Society B, Science, Science Advances, Scientific Reports, Systematic Biology, Trends in Ecology and Evolution, Virus Evolution, and Wellcome Open Research.
