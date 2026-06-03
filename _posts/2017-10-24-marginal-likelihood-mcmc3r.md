@@ -14,7 +14,7 @@ This tutorial introduces the user to marginal likelihood calculation in MCMCTree
 
 You can download MCMCTree, which is part of the PAML phylogenetic analysis package, from [Ziheng Yang's website](http://abacus.gene.ucl.ac.uk/software/paml.html). You should place the `mcmctree` excecutable in your system's search path as explained in the website.  
 
-**Update 2026:** Ziheng's personal website is no longer active. To download MCMCtree please use the official [PAML GitHub Repository](https://github.com/abacus-gene/paml). In the GitHub page, please read the section on "Downloading an installing PAML" including the parts on exporting the path variable for your particular system (i.e., Windows, Linux, Mac).
+**Update – 2026:** Ziheng's personal website is no longer active. To download MCMCtree please use the official [PAML GitHub Repository](https://github.com/abacus-gene/paml). In the GitHub page, please read the section on "Downloading an installing PAML" including the parts on exporting the path variable for your particular system (i.e., Windows, Linux, Mac).
 
 The `mcmc3r` package can be installed in R by typing
 
