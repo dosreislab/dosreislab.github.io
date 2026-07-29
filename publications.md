@@ -7,6 +7,9 @@ Google Scholar profile: [scholar.google.co.uk/citations?user=zy5V3qMAAAAJ&hl](ht
 
 # 2026
 
+(57) **On the Origin of Animals and Placental Mammals: A Critique of Literalist Readings of the Fossil Record**  
+Sandra Álvarez-Carretero, Ziheng Yang, Philip CJ Donoghue, and Mario dos Reis. (2026) Molecular Biology and Evolution, (_accepted_).  
+
 (56) **IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models**  
 Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector
 Baños, Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick
