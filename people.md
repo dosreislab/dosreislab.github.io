@@ -93,5 +93,6 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
 ![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
+_Photo: dos Reis group at an old quarry in the Chiltern Hills, England. Left to right: _
 
 _Updated 5th Oct 2026._
