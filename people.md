@@ -20,13 +20,6 @@ Mario’s research in evolutionary biology focuses on obtaining inferences from 
 
 Laura finished her PhD in 2024 at Friedrich Alexander University Erlangen-Nuremberg. Her work centred around the incorporation of fossil data into phylogenetic inference. Specifically, the use of model adequacy for understanding the suitability of discrete morphological models, as well as the application of Fossilised birth-death models. Her current research in the lab focuses on large scale divergence time studies with MCMCtree, and the implementation of Hamiltonian Monte Carlo sampling for phylogenetic inference.   
 
-
-# Joseph Minus, PhD student
-
-![](/assets/figs/minus.png)
-
-Joseph is a PhD student on the London NERC DTP working with Mario dos Reis at Queen Mary University of London and Anjali Goswami at the Natural History Museum. His research is focused on integrating phylogenomic and continuous morphological data, in the form of 3D cranial landmarks and curves, to estimate species divergence times in mammals. To achieve this aim, Joseph is assembling a morphological database of 3D cranial scans four thousands of mammals at the genus level. Joseph studied Zoology at the University of Exeter and completed a masters in Ecology, Evolution and Conservation at Imperial College London.
-
 # Siri Olsen, PhD student
 
 ![](/assets/figs/siri.png)
@@ -43,6 +36,12 @@ Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Inf
 ---
 
 # Past Members
+# Joseph Minus, PhD student
+
+![](/assets/figs/minus.png)
+
+Joseph was a PhD student on the London NERC DTP working with Mario dos Reis at Queen Mary University of London and Anjali Goswami at the Natural History Museum. His research focused on integrating phylogenomic and continuous morphological data, in the form of 3D cranial landmarks and curves, to estimate species divergence times in mammals. To achieve this aim, Joseph assembled a morphological database of 3D cranial scans four thousands of mammals at the genus level. Joseph studied Zoology at the University of Exeter and completed a masters in Ecology, Evolution and Conservation at Imperial College London.
+
 # Ishika Kaur Johar and Zahedul Islam (2025), MSc students
 
 Ishika and Zahedul are developed an R package for SNP analysis as part of their MSc Bioinformatics project.
@@ -95,4 +94,4 @@ Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of hu
 
 ![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
 
-_Updated 24th Nov 2025._
+_Updated 5th Oct 2026._
