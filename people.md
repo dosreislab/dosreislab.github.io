@@ -32,11 +32,17 @@ Siri is a PhD student with the London NERC DTP, working with Mario dos Reis and 
 
 Yuqing obtained a BEng in Environmental Engineering at Chengdu University of Information Technology, China, and then an MSc in Environmental Engineering at Cranfield University, UK. During the MSc period, Yuqing was trained in R, C and HPC for modelling and statistical analysis of sample data. As a PhD student in the dos Reis lab, Yuqing will focus on phylogenetic models of natural selection and the molecular clock to analyse phylogenomic data from more than 300 mammal species.
 
+# Emily Hodgson, PhD student
+
+![](/assets/figs/emily.png)
+
+Emily is a PhD student on the TREES DLA programme, supervised by Mario dos Reis (Queen Mary University of London) and Ziheng Yang (University College London). Her doctorate aims to resolve evolutionary timescales within the kingdom Fungi using Bayesian MCMC methods, integrating morphological and genomic datasets. Emily holds a MSc in Plant and Fungal Taxonomy, Diversity and Conservation from Queen Mary University of London and Royal Botanic Gardens, Kew (2023) and a BSc in Biological Sciences from Durham University (2020).
+
 ---
 ---
 
 # Past Members
-# Joseph Minus, PhD student
+# Joseph Minus (2022-2026), PhD student
 
 ![](/assets/figs/minus.png)
 
@@ -92,7 +98,7 @@ Joseph worked on assessing the effect of rate correlation among loci (i.e. the l
 
 Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of human populations under the Bayesian multi-species coalescent model.
 
-![Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis](/assets/figs/dosReisLab-May2022.jpg)
-_Photo: dos Reis group at an old quarry in the Chiltern Hills, England. Left to right: _
+![](/assets/figs/dosReisLab-May2022.jpg)
+_Photo: dos Reis group at an old quarry in the Chiltern Hills, England. Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis._
 
-_Updated 5th Oct 2026._
+_Updated 6th Oct 2026._
