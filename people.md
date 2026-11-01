@@ -10,7 +10,7 @@ The dos Reis Lab is located in the [School of Biological and Behavioural Science
 
 # Mario dos Reis, Reader in Statistical Phylogenetics
 
-![](/assets/figs/mario.png)
+![](/assets/figs/mario2026.png)
 
 Mario’s research in evolutionary biology focuses on obtaining inferences from genomic data to understand species adaptation and evolution through time.  His research involves both, the development of statistical tools to analyse molecular sequences, and the application of those tools in empirical data analysis.  He is particularly interested in working out the timeline of mammal evolution and other animals, as case studies in evolutionary biology. Mario has a degree in Biology from Universidad Simón Bolívar, Caracas, Venezuela (2000), and MSc (2003) and PhD (2010) in Bioinformatics from Birkbeck College, London.  
 
@@ -101,4 +101,4 @@ Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of hu
 ![](/assets/figs/dosReisLab-May2022.jpg)
 _Photo: dos Reis group at an old quarry in the Chiltern Hills, England. Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis._
 
-_Updated 6th Oct 2026._
+_Updated 1st November 2026._
