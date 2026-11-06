@@ -97,6 +97,7 @@ Hasmita did her MSc Bioinformatics project at the dos Reis lab on analysis of hu
 
 ---
 ---
+    
 
 ![](/assets/figs/dosReisLab-May2022.jpg)
 _Photo: dos Reis group at an old quarry in the Chiltern Hills, England. Left to right: Sandra Álvarez-Carretero, Muthukumaran Panchaksaram, Gustavo Ballen and Mario dos Reis._
