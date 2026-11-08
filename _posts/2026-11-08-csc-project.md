@@ -1,0 +1,9 @@
+---
+layout: post
+title:   "CSC PhD project opportuniy in our lab!"
+author: "Mario dos Reis"
+---
+
+We currently have one Chinese Scholarship Council (CSC) PhD project opportunity in the lab. This project has two application deadlines, one on the **27th January 2027** for application to QMUL. If successufl, applicants can then submit a full application to the CSC. For application instructions click [here!](https://www.findaphd.com/phds/project/developing-efficient-bayesian-samplers-for-evolutionary-analysis-in-the-tree-of-life/?p201307).
+
+Application of high-throughput sequencing technologies is leading to the generation of vast genomic datasets, from to the collection of cells in a tumour to the millions of species in the Tree of Life. These large datasets can be analysed to understand patterns of molecular evolution, to work out the evolutionary relationship between species/cells, and to calibrate evolutionary trees to geological time. Bayesian statistical methods have become the state-of-the-art for such analyses but are computationally expensive. In this project, the student will develop new computational implementations of Bayesian MCMC samplers (such as Metropolis-Hasting and Hamiltonian Monte Carlo) for evolutionary studies, with emphasis on methods to determine diversification timings. The new methodologies can be applied to understand diversification patterns in case studies such as cancer cells, mammals, birds, and flowering plants, among others, helping to answer fundamental questions about evolutionary patterns. The project is suited for a student with background in any relevant areas such as computational biology, genomics, statistical modelling, Hamiltonian dynamics, and computer science.
